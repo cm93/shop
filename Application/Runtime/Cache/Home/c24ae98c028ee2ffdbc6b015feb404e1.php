@@ -10,8 +10,8 @@
 		<!----webfonts---->
 		
 		<!----//webfonts---->
-		<script src="<?php echo JS_URL; ?>jquery.min.js"></script>
 		<!----start-alert-scroller---->
+		<script src="<?php echo JS_URL; ?>jquery.min.js"></script>
 		<script type="text/javascript" src="<?php echo JS_URL; ?>jquery.easy-ticker.js"></script>
 		<script type="text/javascript">
 		$(document).ready(function(){
@@ -26,6 +26,21 @@
 		<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
 		<script src="<?php echo JS_URL; ?>menu_jquery.js"></script>
 		<!-- //End menu -->
+		<!---slider---->
+		<link rel="stylesheet" href="<?php echo CSS_URL; ?>slippry.css">
+		<script src="<?php echo JS_URL; ?>jquery-ui.js" type="text/javascript"></script>
+		<script src="<?php echo JS_URL; ?>scripts-f0e4e0c2.js" type="text/javascript"></script>
+		<script>
+			  jQuery('#jquery-demo').slippry({
+			  // general elements & wrapper
+			  slippryWrapper: '<div class="sy-box jquery-demo" />', // wrapper to wrap everything, including pager
+			  // options
+			  adaptiveHeight: false, // height of the sliders adapts to current slide
+			  useCSS: false, // true, false -> fallback to js if no browser support
+			  autoHover: false,
+			  transition: 'fade'
+			});
+		</script>
 		<!---move-top-top---->
 		<script type="text/javascript" src="<?php echo JS_URL; ?>move-top.js"></script>
 		<script type="text/javascript" src="<?php echo JS_URL; ?>easing.js"></script>
@@ -520,50 +535,393 @@
 				<!----//End-bottom-header---->
 			<!---//End-header---->
 		<!--- start-content---->
-		<div class="content login-box">
-			<div class="login-main">
-				<div class="wrap">
-					<h1>CREATE AN ACCOUNT</h1>
-					<div class="register-grids">
-						<form> 
-								<div class="register-top-grid">
-										<h3>PERSONAL INFORMATION</h3>
-										<div>
-											<span>First Name<label>*</label></span>
-											<input type="text"> 
-										</div>
-										<div>
-											<span>Last Name<label>*</label></span>
-											<input type="text"> 
-										</div>
-										<div>
-											<span>Email Address<label>*</label></span>
-											<input type="text"> 
-										</div>
-										<div class="clear"> </div>
-											<a class="news-letter" href="#">
-												<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Sign Up for Newsletter</label>
-											</a>
-										<div class="clear"> </div>
-								</div>
-								<div class="clear"> </div>
-								<div class="register-bottom-grid">
-										<h3>LOGIN INFORMATION</h3>
-										<div>
-											<span>Password<label>*</label></span>
-											<input type="text">
-										</div>
-										<div>
-											<span>Confirm Password<label>*</label></span>
-											<input type="text">
-										</div>
-										<div class="clear"> </div>
-								</div>
-								<div class="clear"> </div>
-								<input type="submit" value="submit" />
-						</form>
+		<div class="content product-box-main">
+			<div class="wrap">
+				<div class="content-left">
+					<div class="content-left-top-brands">
+						<h3>Categories</h3>
+						<ul>
+							<li><a href="#">ALL</a></li>
+							<li><a href="#">WOMEN</a></li>
+							<li><a href="#">NEW ARRIVALS</a></li>
+							<li><a href="#">TRENDS</a></li>
+							<li><a href="#">BOYS</a></li>
+							<li><a href="#">GIRLS</a></li>
+							<li><a href="#">SALE</a></li>
+						</ul>
 					</div>
+						<div class="content-left-top-grid">
+							<div class="content-left-price-selection content-left-top-brands-prices">
+								<h4>Select Price:</h4>
+								<div class="price-selection-tree">
+									<span class="col_checkbox">
+										<input id="10" class="css-checkbox10" type="checkbox">
+										<label class="normal"><i for="10" name="demo_lbl_10"  class="css-label10"> </i> 400</label>
+									</span>
+									<span class="col_checkbox">
+										<input id="11" class="css-checkbox11" type="checkbox">
+										<label class="active1"><i for="11" name="demo_lbl_11"  class="css-label11"> </i>350</label>
+									</span>
+									<span class="col_checkbox">
+										<input id="12" class="css-checkbox12" type="checkbox">
+										<label class="normal"><i for="12" name="demo_lbl_12"  class="css-label12"> </i> 300</label>
+									</span>
+									<span class="col_checkbox">
+										<input id="13" class="css-checkbox13" type="checkbox">
+										<label class="normal"><i for="13" name="demo_lbl_13"  class="css-label13"> </i>250</label>
+									</span>
+									<span class="col_checkbox">
+										<input id="14" class="css-checkbox14" type="checkbox">
+										<label class="normal"><i for="14" name="demo_lbl_14"  class="css-label14"> </i> 200</label>
+									</span>
+									<span class="col_checkbox">
+										<input id="15" class="css-checkbox15" type="checkbox">
+										<label class="normal"><i for="15" name="demo_lbl_15"  class="css-label15"> </i>150</label>
+									</span>
+								</div>
+								
+						</div>
+						</div>
 				</div>
+				<div class="content-right product-box">
+					<div class="product-box-head">
+							<div class="product-box-head-left">
+								<h3>Products <span>(500)</span></h3>
+							</div>
+							<div class="product-box-head-right">
+								<ul>
+									<li><span>Sort ::</span><a href="#"> </a></li>
+									<li><label> </label> <a href="#"> Popular</a></li>
+									<li><label> </label> <a href="#"> New</a></li>
+									<li><label> </label> <a href="#"> Discount</a></li>
+									<li><span>Price ::</span><a href="#">Low High</a></li>
+								</ul>
+							</div>
+							<div class="clear"> </div>
+					</div>
+					<div class="product-grids">
+						<!--- start-rate---->
+							<script src="<?php echo JS_URL; ?>jstarbox.js"></script>
+							<link rel="stylesheet" href="<?php echo CSS_URL; ?>jstarbox.css" type="text/css" media="screen" charset="utf-8" />
+							<script type="text/javascript">
+								jQuery(function() {
+									jQuery('.starbox').each(function() {
+										var starbox = jQuery(this);
+										starbox.starbox({
+											average: starbox.attr('data-start-value'),
+											changeable: starbox.hasClass('unchangeable') ? false : starbox.hasClass('clickonce') ? 'once' : true,
+											ghosting: starbox.hasClass('ghosting'),
+											autoUpdateAverage: starbox.hasClass('autoupdate'),
+											buttons: starbox.hasClass('smooth') ? false : starbox.attr('data-button-count') || 5,
+											stars: starbox.attr('data-star-count') || 5
+										}).bind('starbox-value-changed', function(event, value) {
+											if(starbox.hasClass('random')) {
+												var val = Math.random();
+												starbox.next().text(' '+val);
+												return val;
+											} 
+										})
+									});
+								});
+							</script>
+							<!---//End-rate---->
+						<div class="product-grid fade" onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product2.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 380</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="product-grid fade" onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product1.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 375</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="product-grid fade last-grid" onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product3.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 350</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="product-grid fade" onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product4.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 370</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="product-grid fade" onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product5.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 355</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="product-grid fade last-grid" onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product6.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 390</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="product-grid fade" onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product4.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 370</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="product-grid fade" onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product5.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 355</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="product-grid fade last-grid"  onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product6.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 390</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="clear"> </div>
+					</div>
+					<!----start-load-more-products---->
+					<div class="loadmore-products">
+						<a href="#">Loadmore</a>
+					</div>
+					<!----//End-load-more-products---->
+				</div>
+				<div class="clear"> </div>
 			</div>
 		</div>
 		<!---- start-bottom-grids---->
