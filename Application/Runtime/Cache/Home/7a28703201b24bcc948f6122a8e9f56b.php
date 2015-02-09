@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Spike shoes Website Template | Details</title>
+		<title>二手网</title>
 		<link href="<?php echo CSS_URL; ?>style.css" rel='stylesheet' type='text/css' />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -105,7 +105,8 @@
 							<div class="top-header-center-alert-right">
 								<div class="vticker">
 								  <ul>
-									  <li>Applies to orders of $50 or more. <label>Returns are always free.</label></li>
+								  <li>QQ:<label>243844647</label>
+                                      <li>github:<label>https://github.com/cm93</label></li>
 								  </ul>
 								</div>
 							</div>
@@ -113,8 +114,8 @@
 						</div>
 						<div class="top-header-right">
 							<ul>
-								<li><a href="login.html">Login</a><span> </span></li>
-								<li><a href="register.html">Join</a></li>
+								<li><a href="../user/login.html">登录</a><span> </span></li>
+								<li><a href="../user/register.html">注册</a></li>
 							</ul>
 						</div>
 						<div class="clear"> </div>
@@ -899,26 +900,24 @@
 			<div class="bottom-top-grids">
 				<div class="wrap">
 					<div class="bottom-top-grid">
-						<h4>GET HELP</h4>
+						<h4>帮助</h4>
 						<ul>
-							<li><a href="contact.html">Contact us</a></li>
-							<li><a href="#">Shopping</a></li>
-							<li><a href="#">NIKEiD</a></li>
-							<li><a href="#">Nike+</a></li>
+							<li><a href="contact">联系我们</a></li>
+							<li><a href="#">购物</a></li>
 						</ul>
 					</div>
 					<div class="bottom-top-grid">
-						<h4>ORDERS</h4>
+						<h4>订单</h4>
 						<ul>
-							<li><a href="#">Payment options</a></li>
-							<li><a href="#">Shipping and delivery</a></li>
-							<li><a href="#">Returns</a></li>
+							<li><a href="#">支付方式</a></li>
+							<li><a href="#">送货服务</a></li>
+							<li><a href="#">退换商品</a></li>
 						</ul>
 					</div>
 					<div class="bottom-top-grid last-bottom-top-grid">
-						<h4>REGISTER</h4>
-						<p>Create one account to manage everything you do with Nike, from your shopping preferences to your Nike+ activity.</p>
-						<a class="learn-more" href="#">Learn more</a>
+						<h4>注册</h4>
+						<p>创建一个帐户来管理你的二手商品，从您的喜爱来推荐你喜欢的商品</p>
+						<a class="learn-more" href="#">了解更多</a>
 					</div>
 					<div class="clear"> </div>
 				</div>
@@ -926,19 +925,20 @@
 			<div class="bottom-bottom-grids">
 				<div class="wrap">
 					<div class="bottom-bottom-grid">
-						<h6>EMAIL SIGN UP</h6>
-						<p>Be the first to know about new products and special offers.</p>
-						<a class="learn-more" href="#">Sign up now</a>
+						<h6>电子邮件注册</h6>
+						<p>了解更多新产品</p>
+						<a class="learn-more" href="#">立即注册</a>
 					</div>
 					<div class="bottom-bottom-grid">
-						<h6>GIFT CARDS</h6>
-						<p>Give the gift that always fits.</p>
-						<a class="learn-more" href="#">View cards</a>
+						<h6>礼品卡</h6>
+						<p>给你最适合的礼物</p>
+						<a class="learn-more" href="#">点击查看</a>
 					</div>
 					<div class="bottom-bottom-grid last-bottom-bottom-grid">
-						<h6>STORES NEAR YOU</h6>
-						<p>Locate a Nike retail store or authorized retailer.</p>
-						<a class="learn-more" href="#">Search</a>
+						<h6>合作伙伴</h6>
+						<p><a href="http://www.55usedcar.com/">二手车交易网</a></p>
+                        <p><a href="http://www.9chew.com/">二手车交易市场</a></p>
+						<a class="learn-more" href="#">更多..</a>
 					</div>
 					<div class="clear"> </div>
 				</div>
@@ -947,21 +947,20 @@
 		<!---- //End-bottom-grids---->
 		<!--- //End-content---->
 		<!---start-footer---->
-		<div class="footer">
-			<div class="wrap">
-				<div class="footer-left">
+		<div class="footer" align="center">
+			<div class="wrap" >
+				<div class="footer-left" align="center">
 					<ul>
-						<li><a href="#">United Kingdom</a> <span> </span></li>
-						<li><a href="#">Terms of Use</a> <span> </span></li>
-						<li><a href="#">Nike Inc.</a> <span> </span></li>
-						<li><a href="#">Launch Calendar</a> <span> </span></li>
-						<li><a href="#">Privacy & Cookie Policy</a> <span> </span></li>
-						<li><a href="#">Cookie Settings</a></li>
+						<li><a href="#">关于我们</a> <span> </span></li>
+						<li><a href="#">联系客服</a> <span> </span></li>
+						<li><a href="#">VIP</a> <span> </span></li>
+						<li><a href="#">帮助中心</a> <span> </span></li>
+						<li><a href="#">分站列表</a> <span> </span></li>
+						<li><a href="#">我要提建议</a></li>
 						<div class="clear"> </div>
 					</ul>
 				</div>
 				<div class="footer-right">
-					<p>More Templates <a href="http://www.cssmoban.com/" target="_blank" title="ģ��֮��">ģ��֮��</a></p>
 					<script type="text/javascript">
 						$(document).ready(function() {
 							/*
@@ -977,7 +976,7 @@
 							
 						});
 					</script>
-			    <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+			    <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
 				</div>
 				<div class="clear"> </div>
 			</div>

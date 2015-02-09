@@ -480,3 +480,45 @@ ERR: 非法操作:index
 [ 2015-02-06T16:44:17+08:00 ] 127.0.0.1 /shop/index.php/home/user/index
 ERR: 非法操作:index
 
+[ 2015-02-06T21:51:25+08:00 ] ::1 /shop/index.php/home/index/Application/Home/View/user/login.html
+ERR: 非法操作:Application
+
+[ 2015-02-06T21:51:54+08:00 ] ::1 /shop/index.php/home/index/Application/Home/View/user/login.html
+ERR: 非法操作:Application
+
+[ 2015-02-06T21:52:02+08:00 ] ::1 /shop/index.php/home/index/products.html
+ERR: 非法操作:products
+
+[ 2015-02-06T21:52:58+08:00 ] ::1 /shop/index.php/home/user/login.php
+ERR: 非法操作:login.php
+
+[ 2015-02-06T21:53:15+08:00 ] ::1 /shop/index.php/home/user/login
+ERR: 模板不存在:./Application/Home/View/User/login.html
+
+[ 2015-02-06T21:54:20+08:00 ] ::1 /shop/index.php/home/user/login
+ERR: 模板不存在:./Application/Home/View/User/login.html
+
+[ 2015-02-06T21:54:22+08:00 ] ::1 /shop/index.php/home/user/login
+ERR: 模板不存在:./Application/Home/View/User/login.html
+
+[ 2015-02-06T21:54:28+08:00 ] ::1 /shop/index.php/home/user/login
+ERR: 模板不存在:./Application/Home/View/User/login.php.html
+
+[ 2015-02-06T21:54:31+08:00 ] ::1 /shop/index.php/home/user/login
+ERR: 模板不存在:./Application/Home/View/User/login.php.html
+
+[ 2015-02-06T21:54:32+08:00 ] ::1 /shop/index.php/home/user/login
+ERR: 模板不存在:./Application/Home/View/User/login.php.html
+
+[ 2015-02-06T21:54:33+08:00 ] ::1 /shop/index.php/home/user/login
+ERR: 模板不存在:./Application/Home/View/User/login.php.html
+
+[ 2015-02-06T21:55:17+08:00 ] ::1 /shop/index.php/home/index/products.html
+ERR: 非法操作:products
+
+[ 2015-02-06T21:56:11+08:00 ] ::1 /shop/index.php/home/index/products.html
+ERR: 非法操作:products
+
+[ 2015-02-06T21:56:21+08:00 ] ::1 /shop/index.php/home/index/products.html
+ERR: 非法操作:products
+

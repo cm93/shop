@@ -1,8 +1,9 @@
+<?php if (!defined('THINK_PATH')) exit();?>
 <!DOCTYPE HTML>
 <html>
 	<head>
 		<title>二手网</title>
-		<link href="<?php echo CSS_URL; ?>/style.css" rel='stylesheet' type='text/css' />
+		<link href="<?php echo CSS_URL; ?>style.css" rel='stylesheet' type='text/css' />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</script>
@@ -40,24 +41,6 @@
 			  transition: 'fade'
 			});
 		</script>
-		<!----start-pricerage-seletion---->
-		<script type="text/javascript" src="<?php echo JS_URL; ?>jquery-ui.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="<?php echo CSS_URL; ?>jquery-ui.css">
-		<script type='text/javascript'>//<![CDATA[ 
-			$(window).load(function(){
-			 $( "#slider-range" ).slider({
-			            range: true,
-			            min: 0,
-			            max: 500,
-			            values: [ 100, 400 ],
-			            slide: function( event, ui ) {  $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-			            }
-			 });
-			$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-			
-			});//]]>  
-		</script>
-		<!----//End-pricerage-seletion---->
 		<!---move-top-top---->
 		<script type="text/javascript" src="<?php echo JS_URL; ?>move-top.js"></script>
 		<script type="text/javascript" src="<?php echo JS_URL; ?>easing.js"></script>
@@ -113,7 +96,7 @@
 							<div class="top-header-center-alert-right">
 								<div class="vticker">
 								  <ul>
-									  <li>QQ:<label>243844647</label>
+								  <li>QQ:<label>243844647</label>
                                       <li>github:<label>https://github.com/cm93</label></li>
 								  </ul>
 								</div>
@@ -122,7 +105,7 @@
 						</div>
 						<div class="top-header-right">
 							<ul>
-								<li><a href="../user/login">登录</a><span> </span></li>
+								<li><a href="../user/login.html">登录</a><span> </span></li>
 								<li><a href="../user/register.html">注册</a></li>
 							</ul>
 						</div>
@@ -144,7 +127,6 @@
 					</div>
 				</div>
 				<!----//End-mid-head---->
-                <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="��վģ��">��վģ��</a></div>
 				<!----start-bottom-header---->
 				<div class="header-bottom">
 					<div class="wrap">
@@ -157,20 +139,20 @@
 												<div class="h_nav">
 													<h4>popular</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">login</a></li>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">login</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
 													<h4 class="top">man</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
 														<li><a href="#">accessories</a></li>
 														<li><a href="#">kids</a></li>
 														<li><a href="#">style videos</a></li>
@@ -181,11 +163,11 @@
 												<div class="h_nav">
 													<h4>style zone</h4>
 													<ul>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -193,11 +175,11 @@
 												<div class="h_nav">
 													<h4>style zone</h4>
 													<ul>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -216,23 +198,23 @@
 												<div class="h_nav">
 													<h4>shop</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
 													</ul>	
 												</div>	
 												<div class="h_nav">
 													<h4>help</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -240,12 +222,12 @@
 												<div class="h_nav">
 													<h4>my company</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>												
 											</div>
@@ -253,12 +235,12 @@
 												<div class="h_nav">
 													<h4>account</h4>
 													<ul>
-														<li><a href="../goods/products.html">login</a></li>
-														<li><a href="../goods/products.html">create an account</a></li>
-														<li><a href="../goods/products.html">create wishlist</a></li>
-														<li><a href="../goods/products.html">my shopping bag</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
-														<li><a href="../goods/products.html">create wishlist</a></li>
+														<li><a href="products.html">login</a></li>
+														<li><a href="products.html">create an account</a></li>
+														<li><a href="products.html">create wishlist</a></li>
+														<li><a href="products.html">my shopping bag</a></li>
+														<li><a href="products.html">brands</a></li>
+														<li><a href="products.html">create wishlist</a></li>
 													</ul>	
 												</div>						
 											</div>
@@ -266,12 +248,12 @@
 												<div class="h_nav">
 													<h4>my company</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>
 											</div>
@@ -279,12 +261,12 @@
 												<div class="h_nav">
 													<h4>popular</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>
 											</div>
@@ -310,23 +292,23 @@
 												<div class="h_nav">
 													<h4>popular</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">login</a></li>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">login</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
 													<h4 class="top">man</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>
 											</div>
@@ -334,11 +316,11 @@
 												<div class="h_nav">
 													<h4>style zone</h4>
 													<ul>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -361,23 +343,23 @@
 												<div class="h_nav">
 													<h4>shop</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
 													</ul>	
 												</div>	
 												<div class="h_nav">
 													<h4 class="top">my company</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>												
 											</div>
@@ -385,12 +367,12 @@
 												<div class="h_nav">
 													<h4>man</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>						
 											</div>
@@ -398,12 +380,12 @@
 												<div class="h_nav">
 													<h4>help</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -429,23 +411,23 @@
 												<div class="h_nav">
 													<h4>shop</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
 													</ul>	
 												</div>		
 												<div class="h_nav">
 													<h4>my company</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>					
 											</div>
@@ -453,12 +435,12 @@
 												<div class="h_nav">
 													<h4>help</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -466,12 +448,12 @@
 												<div class="h_nav">
 													<h4>my company</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">trends</a></li>
+														<li><a href="products.html">sale</a></li>
+														<li><a href="products.html">style videos</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>												
 											</div>
@@ -479,12 +461,12 @@
 												<div class="h_nav">
 													<h4>account</h4>
 													<ul>
-														<li><a href="../goods/products.html">login</a></li>
-														<li><a href="../goods/products.html">create an account</a></li>
-														<li><a href="../goods/products.html">create wishlist</a></li>
-														<li><a href="../goods/products.html">my shopping bag</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
-														<li><a href="../goods/products.html">create wishlist</a></li>
+														<li><a href="products.html">login</a></li>
+														<li><a href="products.html">create an account</a></li>
+														<li><a href="products.html">create wishlist</a></li>
+														<li><a href="products.html">my shopping bag</a></li>
+														<li><a href="products.html">brands</a></li>
+														<li><a href="products.html">create wishlist</a></li>
 													</ul>	
 												</div>						
 											</div>
@@ -510,11 +492,11 @@
 												<div class="h_nav">
 													<h4>style zone</h4>
 													<ul>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">women</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">brands</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -522,20 +504,20 @@
 												<div class="h_nav">
 													<h4>popular</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">login</a></li>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">men</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">login</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
 													<h4 class="top">man</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="products.html">new arrivals</a></li>
+														<li><a href="products.html">accessories</a></li>
+														<li><a href="products.html">kids</a></li>
+														<li><a href="products.html">style videos</a></li>
 													</ul>	
 												</div>
 											<div class="col1"></div>
@@ -543,7 +525,6 @@
 											<div class="col1"></div>
 											<div class="col1"></div>
 										</div>
-									</div>
 									</div>
 									</li>
 							</ul>
@@ -553,60 +534,24 @@
 				</div>
 				<!----//End-bottom-header---->
 			<!---//End-header---->
-		<!----start-image-slider---->
-		<div class="img-slider">
-			<div class="wrap">
-			<ul id="jquery-demo">
-			  <li>
-			    <a href="#slide1">
-			      <img src="<?php echo IMG_URL; ?>slide-1.jpg" alt="" />
-			    </a>
-			    <div class="slider-detils">
-			    	<h3>MENS FOOT BALL <label>BOOTS</label></h3>
-			    	<span>Stay true to your team all day, every day, game day.</span>
-			    	<a class="slide-btn" href="details.html"> Shop Now</a>
-			    </div>
-			  </li>
-			  <li>
-			    <a href="#slide2">
-			      <img src="<?php echo IMG_URL; ?>slide-4.jpg"  alt="" />
-			    </a>
-			     <div class="slider-detils">
-			    	<h3>MENS FOOT BALL <label>BOOTS</label></h3>
-			    	<span>Stay true to your team all day, every day, game day.</span>
-			    	<a class="slide-btn" href="details.html"> Shop Now</a>
-			    </div>
-			  </li>
-			  <li>
-			    <a href="#slide3">
-			      <img src="<?php echo IMG_URL; ?>slide-1.jpg" alt="" />
-			    </a>
-			     <div class="slider-detils">
-			    	<h3>MENS FOOT BALL <label>BOOTS</label></h3>
-			    	<span>Stay true to your team all day, every day, game day.</span>
-			    	<a class="slide-btn" href="details.html"> Shop Now</a>
-			    </div>
-			  </li>
-			</ul>
-			</div>
-		</div>
-		<div class="clear"> </div>
-		<!----//End-image-slider---->
-		<!----start-price-rage--->
-		<div class="wrap">
-			<div class="price-rage">
-				<h3>Weekly selection:</h3>
-				<div id="slider-range">
-				</div>
-			</div>
-		</div>
-		<!----//End-price-rage--->
 		<!--- start-content---->
-		<div class="content">
+		<div class="content product-box-main">
 			<div class="wrap">
 				<div class="content-left">
+					<div class="content-left-top-brands">
+						<h3>Categories</h3>
+						<ul>
+							<li><a href="#">ALL</a></li>
+							<li><a href="#">WOMEN</a></li>
+							<li><a href="#">NEW ARRIVALS</a></li>
+							<li><a href="#">TRENDS</a></li>
+							<li><a href="#">BOYS</a></li>
+							<li><a href="#">GIRLS</a></li>
+							<li><a href="#">SALE</a></li>
+						</ul>
+					</div>
 						<div class="content-left-top-grid">
-							<div class="content-left-price-selection">
+							<div class="content-left-price-selection content-left-top-brands-prices">
 								<h4>Select Price:</h4>
 								<div class="price-selection-tree">
 									<span class="col_checkbox">
@@ -637,25 +582,23 @@
 								
 						</div>
 						</div>
-						<div class="content-left-bottom-grid">
-							<h4>Boys Football:</h4>
-							<div class="content-left-bottom-grids">
-								<div class="content-left-bottom-grid1">
-									<img src="<?php echo IMG_URL; ?>foot-ball.jpg" title="football" />
-									<h5><a href="details.html">Nike Strike PL Hi-Vis</a></h5>
-									<span> Football</span>
-									<label>&#163; 375</label>
-								</div>
-								<div class="content-left-bottom-grid1">
-									<img src="<?php echo IMG_URL; ?>jarse.jpg" title="jarse" />
-									<h5><a href="details.html">Nike Strike PL Hi-Vis</a></h5>
-									<span> Football</span>
-									<label>&#163; 375</label>
-								</div>
-							</div>
-						</div>
 				</div>
-				<div class="content-right">
+				<div class="content-right product-box">
+					<div class="product-box-head">
+							<div class="product-box-head-left">
+								<h3>Products <span>(500)</span></h3>
+							</div>
+							<div class="product-box-head-right">
+								<ul>
+									<li><span>Sort ::</span><a href="#"> </a></li>
+									<li><label> </label> <a href="#"> Popular</a></li>
+									<li><label> </label> <a href="#"> New</a></li>
+									<li><label> </label> <a href="#"> Discount</a></li>
+									<li><span>Price ::</span><a href="#">Low High</a></li>
+								</ul>
+							</div>
+							<div class="clear"> </div>
+					</div>
 					<div class="product-grids">
 						<!--- start-rate---->
 							<script src="<?php echo JS_URL; ?>jstarbox.js"></script>
@@ -682,9 +625,7 @@
 								});
 							</script>
 							<!---//End-rate---->
-							<!---caption-script---->
-							<!---//caption-script---->
-						<div onClick="location.href='details.html';" class="product-grid fade">
+						<div class="product-grid fade" onclick="location.href='details.html';">
 							<div class="product-grid-head">
 								<ul class="grid-social">
 									<li><a class="facebook" href="#"><span> </span></a></li>
@@ -716,7 +657,7 @@
 								<span> </span>
 							</div>
 						</div>
-						<div onClick="location.href='details.html';"  class="product-grid fade">
+						<div class="product-grid fade" onclick="location.href='details.html';">
 							<div class="product-grid-head">
 								<ul class="grid-social">
 									<li><a class="facebook" href="#"><span> </span></a></li>
@@ -748,7 +689,7 @@
 								<span> </span>
 							</div>
 						</div>
-						<div onClick="location.href='details.html';"  class="product-grid fade last-grid">
+						<div class="product-grid fade last-grid" onclick="location.href='details.html';">
 							<div class="product-grid-head">
 								<ul class="grid-social">
 									<li><a class="facebook" href="#"><span> </span></a></li>
@@ -780,7 +721,7 @@
 								<span> </span>
 							</div>
 						</div>
-						<div onClick="location.href='details.html';"  class="product-grid fade">
+						<div class="product-grid fade" onclick="location.href='details.html';">
 							<div class="product-grid-head">
 								<ul class="grid-social">
 									<li><a class="facebook" href="#"><span> </span></a></li>
@@ -812,7 +753,7 @@
 								<span> </span>
 							</div>
 						</div>
-						<div onClick="location.href='details.html';"  class="product-grid fade">
+						<div class="product-grid fade" onclick="location.href='details.html';">
 							<div class="product-grid-head">
 								<ul class="grid-social">
 									<li><a class="facebook" href="#"><span> </span></a></li>
@@ -844,7 +785,103 @@
 								<span> </span>
 							</div>
 						</div>
-						<div onClick="location.href='details.html';"  class="product-grid fade last-grid">
+						<div class="product-grid fade last-grid" onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product6.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 390</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="product-grid fade" onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product4.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 370</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="product-grid fade" onclick="location.href='details.html';">
+							<div class="product-grid-head">
+								<ul class="grid-social">
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="googlep" href="#"><span> </span></a></li>
+									<div class="clear"> </div>
+								</ul>
+								<div class="block">
+									<div class="starbox small ghosting"> </div> <span> (46)</span>
+								</div>
+							</div>
+							<div class="product-pic">
+								<a href="#"><img src="<?php echo IMG_URL; ?>product5.jpg" title="product-name" /></a>
+								<p>
+								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
+								<span>Men's Firm-Ground Football Boot</span>
+								</p>
+							</div>
+							<div class="product-info">
+								<div class="product-info-cust">
+									<a href="details.html">Details</a>
+								</div>
+								<div class="product-info-price">
+									<a href="details.html">&#163; 355</a>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="more-product-info">
+								<span> </span>
+							</div>
+						</div>
+						<div class="product-grid fade last-grid"  onclick="location.href='details.html';">
 							<div class="product-grid-head">
 								<ul class="grid-social">
 									<li><a class="facebook" href="#"><span> </span></a></li>
@@ -878,9 +915,102 @@
 						</div>
 						<div class="clear"> </div>
 					</div>
+					<!----start-load-more-products---->
+					<div class="loadmore-products">
+						<a href="#">Loadmore</a>
+					</div>
+					<!----//End-load-more-products---->
 				</div>
 				<div class="clear"> </div>
 			</div>
 		</div>
 		<!---- start-bottom-grids---->
-		https://www.google.co.in/maps/place/%E4%B8%AD%E5%9B%BD%E6%B5%99%E6%B1%9F%E7%9C%81%E6%9D%AD%E5%B7%9E%E5%B8%82/@30.2613905,120.1718902,11z/data=!3m1!4b1!4m2!3m1!1s0x344bb629439aaa99:0xa7bfd183824de83a
+		<div class="bottom-grids">
+			<div class="bottom-top-grids">
+				<div class="wrap">
+					<div class="bottom-top-grid">
+						<h4>帮助</h4>
+						<ul>
+							<li><a href="contact">联系我们</a></li>
+							<li><a href="#">购物</a></li>
+						</ul>
+					</div>
+					<div class="bottom-top-grid">
+						<h4>订单</h4>
+						<ul>
+							<li><a href="#">支付方式</a></li>
+							<li><a href="#">送货服务</a></li>
+							<li><a href="#">退换商品</a></li>
+						</ul>
+					</div>
+					<div class="bottom-top-grid last-bottom-top-grid">
+						<h4>注册</h4>
+						<p>创建一个帐户来管理你的二手商品，从您的喜爱来推荐你喜欢的商品</p>
+						<a class="learn-more" href="#">了解更多</a>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			<div class="bottom-bottom-grids">
+				<div class="wrap">
+					<div class="bottom-bottom-grid">
+						<h6>电子邮件注册</h6>
+						<p>了解更多新产品</p>
+						<a class="learn-more" href="#">立即注册</a>
+					</div>
+					<div class="bottom-bottom-grid">
+						<h6>礼品卡</h6>
+						<p>给你最适合的礼物</p>
+						<a class="learn-more" href="#">点击查看</a>
+					</div>
+					<div class="bottom-bottom-grid last-bottom-bottom-grid">
+						<h6>合作伙伴</h6>
+						<p><a href="http://www.55usedcar.com/">二手车交易网</a></p>
+                        <p><a href="http://www.9chew.com/">二手车交易市场</a></p>
+						<a class="learn-more" href="#">更多..</a>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+		</div>
+		<!---- //End-bottom-grids---->
+		<!--- //End-content---->
+		<!---start-footer---->
+		<div class="footer" align="center">
+			<div class="wrap" >
+				<div class="footer-left" align="center">
+					<ul>
+						<li><a href="#">关于我们</a> <span> </span></li>
+						<li><a href="#">联系客服</a> <span> </span></li>
+						<li><a href="#">VIP</a> <span> </span></li>
+						<li><a href="#">帮助中心</a> <span> </span></li>
+						<li><a href="#">分站列表</a> <span> </span></li>
+						<li><a href="#">我要提建议</a></li>
+						<div class="clear"> </div>
+					</ul>
+				</div>
+				<div class="footer-right">
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+			    <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!---//End-footer---->
+		<!---//End-wrap---->
+	</body>
+</html>
