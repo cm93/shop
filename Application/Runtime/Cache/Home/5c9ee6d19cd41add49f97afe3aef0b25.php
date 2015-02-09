@@ -81,7 +81,8 @@
 							<div class="top-header-center-alert-right">
 								<div class="vticker">
 								  <ul>
-									 <li>Applies to orders of $50 or more. <label>Returns are always free.</label></li>
+								  <li>QQ:<label>243844647</label>
+                                      <li>github:<label>https://github.com/cm93</label></li>
 								  </ul>
 								</div>
 							</div>
