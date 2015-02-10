@@ -6,6 +6,9 @@ class UserController extends Controller{
         $this->display();
     }
     public function register(){
+        if (!empty($_POST)){
+            print_r($_POST);
+        }
         $this->display();
     }
 }

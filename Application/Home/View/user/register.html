@@ -10,6 +10,7 @@
 		<!----webfonts---->
 		
 		<!----//webfonts---->
+		<script src="<?php echo JS_URL; ?>jquery-1.7.2.min.js"></script>
 		<script src="<?php echo JS_URL; ?>jquery.min.js"></script>
 		<!----start-alert-scroller---->
 		<script type="text/javascript" src="<?php echo JS_URL; ?>jquery.easy-ticker.js"></script>
@@ -535,13 +536,16 @@ $(".formtip").remove();
 //按照用户名的规则去验证 
 reg=/^[a-zA-Z][a-zA-Z0-9_]{3,15}$/;
 if(this.value==""){ 
+	tip = null
 	$(this).attr('placeholder',"用户名已字母开头，长度为4-16");
 }else if(!reg.test(this.value)){
 	var errMsg = "<span class='formtip' ><font color='#FF0000'>用户名必须已字母开头，不能小于4个字符</font></span>";
 	$(this).parent().append(errMsg);
-}else{ 
+	tip = null
+}else{
 var msg = "<span class='formtip'><img src='http://www.qqershou.com/Member/Img/ok_07.gif'></span>"; 
-$(this).parent().append(msg); 
+$(this).parent().append(msg);
+tip = "ok"
 } 
 } 
 //判断一下如果是email的话,应该按照email的规则去验证 
@@ -551,39 +555,54 @@ $(".emailtip").remove();
 var reg = /^\w{1,}@\w+\.\w+$/; 
 var $email = $("#me").val();
 if(this.value==""){ 
-	$(this).attr('placeholder',"请输入有效的邮件地址");}
+	$(this).attr('placeholder',"请输入有效的邮件地址");tip = null}
 else if(!reg.test($email)){ 
 var errMsg = "<span class='emailtip'><font color='#FF0000'>请输入正确的邮箱号码</font></span>"; 
 $(this).parent().append(errMsg); 
+tip = null
 }else{ 
 var msg = "<span class='emailtip'><img src='http://www.qqershou.com/Member/Img/ok_07.gif'></span>";  
 $(this).parent().append(msg); 
+tip = "ok"
 }
 }
 //判断电话
-if(this.value==""){ 
-	$(this).attr('placeholder',"请输入正确的手机号码");}
-else if($(this).is("#phonenumber")){
+
+if($(this).is("#phonenumber")){
 	$(".numbertip").remove(); 
 	var reg =/^1\d{10}$/
-	if(!reg.test(this.value)){
+if(this.value==""){ 
+$(this).attr('placeholder',"请输入正确的手机号码");tip = null}
+else if(!reg.test(this.value)){
 	var errMsg = "<span class='numbertip' ><font color='#FF0000'>请输入正确的手机号码</font></span>"; 
-	$(this).parent().append(errMsg); 
+	$(this).parent().append(errMsg);
+	tip = null
 	}else{
 	var msg = "<span class='numbertip'><img src='http://www.qqershou.com/Member/Img/ok_07.gif'></span>";  
-	$(this).parent().append(msg);	
+	$(this).parent().append(msg);
+	tip = 'ok'
 	}}
-//判断密码
 
-}); 
-}) 
+
+});
+//阻止提交
+$("#sub").click(function(e){
+	if(tip==null){
+		alert("注册信息错误");
+		e.preventDefault();
+	}
+	
+})
+
+})
+
 </script>	
 		<div class="content login-box">
 			<div class="login-main">
 				<div class="wrap">
 					<h1>会员注册</h1>
 					<div class="register-grids">
-						<form> 
+						<form action="./register" method="post"> 
 								<div class="register-top-grid">
 										<div>
 											<span >用户名<label>*</label></span>
@@ -591,7 +610,7 @@ else if($(this).is("#phonenumber")){
 										</div>
 										<div>
 											<span>电子邮箱<label>*</label></span>
-											<input type="text" name="email" id="me" class="required" placeholder="请输入有效的邮件地址"> 
+											<input type="text" name="email" id="me" class="required" placeholder="请输入有效的邮件地址" > 
 										</div>
 										<div>
 											<span>手机号码<label>*</label></span>
@@ -638,7 +657,7 @@ else if($(this).is("#phonenumber")){
 												<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>确认注册条款<font color="#FF0000">(注册时必须勾选)</font></label>
 											</a>
 										<div class="clear"> </div>
-								<input type="submit" value="快速注册" />
+								<input type="submit" value="快速注册" id="sub"/>
 						</form>
 					</div>
 				</div>
@@ -646,7 +665,7 @@ else if($(this).is("#phonenumber")){
 		</div>
 <script type="text/javascript">
         $(function () {
-            $('input:password').keyup(function () {
+            $('#password').keyup(function () {
                 var strongRegex = new RegExp("^(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\\W).*$", "g");
                 var mediumRegex = new RegExp("^(?=.{7,})(((?=.*[A-Z])(?=.*[a-z]))|((?=.*[A-Z])(?=.*[0-9]))|((?=.*[a-z])(?=.*[0-9]))).*$", "g");
                 var enoughRegex = new RegExp("(?=.{6,}).*", "g");
@@ -668,12 +687,47 @@ else if($(this).is("#phonenumber")){
                     //$('#passstrength').html('中!');  //密码为七位及以上并且字母、数字、特殊字符三项中有两项，强度是中等
                 }
                  else {
-                	 $(".formtip").remove();
                 	 var msg = "<span class='passtip'><img src='<?php echo IMG_URL; ?>week.jpg'></span>";  
                    	$(this).parent().append(msg);
                     //$('#passstrength').html('弱!');   //如果密码为6为及以下，就算字母、数字、特殊字符三项都包括，强度也是弱的
                 }
                 return true;
+            });
+            $('#confirm').keyup(function () {
+                var strongRegex = new RegExp("^(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\\W).*$", "g");
+                var mediumRegex = new RegExp("^(?=.{7,})(((?=.*[A-Z])(?=.*[a-z]))|((?=.*[A-Z])(?=.*[0-9]))|((?=.*[a-z])(?=.*[0-9]))).*$", "g");
+                var enoughRegex = new RegExp("(?=.{6,}).*", "g");
+
+                $(".conftip").remove();
+                if (false == enoughRegex.test($(this).val())) {
+                	var msg = "<span class='conftip'><img src='<?php echo IMG_URL; ?>none.jpg'></span>";  
+                	$(this).parent().append(msg);
+                    //$('#passstrength').html('小于六位的时候'); //密码小于六位的时候，密码强度图片都为灰色
+                }
+                 else if (strongRegex.test($(this).val())) {
+                	 var msg = "<span class='conftip'><img src='<?php echo IMG_URL; ?>strong.jpg'></span>";  
+                 	$(this).parent().append(msg);                  
+                    //$('#passstrength').html('强!');  //密码为八位及以上并且字母数字特殊字符三项都包括
+                }
+                else if (mediumRegex.test($(this).val())) {
+                	 var msg = "<span class='conftip'><img src='<?php echo IMG_URL; ?>middle.jpg'></span>";  
+                  	$(this).parent().append(msg);
+                    //$('#passstrength').html('中!');  //密码为七位及以上并且字母、数字、特殊字符三项中有两项，强度是中等
+                }
+                 else {
+                	 var msg = "<span class='conftip'><img src='<?php echo IMG_URL; ?>week.jpg'></span>";  
+                   	$(this).parent().append(msg);
+                    //$('#passstrength').html('弱!');   //如果密码为6为及以下，就算字母、数字、特殊字符三项都包括，强度也是弱的
+                }
+                
+                return true;
+            });
+            $("#confirm").blur(function(){
+            	if($("#password").val() != $("#confirm").val()){
+            		$(".conftip").remove();
+            		var msg = "<span class='conftip'><font color='#FF0000'>二次输入的密码不一致</font></span>";  
+            		$(this).parent().append(msg);
+            }
             });
             
         })
@@ -687,7 +741,7 @@ var emailbefor;
 $(document).ready(function(){	
     $("#me").focus(function(){ //文本框获得焦点，插入Email提示层
         $("#myemail").remove();
-	$(this).after("<div id='myemail' style='width:170px; height:auto; background:#fff; color:#6B6B6B; position:absolute; left:"+$(this).get(0).offsetLeft+"px; top:"+($(this).get(0).offsetTop+$(this).height()+2)+"px; border:1px solid #ccc;z-index:5px; '></div>");
+	$(this).after("<span id='myemail' style='width:170px; height:auto; background:#fff; color:#6B6B6B; position:absolute; left:"+$(this).get(0).offsetLeft+"px; top:"+($(this).get(0).offsetTop+$(this).height()+2)+"px; border:1px solid #ccc;z-index:5px; '></span>");
         if($("#myemail").html()){
              $("#myemail").css("display","block");
 	$(".newemail").css("width",$("#myemail").width());
@@ -702,10 +756,10 @@ $(document).ready(function(){
 		var emailtxt = "";			
 		var emailvar = new Array("@163.com","@126.com","@yahoo.com","@qq.com","@sina.com","@gmail.com","@hotmail.com","@foxmail.com");
 		totalid = emailvar.length;
-			var emailmy = "<div class='newemail' style='width:170px; color:#6B6B6B; overflow:hidden;'><font color='#D33022'>" + press + "</font></div>";
+			var emailmy = "<span class='newemail' style='width:170px; color:#6B6B6B; overflow:hidden;'><font color='#D33022'>" + press + "</font></span>";
 			if(!(isEmail(press))){
 			    for(var i=0; i<emailvar.length; i++) {
-				    emailtxt = emailtxt + "<div class='newemail' style='width:170px; color:#6B6B6B; overflow:hidden;'><font color='#D33022'>" + press + "</font>" + emailvar[i] + "</div>"
+				    emailtxt = emailtxt + "<span class='newemail' style='width:170px; color:#6B6B6B; overflow:hidden;'><font color='#D33022'>" + press + "</font>" + emailvar[i] + "</span>"
 			    }
 			} else {
 			    emailbefor = press.split("@")[0];
@@ -714,7 +768,7 @@ $(document).ready(function(){
 			         var theemail = emailvar[i];
 			         if(theemail.indexOf(emailafter) == 0)
 			         {
-				         emailtxt = emailtxt + "<div class='newemail' style='width:170px; color:#6B6B6B; overflow:hidden;'><font color='#D33022'>" + emailbefor + "</font>" + emailvar[i] + "</div>"
+				         emailtxt = emailtxt + "<span class='newemail' style='width:170px; color:#6B6B6B; overflow:hidden;'><font color='#D33022'>" + emailbefor + "</font>" + emailvar[i] + "</span>"
 				     }
 			    }
 			}
