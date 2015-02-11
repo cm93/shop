@@ -19,6 +19,7 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 define('APP_DEBUG',True);
 
 // 定义应用目录
+define('HOME_URL', 'http://localhost/shop/home/');
 define('APP_PATH','./Application/');
 define('SITE_URL','http://localhost/');
 define('CSS_URL',SITE_URL.'shop/Application/public/Home/css/');

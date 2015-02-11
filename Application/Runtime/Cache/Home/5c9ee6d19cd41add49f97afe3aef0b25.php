@@ -90,8 +90,8 @@
 						</div>
 						<div class="top-header-right">
 							<ul>
-								<li><a href="../user/login.html">登录</a><span> </span></li>
-								<li><a href="../user/register.html">注册</a></li>
+								<li><a href="./login">登录</a><span> </span></li>
+								<li><a href="./register">注册</a></li>
 							</ul>
 						</div>
 						<div class="clear"> </div>
@@ -528,21 +528,26 @@
 						<h3>NEW CUSTOMERS</h3>
 						<p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
 						<a class="acount-btn" href="register.html">Creat an Account</a>
+						<img alt="" src="http://www.qqershou.com/UpFile/Img/201207/1207041655581360.gif">
 					</div>
 					<div class="login-right">
-						<h3>REGISTERED CUSTOMERS</h3>
-						<p>If you have an account with us, please log in.</p>
-						<form>
+						<h3>会员登录</h3>
+						<form method="post" action="./login">
 							<div>
-								<span>Email Address<label>*</label></span>
-								<input type="text"> 
+								<span>用户名<label>*</label></span>
+								<input type="text" name="username" required="required"> 
 							</div>
 							<div>
-								<span>Password<label>*</label></span>
-								<input type="text"> 
+								<span>密码<label>*</label></span>
+								<input type="password" name="password" required="required"> 
 							</div>
-							<a class="forgot" href="#">Forgot Your Password?</a>
-							<input type="submit" value="Login" />
+							<div id="verify">
+								<span>验证码<label>*</label></span>
+								<input type="text" style="width:100px">
+								<img src="<?php echo HOME_URL; ?>user/verifyIMG"  alt="" style="position: absolute;margin:0 0 0 15px" onclick="this.src='<?php echo HOME_URL; ?>user/verifyIMG';"/>
+							</div>
+							<a class="forgot" href="#">忘记密码？</a>
+							<input type="submit" value="登录" />
 						</form>
 					</div>
 					<div class="clear"> </div>
