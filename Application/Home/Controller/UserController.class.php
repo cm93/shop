@@ -1,16 +1,16 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+use Think\Db;
 class UserController extends Controller{
     public function login(){
         if(!empty($_POST)){
             $User = new \Home\Model\UserModel();
-            $result = $User->check($_POST);
-            if($result){
-                $this->success('登录成功', '/shop/index.php');
-            } else {
-               
+            $status = $User->check($_POST);
+            if($status['status'] == 1){
+                session('username',$_POST['username']);
             }
+            $this->ajaxReturn($status,json);
         }
         $this->display();
     }
@@ -18,16 +18,20 @@ class UserController extends Controller{
         $config=array(
             'fontSize'  => 15,
             'imageH'    => 33,
-            'imageW'    => 100,
+            'imageW'    => 120,
             'length'    => 4,
             'useCurve'  =>false,
             'useNoise'  => false,
             'fontttf'   => '4.ttf',
             'useImgBg'  =>true,
-    
         );
         $verify=new \Think\Verify($config);
         $verify->entry();
+    }
+    public function check_verify(){
+        $verify = new \Think\Verify();
+        $result = $verify->check($_POST["code"]);
+        $this->ajaxReturn($result,json);
     }
     public function register(){
         if (!empty($_POST)){
@@ -35,6 +39,7 @@ class UserController extends Controller{
             $result = $User->add($_POST);
             if($result){
                 $this->success('新增成功', '/shop/index.php');
+                session('username',$_POST['username']);
             } else {
                 $this->error('新增失败');
             }

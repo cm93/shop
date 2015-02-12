@@ -606,15 +606,15 @@ $(":checkbox").click(function(){
 								<div class="register-top-grid">
 										<div>
 											<span >用户名<label>*</label></span>
-											<input type="text" name="username" id="username" class="required" placeholder="用户名已字母开头，长度为4-16">
+											<input type="text" name="username" id="username" class="required" placeholder="用户名已字母开头，长度为4-16" required="required">
 										</div>
 										<div>
 											<span>电子邮箱<label>*</label></span>
-											<input type="text" name="email" id="me" class="required" placeholder="请输入有效的邮件地址" > 
+											<input type="text" name="email" id="me" class="required" placeholder="请输入有效的邮件地址" required="required"> 
 										</div>
 										<div>
 											<span>手机号码<label>*</label></span>
-											<input type="text" name="phonenumber" id="phonenumber" class="required" placeholder="请输入正确的手机号码"> 
+											<input type="text" name="phonenumber" id="phonenumber" class="required" placeholder="请输入正确的手机号码" required="required"> 
 										</div>
 										
 								</div>

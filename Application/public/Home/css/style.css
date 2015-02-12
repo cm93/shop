@@ -126,10 +126,11 @@ body{
 	margin: 0 0.5em 0 0.6em;
 	vertical-align: middle;
 }
-.top-header-right ul li a{
+.top-header-right ul li,.top-header-right ul li a {
 	color: #FFF;
-	font-size: 0.7em;
-	text-transform: uppercase;
+	font-size: 16px;
+font-weight: bold;
+text-decoration: none;
 }
 /*----start-mid-head---*/
 .mid-grids{
@@ -149,7 +150,6 @@ body{
 	border-right: none;
 	border-left: none;
 	border-top: none;
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	outline: none;
 	padding: 0.8em 0;
 	color:#A5A5A5;

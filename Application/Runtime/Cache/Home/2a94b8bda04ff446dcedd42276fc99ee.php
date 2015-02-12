@@ -121,14 +121,22 @@
 							<div class="clear"> </div>
 						</div>
 						<div class="top-header-right">
-							<ul>
-								<li><a href="home/user/login">登录</a><span> </span></li>
-								<li><a href="home/user/register">注册</a></li>
-							</ul>
+							
 						</div>
 						<div class="clear"> </div>
 					</div>
 				</div>
+	<script type="text/javascript">
+		username = "<?php print_r(session('username'));?>";
+		$(function(){
+			if(username == ""){
+				$(".top-header-right").append('<ul><li><a href="/shop/home/user/login">登录</a><span> </span></li><li><a href="/shop/home/user/register">注册</a></li></ul>')
+			}else{
+				html = "<ul><li>欢迎会员:</li><li><a href=''>"+username+"</a></li></ul>";
+				$(".top-header-right").append(html);
+			}
+		})
+	</script>
 				<!----start-mid-head---->
 				<div class="mid-header">
 					<div class="wrap">

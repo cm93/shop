@@ -16,6 +16,8 @@ return array(
     'DB_FIELDS_CACHE'       =>  true,        // 启用字段缓存
     'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
     
+    'SESSION_OPTIONS'       =>  array('expire'=>3600),
+    
     'URL_ROUTER_ON'   => true,
     'URL_MAP_RULES'=>array(
         'index.php/index'=>'index.php/Home/index/index',

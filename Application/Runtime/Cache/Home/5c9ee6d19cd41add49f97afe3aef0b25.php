@@ -532,7 +532,7 @@
 					</div>
 					<div class="login-right">
 						<h3>会员登录</h3>
-						<form method="post" action="./login">
+						<form method="post" action="./login" id="login">
 							<div>
 								<span>用户名<label>*</label></span>
 								<input type="text" name="username" required="required"> 
@@ -543,17 +543,63 @@
 							</div>
 							<div id="verify">
 								<span>验证码<label>*</label></span>
-								<input type="text" style="width:100px">
-								<img src="<?php echo HOME_URL; ?>user/verifyIMG"  alt="" style="position: absolute;margin:0 0 0 15px" onclick="this.src='<?php echo HOME_URL; ?>user/verifyIMG';"/>
+								<input type="text" style="width:100px" id = "code" name="code">
+								<img src="<?php echo HOME_URL; ?>user/verifyIMG"  alt="" style="position: absolute;margin:0 0 0 15px; " onclick="this.src='<?php echo HOME_URL; ?>user/verifyIMG';"/>
 							</div>
 							<a class="forgot" href="#">忘记密码？</a>
-							<input type="submit" value="登录" />
+							<input type="submit" value="登录" id="submit"/>
 						</form>
 					</div>
 					<div class="clear"> </div>
 				</div>
 			</div>
 		</div>
+<script type="text/javascript">
+	$(function(){
+		code = false;
+		$("#code").blur(function(e){
+			$.ajax( {    
+			    url:'./check_verify',
+			    data:$('#code').serialize(),
+			    type:'post',    
+			    cache:false,    
+			    dataType:'json',    
+			    success:function(data) { 
+			    	if(data == false){
+			    		$("#verify").append("<span id='false'><font color='#FF0000'>验证不正确</font></span>");
+			    	}else{
+			    		$("#verify").append("<span id='false'><img src='http://www.qqershou.com/Member/Img/ok_07.gif'></span>");
+						code = true		    	
+			    	}
+			     },    
+			})
+		})
+		$("#code").focus(function(e){
+			$("#false").remove();
+		});
+		$("#submit").click(function(e){
+			e.preventDefault();
+			if(code){
+				$.ajax( {    
+				    url:'./login',
+				    data:$('#login').serialize(),
+				    type:'post',    
+				    cache:false,    
+				    dataType:'json',    
+				    success:function(data) { 
+				    	if(data.status == 1){
+				    		 location.href = "../index/index";
+				    	}else{
+				    		alert("密码错误");  	
+				    	}
+				     },    
+				});
+			}
+		})
+	})
+		
+		
+</script>
 		<!---- start-bottom-grids---->
 		<div class="bottom-grids">
 			<div class="bottom-top-grids">
