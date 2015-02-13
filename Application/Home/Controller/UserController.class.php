@@ -9,10 +9,15 @@ class UserController extends Controller{
             $status = $User->check($_POST);
             if($status['status'] == 1){
                 session('username',$_POST['username']);
+                $User->lastlogin($_POST['username']);
             }
             $this->ajaxReturn($status,json);
         }
         $this->display();
+    }
+    public function logout(){
+        session('username',null);
+        $this->display('index/index');
     }
     public function verifyIMG(){
         $config=array(
