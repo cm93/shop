@@ -557,26 +557,29 @@
 <script type="text/javascript">
 	$(function(){
 		code = false;
-		$("#code").blur(function(e){
-			$.ajax( {    
-			    url:'./check_verify',
-			    data:$('#code').serialize(),
-			    type:'post',    
-			    cache:false,    
-			    dataType:'json',    
-			    success:function(data) { 
-			    	if(data == false){
-			    		$("#verify").append("<span id='false'><font color='#FF0000'>验证不正确</font></span>");
-			    	}else{
-			    		$("#verify").append("<span id='false'><img src='http://www.qqershou.com/Member/Img/ok_07.gif'></span>");
-						code = true		    	
-			    	}
-			     },    
-			})
+		$("#code").bind('input propertychange',function(e){
+				$("#false").remove();
+				if($("#code").val().length == 4){
+				$.ajax({    
+				    url:'./check_verify',
+					data:$('#code').serialize(),
+					type:'post',    
+				    cache:false,    
+				    dataType:'json',    
+				    success:function(data) { 
+				    	if(data == false){
+				    		$("#verify").append("<span id='false'><font color='#FF0000'>验证不正确</font></span>");
+				    	}else{
+				    		$("#verify").append("<span id='false'><img src='http://www.qqershou.com/Member/Img/ok_07.gif'></span>");
+							code = true		    	
+				    	}
+				     },    
+				});
+				}
 		})
-		$("#code").focus(function(e){
-			$("#false").remove();
-		});
+		//$("#code").focus(function(e){
+		//	$("#false").remove();
+		//});
 		$("#submit").click(function(e){
 			e.preventDefault();
 			if(code){
@@ -597,8 +600,6 @@
 			}
 		})
 	})
-		
-		
 </script>
 		<!---- start-bottom-grids---->
 		<div class="bottom-grids">

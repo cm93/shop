@@ -2,16 +2,14 @@
 <html>
 	<head>
 		<title>二手网</title>
-		
 		<link href='http://www.qqershou.com/Member/Images/Head.css' rel='stylesheet' type='text/css'>
 		<link href='http://www.qqershou.com/Member/Images/Index.css' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="<?php echo JS_URL; ?>jquery-1.7.2.min.js"></script>
 		<script language='JavaScript' src='http://www.qqershou.com/Member/User.js'></script>
 	</head>
 <body>
 <div class="topbar">
 <div class="topbarnav">
-<div class="bar-right"><a href=""> <?php print_r(session('username'));?></a>&nbsp;&nbsp;用户中心&nbsp;&nbsp;|&nbsp;<a href="/shop/home/user/logout">退出</a>&nbsp;</div>
+<div class="bar-right"><a href=""> <?php print_r(session('username'));?></a>&nbsp;&nbsp;用户中心&nbsp;&nbsp;|&nbsp;<a href="/Login?Action=Logout">退出</a>&nbsp;</div>
 </div></div>
 <div class="head"><div class="head-left">
 <a href="/" target="_blank" class="logo"><img src="http://www.qqershou.com/Member/images/logo.png" alt=全球二手网></a><span>用户中心</span></div>
@@ -35,52 +33,47 @@
 <DIV class="body-wrap">
 <div class="left-wrap">
 <div class="left-menu">
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/member/" class=mc>个人中心</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user_product" class=mpost>闲置物品</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active') class=""><a href="/shop/home/index/member/" class=mc>个人中心</a></span>
+<span onmouseover="$(this).addClass('active')"  class="active"><a href="/shop/home/index/user_product" class=mpost>闲置物品</a></span>
 <span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user_classADD" class=mpost>分类信息</a></span>
-<span onmouseover="$(this).addClass('active')"  class="active"><a href="/shop/home/index/user" class=mhelp>个人资料</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user" class=mhelp>个人资料</a></span>
 <span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="/shop/home/index/user_message" class=mmessage>我的消息</a></span>
 <span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="/shop/home/index/user_collection" class=mpay>我的收藏</a></span>
 </div>
 </div>	
 <div class="right-wrap">
-<SCRIPT language=JavaScript src="http://www.qqershou.com/Inc/Site.Js"></SCRIPT>
-<div class=UserPath>您的位置：<a href="./member">会员中心</a> >> <a href='./user'>修改资料</a></div><DIV class=right_top>
-<SPAN class='button on'><A class=btn-b href='?'>修改资料</A></SPAN>
-<SPAN class='button'><A class=btn-b href='?Action=Face'>修改头像</A></SPAN>
-<SPAN class='button'><A class=btn-b href='?Action=Pass'>修改密码</A></SPAN>
-<SPAN class='button'><A class=btn-b href='?Action=Adress'>收货地址</A></SPAN>
+<div class=UserPath>您的位置：<a href="./member">会员中心</a> >> <a href=User_Product>闲置物品</a></div><table width='100%' cellpadding=3 cellspacing=1><tr><td valign=top colspan=2>
+<form action='?Page=' name=myform method=POST>
+<DIV class=area_cz>
+<B>&nbsp;闲置物品</B>
 </DIV>
-<table width="100%" border="0" cellspacing="1" cellpadding="0" align=center>
-<form method="POST" action="./user" name=myform>      
-<input name=Area_ id="Area" type=hidden value='<?php echo $data[11];?>'>
-<tr><td class=td40 height=35 colspan=2>基本资料</td></tr>
- <tr><td width="30%" height=40><div align="right" class=f14>真实姓名：</div></td><td><input class="h_input" name="TrueName" type="text" maxlength=50 value='<?php echo $data[7];?>'>
+<DIV class=c></DIV>
+<TABLE class=basetb cellSpacing=0 cellPadding=0 width='100%'>
+<TBODY>
+<TR id=tablehead>
+<TH width=78>图片</TH>
+<TH >名称 </TH>
+<TH width=140>发布时间 </TH>
+<TH width=110>状态 </TH>
+<TH width=100>推广 </TH>
+<TH width=110>操作 </TH></TR>
+</TBODY></TABLE>
+<table width=100% border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td>
+<DIV class=noteread>
+<B>说明：</B> <br>
+1、刷新：将您的物品靠前显示，相当于新发一条，2个二手币/条，相当于0.2元/条。每件物品可免费刷新3次。<br>
+2、竞价排名：将您的物品固定排在页面最顶部，不会被其他信息挤下去，出价越高排名越靠前。<br>
+3、下架：下架中的物品除了您自己外，其他人无法看到。</DIV>
 </td></tr>
-  <tr><td><div align="right" class=f14>性别：</div></td><td><input name="Sex" id="boy" type="radio" value=0 checked Class=radio>男　<input name="Sex" id="girl" type="radio" value=1 Class=radio>女 <font Class=Font2>*</font></td></tr>
-  <tr><td class=td40 height=35 colspan=2>联系方式</td></tr>
-  <tr><td height=45><div align="right">电子邮箱：</div></td><td><input class="h_input" name="email" type="text" maxlength="50" value='<?php echo $data[5];?>'>
- <font Class=Font2>*</font></td></tr>
-  <tr><td height=45><div align="right">电话：</div></td><td><input class="h_input" name="Tel" type="text"  maxlength="50" value='<?php echo $data[9];?>'><font color=red style="font-size:14px;">电话、QQ必须填写其中一项</font></td></tr>
-  <tr><td height=45><div align="right" class=f14>手机：</div></td><td><input class="h_input" name="phonenumber" id="Mobile" type="text"  maxlength="50" value='<?php echo $data[3];?>'><font Class=Font2>*</font></td></tr>
-  <tr><td height=45><div align="right" class=f14>QQ：</div></td><td><input class="h_input" name="QQ" id="QQ" type="text"  maxlength="50" value='<?php echo $data[10];?>'></td></tr>
-  <tr><td><div align="right" class=f14>所在地：</div></td><td>您当前选择的城市为：<b><font color=red id="city">您还没有选择城市</font></b><br><script language=JavaScript src="<?php echo JS_URL; ?>area.Js"></Script><font color=red style="font-size:14px;">不改请不要动</font></td></tr>
-  <tr><td><div align="right" class=f14>联系地址：</div></td><td><input name="AddRess" type="text" class="h_input w300" maxlength="200" value='<?php echo $data[12];?>'><font Class=Font2>*</font></td></tr>
-  <tr><td></td><td height=50>
-<input class=fb_an type="submit" value="确定修改">
-</td></tr>
-</form>
 </table>
+<tr><td align=right height=40>
+</td></tr></Form>
+</td></tr></Table>
 </div>
 </DIV>
-<script type="text/javascript">
-	$(function(){
-		if	(<?php echo $data[8];?> == 1){
-			$("#boy").removeAttr("checked");
-			$("#girl").attr("checked","checked");
-		}
-	})
-</script>
+
 <div class="footer-box">
 <div class="footer-table">
 <div class="footer-copy">

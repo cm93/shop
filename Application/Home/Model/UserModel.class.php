@@ -29,6 +29,16 @@ class UserModel extends Model {
         $sql = sprintf("UPDATE `user` SET `lastlogin`='%s' WHERE `username` = '%s' ",date("Y-m-d H:i:s"),$username);
         mysql_query($sql);
     }
+    public function detail($data){
+        $sql = sprintf("UPDATE `user` SET `phonenumber`='%s',`email`='%s',`TrueName`='%s',`Sex`='%s',`Tel`='%s',`QQ`='%s',`AreaID`='%s',`AddRess`='%s' WHERE `username` = '%s' LIMIT 1",$data['phonenumber'],$data['email'],$data['TrueName'],$data['Sex'],$data['Tel'],$data['QQ'],$data['AreaID'],$data['AddRess'],session('username'));
+        return mysql_query($sql);
+    }
+    public function showdetail(){
+        $sql =sprintf("SELECT * FROM `user` WHERE `username`='%s' LIMIT 1",session('username'));
+        $query = mysql_query($sql);
+        $row = mysql_fetch_row($query);
+        return $row;
+    }
 }
 
 ?>

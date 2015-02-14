@@ -33,90 +33,36 @@
 <DIV class="body-wrap">
 <div class="left-wrap">
 <div class="left-menu">
-<span onmouseover="$(this).addClass('active')" class="active"><a href="/shop/home/index/member/" class=mc>个人中心</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/member/" class=mc>个人中心</a></span>
 <span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user_product" class=mpost>闲置物品</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user_classadd" class=mpost>分类信息</a></span>
+<span onmouseover="$(this).addClass('active')"  class="active"><a href="/shop/home/index/user_classadd" class=mpost>分类信息</a></span>
 <span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user" class=mhelp>个人资料</a></span>
 <span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="/shop/home/index/user_message" class=mmessage>我的消息</a></span>
 <span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="/shop/home/index/user_collection" class=mpay>我的收藏</a></span>
 </div>
 </div>	
 <div class="right-wrap">
-<div class="userinfo">
-<div class="user-photo">
-<div class="photo"><img alt="头像" title="头像" src="http://www.qqershou.com/Images/Face/Image0.gif"><s></s></div>
-<span><a href="./user">完善个人资料</a></span></div>
-<div class="user-info">
-<div class="index-user">
-<strong>a88953360</strong>
-<span>于2015-2-9 9:43:33注册 登陆：3 次</span>
-</div>
-<div class="jifen-user">积分：<span id="mypoint">26</span>分 余额：<span>0.00</span>元  <a href="./PayOnline">去充值&gt;&gt;</a></div>
-<div class="renzheng-user">
-<span class="email-norz" title="邮箱未认证"></span><a href="#">邮箱未认证</a>
-<span class="idcard-norz" title="身份证未认证"></span><a href="#">身份证未认证</a>
-</div></div>
-</div>
-<div class="quickroad">
-<span class="quickroad-title">快速通道：</span>
-<div class="quickroad-a">
-<a href="/shop/home/index/user_classadd">我的信息</a><a href="#">我的积分</a><a href="/shop/home/index/payonline?action=detail">我的余额</a><a href="PayOnline">我要充值</a><a href="./user_message">我的消息</a><a href="#" style="color:#FF6600" target=_blank>升级VIP</a><a href="#" target=_blank>我的推广</a></div></div>
-<script type="text/javascript">
-function tab_qiche(elementID,listName,n) {
-var elem = document.getElementById(elementID);
-var elemlist = elem.getElementsByTagName("h3");
-for (var i=0; i<elemlist.length; i++) {
-elemlist[i].className = "normal";
-var m = i+1;
-document.getElementById(listName+"_"+m).className = "normal";
-}
-var elem2 = document.getElementById(listName+"_"+n);
-var elemlist2 = elem2.getElementsByTagName("img");
-if(n > 1) {
-for (var j=0; j<elemlist2.length; j++) {
-if(elemlist2[j].src == '') elemlist2[j].src = elemlist2[j].getAttribute("src1");
-}
-}
-elemlist[n-1].className = "current";
-document.getElementById(listName+"_"+n).className = "current";
-}
-</script>
-<div id='qiche_tab' class='menu'>
-<h3 class=current  onmouseover="tab_qiche(&#39;qiche_tab&#39;,&#39;qiche_info&#39;,1);" href="javascript:;">您最新登记的物品</h3><h3 class=normal  onmouseover="tab_qiche(&#39;qiche_tab&#39;,&#39;qiche_info&#39;,2);" href="javascript:;">您最新发布的信息</td><td class=sec3 width=376>&nbsp;</h3>
-</div>
-<div class="menu_text">
-<div id="qiche_info_1" class="current">
-<TABLE class="basetb " cellSpacing=0 cellPadding=0 width='100%'>
-<TBODY>
+<SCRIPT language=JavaScript src="/Inc/Site.Js"></SCRIPT>
+<div class=UserPath>您的位置：<a href=Index>会员中心</a> >> <a href=User_ClassADD>分类信息管理</a></div><form action='?Page=' name=myform method=POST>
+<DIV class=area_cz><B>&nbsp;信息管理</B></DIV>
+<TABLE class=basetb cellSpacing=0 cellPadding=0 width='100%'>
 <TR id=tablehead>
-<TH width=78>图片</TH>
-<TH >名称 </TH>
-<TH width=150>发布时间 </TH>
-<TH width=50>状态 </TH>
-<TH width=80>竞价排名 </TH>
-</TR>
-</TBODY></TABLE>
-</div>
-<div id='qiche_info_2' class='normal'>
-<TABLE class=basetb cellSpacing=0 cellPadding=0 width='100%' id='qiche_info_2'>
-<TBODY>
-<TR id=tablehead>
-<TH >信息标题</TH>
+<TH>信息标题</TH>
 <TH width=130>发布时间 </TH>
 <TH width=45>状态 </TH>
 <TH width=45>推荐 </TH>
 <TH width=100>管理 </TH>
-<TH width=130>推广 </TH>
+<TH width=50>推广 </TH>
 </TR>
-</TBODY></TABLE>
-</div></div>
+</TABLE>
+</Form>
 </div>
 </DIV>
 
 <div class="footer-box">
 <div class="footer-table">
 <div class="footer-copy">
-<a href='#' title='关于我们' target=_blank>关于我们</a>| <a href='#' title='有问题请与全球二手网客服进行对话' class=fduihua>联系客服</a>| <a href='#' title='VIP会员' target=_blank>VIP会员</a>| <A href='#' target=_blank>我要删除信息</A>| <a href='#' target=_blank>免责声明</a> | <a href='#' target=_blank>帮助中心</a>| <a href='#' target=_blank>广告服务</a>| <a href=/Area target=_blank>分站列表</a>| <a href='#' target=_blank 不良信息举报></a>| <a href='#' target=_blank>我要提建议</a><br>
+<a href='#' title='关于我们' target=_blank>关于我们</a>| <a href='#' title='有问题请与全球二手网客服进行对话' class=fduihua>联系客服</a>| <a href='#' title='VIP会员' target=_blank>VIP会员</a>| <A href='#' target=_blank>我要删除信息</A>| <a href='#' target=_blank>免责声明</a> | <a href='#' target=_blank>帮助中心</a>| <a href='#' target=_blank>广告服务</a>| <a href=/Area target=_blank>分站列表</a>| <a href='#' target=_blank> 不良信息举报</a>| <a href='#' target=_blank>我要提建议</a><br>
 Copyright &copy; 2010-2016 全球二手网 Inc. All rights reserved. <script src=http://s11.cnzz.com/stat.php?id=2193493&web_id=2193493 language=JavaScript></script><br>
 <span class="credit icon1"></span><span class="credit icon2"></span><span class="credit icon3"></span>
 </div></div></div>
