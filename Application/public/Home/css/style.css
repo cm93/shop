@@ -168,7 +168,7 @@ text-decoration: none;
 	width: 230px;
 	height: 70px;
 	display: inline-block;
-	background: url(http://www.qqershou.com/images/logo.png) ;
+	background: url(/shop/Application/public/Home/images/logo.png) ;
 }
 .logo{
 	position:relative;

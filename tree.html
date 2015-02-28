@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+var json = [
+	{"name":"衣服" , "id" : "1" , "pid" : 0},
+	{"name":"裤子" , "id" : "2" , "pid" : 0},
+	{"name":"鞋子" , "id" : "3" , "pid" : 0},
+	
+	{"name":"衬衣" , "id" : "4" , "pid" : 1},
+	{"name":"毛衣" , "id" : "5" , "pid" : 1},
+	{"name":"内衣" , "id" : "6" , "pid" : 1},
+	
+	{"name":"大" , "id" : "10" , "pid" : 6},
+	{"name":"大" , "id" : "11" , "pid" : 7},
+	{"name":"大" , "id" : "7" , "pid" : 4},
+	{"name":"中" , "id" : "8" , "pid" : 4},
+	{"name":"小" , "id" : "9" , "pid" : 4}
+];
+treeRoot : document.getElementById("classifyTree"),//dom树根
+btn : document.getElementById("cid1"),
+btnText : document.getElementById("cid1Text"),
+btnClick : document.getElementById("classifyClick"),
+json : this.json,
+rootId : 0,//一级分类ID
+//根据json建立dom树
+setDomTree : function(){
+	function creatEl(name){return document.createElement(name);}//创建标签
+	var ul = creatEl("ul");
+	//先建立根节点
+	for(var i=0;i<this.json.length;i++){
+		if(this.json[i].pid==this.rootId){
+			var li =  creatEl("li");
+			var span = creatEl("span");
+			span.alt = this.json[i].id;
+			span.innerHTML = this.json[i].name;
+			li.appendChild(span);
+			ul.appendChild(li);
+			this.json.splice(i,1);//已经载入页面删除当前数组		
+			i--;//数组删除，下次循环继续查询当前位置
+		}
+	}													
+	alert(this.treeRoot.appendChild(ul));
+}
+this.setDomTree();
+</script>
+<body>
+<div id="classifyTree">
+
+</body>
+</html>

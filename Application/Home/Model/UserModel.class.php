@@ -39,6 +39,14 @@ class UserModel extends Model {
         $row = mysql_fetch_row($query);
         return $row;
     }
+    public function facesave($data){
+        $sql = sprintf("UPDATE `user` SET `faceimg`='%s' WHERE `username` ='%s' LIMIT 1",$data['Face'],session('username'));
+        return mysql_query($sql);
+    }
+    public function email($data){
+        $sql = sprintf("UPDATE `user` SET `checkemail` = 1 WHERE `username` = '%s' LIMIT 1",$data['user']);
+        return mysql_query($sql);
+    }
 }
 
 ?>

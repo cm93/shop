@@ -5,15 +5,16 @@
 		<link href='http://www.qqershou.com/Member/Images/Head.css' rel='stylesheet' type='text/css'>
 		<link href='http://www.qqershou.com/Member/Images/Index.css' rel='stylesheet' type='text/css'>
 		<script language='JavaScript' src='http://www.qqershou.com/Member/User.js'></script>
+		<script src="<?php echo JS_URL; ?>jquery-1.7.2.min.js"></script>
 	</head>
 <body>
 <div class="topbar">
 <div class="topbarnav">
-<div class="bar-right"><a href=""> <?php print_r(session('username'));?></a>&nbsp;&nbsp;用户中心&nbsp;&nbsp;|&nbsp;<a href="/Login?Action=Logout">退出</a>&nbsp;</div>
+<div class="bar-right"><a href=""> <?php print_r(session('username'));?></a>&nbsp;&nbsp;用户中心&nbsp;&nbsp;|&nbsp;<a href="/shop/home/user/logout">退出</a>&nbsp;</div>
 </div></div>
 <div class="head"><div class="head-left">
 <a href="/" target="_blank" class="logo"><img src="http://www.qqershou.com/Member/images/logo.png" alt=全球二手网></a><span>用户中心</span></div>
-<a class="ask-price fr" href="/Member/User_ClassADD?Action=Add" title="发布信息" target="_blank">发布信息</a><a class="ask-xianzhi fr" href="/Product/Post" title="处理闲置" target="_blank">处理闲置</a>
+<a class="ask-price fr" href="/Member/User_ClassADD?Action=Add" title="发布信息" target="_blank">发布信息</a><a class="ask-xianzhi fr" href="#" title="处理闲置" target="_blank">处理闲置</a>
 <div class="ali-search fr">
 <form action="/Search/Search" name="searchform" method="POST" target="_blank">
 <input name="City" type=hidden value=0>
@@ -22,18 +23,26 @@
 <button type="submit" id="alisearch-submit" class="">搜 索</button></form>
 </div></div>
 <div class="memnav"><div class="module"><ul>
-<span style="float:right; font-size:12px; width:140px;color:#FFFFFF"><a href="/home/help.Html" style="color:#FFFFFF" target=_blank>帮助中心</a> | <a style="color:#FFFFFF" href="/VIP/" target=_blank>我要推广</a></span>
-<li id="h"><a href="/" target="_blank">网站首页</a></li>
-<li id="h_index" class="active"><a href="/Member/">用户中心</a></li>
-<li id="h_account" class="noactive"><a href="/Member/User_EditInfo">我的账户</a></li>
-<li id="h_security" class="noactive"><a href="/Member/User_RZ">安全中心</a></li>
-<li id="h_e" class="noactive"><a href="/Member/User_Yi?Action=jingjia">我的推广</a></li>
-<li class="noactive"><a href="/VIP/">申请VIP</a></li>
+<span style="float:right; font-size:12px; width:140px;color:#FFFFFF"><a href="#" style="color:#FFFFFF" >帮助中心</a> | <a style="color:#FFFFFF" href="#">我要推广</a></span>
+<li id="h"><a href="./">网站首页</a></li>
+<li id="h_index" class="active"><a href="./member">用户中心</a></li>
+<li id="h_account" class="noactive"><a href="./user">我的账户</a></li>
+<li id="h_security" class="noactive"><a href="#">安全中心</a></li>
+<li id="h_e" class="noactive"><a href="#">我的推广</a></li>
+<li class="noactive"><a href="#">申请VIP</a></li>
 </ul></div></div>
+<script type="text/javascript">
+var data=eval('<?php echo json_encode($data)?>');
+$(function(){
+	if (data[14] == 1){
+		$(".renzheng-user").empty().append('<span class="email-rz" title="邮箱认证"></span><a href="#">邮箱已认证</a><span class="idcard-norz" title="身份证未认证"></span><a href="#">身份证未认证</a>')
+	}
+})
+</script>
 <DIV class="body-wrap">
 <div class="left-wrap">
 <div class="left-menu">
-<span onmouseover="$(this).addClass('active')" class="active"><a href="/shop/home/index/member/" class=mc>个人中心</a></span>
+<span onmouseover="$(this).addClass('active')" class="active"><a href="/shop/home/index/member" class=mc>个人中心</a></span>
 <span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user_product" class=mpost>闲置物品</a></span>
 <span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user_classadd" class=mpost>分类信息</a></span>
 <span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user" class=mhelp>个人资料</a></span>
@@ -44,23 +53,22 @@
 <div class="right-wrap">
 <div class="userinfo">
 <div class="user-photo">
-<div class="photo"><img alt="头像" title="头像" src="http://www.qqershou.com/Images/Face/Image0.gif"><s></s></div>
+<div class="photo"><img alt="头像" title="头像" src="<?php echo $data[13];?>"><s></s></div>
 <span><a href="./user">完善个人资料</a></span></div>
 <div class="user-info">
 <div class="index-user">
 <strong>a88953360</strong>
-<span>于2015-2-9 9:43:33注册 登陆：3 次</span>
 </div>
-<div class="jifen-user">积分：<span id="mypoint">26</span>分 余额：<span>0.00</span>元  <a href="./PayOnline">去充值&gt;&gt;</a></div>
+<div class="jifen-user">余额：<span>0.00</span>元  <a href="./PayOnline">去充值&gt;&gt;</a></div>
 <div class="renzheng-user">
-<span class="email-norz" title="邮箱未认证"></span><a href="#">邮箱未认证</a>
+<span class="email-norz" title="邮箱未认证"></span><a href="../email">邮箱未认证</a>
 <span class="idcard-norz" title="身份证未认证"></span><a href="#">身份证未认证</a>
 </div></div>
 </div>
 <div class="quickroad">
 <span class="quickroad-title">快速通道：</span>
 <div class="quickroad-a">
-<a href="/shop/home/index/user_classadd">我的信息</a><a href="#">我的积分</a><a href="/shop/home/index/payonline?action=detail">我的余额</a><a href="PayOnline">我要充值</a><a href="./user_message">我的消息</a><a href="#" style="color:#FF6600" target=_blank>升级VIP</a><a href="#" target=_blank>我的推广</a></div></div>
+<a href="/shop/home/index/user_classadd">我的信息</a><a href="#">我的积分</a><a href="/shop/home/index/payonline?action=detail">我的余额</a><a href="./PayOnline">我要充值</a><a href="./user_message">我的消息</a><a href="#" style="color:#FF6600">升级VIP</a><a href="#" >我的推广</a></div></div>
 <script type="text/javascript">
 function tab_qiche(elementID,listName,n) {
 var elem = document.getElementById(elementID);
@@ -116,7 +124,7 @@ document.getElementById(listName+"_"+n).className = "current";
 <div class="footer-box">
 <div class="footer-table">
 <div class="footer-copy">
-<a href='#' title='关于我们' target=_blank>关于我们</a>| <a href='#' title='有问题请与全球二手网客服进行对话' class=fduihua>联系客服</a>| <a href='#' title='VIP会员' target=_blank>VIP会员</a>| <A href='#' target=_blank>我要删除信息</A>| <a href='#' target=_blank>免责声明</a> | <a href='#' target=_blank>帮助中心</a>| <a href='#' target=_blank>广告服务</a>| <a href=/Area target=_blank>分站列表</a>| <a href='#' target=_blank 不良信息举报></a>| <a href='#' target=_blank>我要提建议</a><br>
+<a href='#' title='关于我们' >关于我们</a>| <a href='#' title='有问题请与全球二手网客服进行对话' class=fduihua>联系客服</a>| <a href='#' title='VIP会员' >VIP会员</a>| <A href='#' target=_blank>我要删除信息</A>| <a href='#' target=_blank>免责声明</a> | <a href='#'>帮助中心</a>| <a href='#' >广告服务</a>| <a href=/Area target=_blank>分站列表</a>| <a href='#' target=_blank 不良信息举报></a>| <a href='#' target=_blank>我要提建议</a><br>
 Copyright &copy; 2010-2016 全球二手网 Inc. All rights reserved. <script src=http://s11.cnzz.com/stat.php?id=2193493&web_id=2193493 language=JavaScript></script><br>
 <span class="credit icon1"></span><span class="credit icon2"></span><span class="credit icon3"></span>
 </div></div></div>

@@ -3559,10 +3559,3 @@ Change4848(0,0)
 function ChangeAreaID(id,nid){
 Change4848(id,nid)
 }
-alert(Change4848(1417,1412));
-$(function(){
-	a = $("#Area").val();
-	if(a != 0){
-		$("#city").html(Arr4848[parseInt(a)][0]) ;
-	}
-})

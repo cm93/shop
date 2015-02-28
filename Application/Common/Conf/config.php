@@ -21,6 +21,5 @@ return array(
     'URL_ROUTER_ON'   => true,
     'URL_MAP_RULES'=>array(
         'index.php/index'=>'index.php/Home/index/index',
-    )
-
+    ),
 );
