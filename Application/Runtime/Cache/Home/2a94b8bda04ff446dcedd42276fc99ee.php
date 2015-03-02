@@ -2,7 +2,9 @@
 <html>
 	<head>
 		<title>二手网</title>
-		<link href="<?php echo CSS_URL; ?>/style.css" rel='stylesheet' type='text/css' />
+		<link href="<?php echo CSS_URL; ?>css/fontello.css" rel='stylesheet' type='text/css' />
+		<link href="<?php echo CSS_URL; ?>input.css" rel='stylesheet' type='text/css' />
+		<link href="<?php echo CSS_URL; ?>style.css" rel='stylesheet' type='text/css' />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</script>
@@ -106,7 +108,7 @@
 								<li><a class="info" href="#"><span> </span></a></li>
 							</ul>
 						</div>
-						<div class="top-header-center" style="width:1000px">
+						<div class="top-header-center" style="width:800px">
 							<div class="top-header-center-alert-left">
 								<h3>FREE DELIVERY</h3>
 							</div>
@@ -142,165 +144,136 @@
 				<!----start-mid-head---->
 				<div class="mid-header">
 					<div class="wrap">
-						<div class="mid-grid-left">
-							<form>
-								<input type="text" placeholder="What Are You Looking for?" />
+						<div class="mid-grid-left" style="padding-top:50px;">
+							<form method="post" action="#">
+								<input type="search" placeholder="请输入搜素文字" />	
 							</form>
 						</div>
 						<div class="mid-grid-right">
-							<a class="logo" href="index.html"><span> </span></a>
+							<a class="logo" href="/shop/home/index"><span> </span></a>
 						</div>
 						<div class="clear"> </div>
 					</div>
 				</div>
 				<!----//End-mid-head---->
-                <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="��վģ��">��վģ��</a></div>
 				<!----start-bottom-header---->
 				<div class="header-bottom">
 					<div class="wrap">
 					<!-- start header menu -->
 							<ul class="megamenu skyblue">
-								<li class="grid"><a class="color2" href="#">MEN</a>
+								<li class="grid"><a class="color2" href="#"><i class="icon-monitor"></i>&nbsp;家用电器</a>
 									<div class="megapanel">
 										<div class="row">
 											<div class="col1">
 												<div class="h_nav">
-													<h4>popular</h4>
+													<h4> &nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">login</a></li>
+														<li><a href="/shop/home/goods/products">按摩器</a></li>
+														<li><a href="/shop/home/goods/products">压力锅</a></li>
+														<li><a href="/shop/home/goods/products">电吹风</a></li>
+														<li><a href="/shop/home/goods/products">吸尘器</a></li>
+														<li><a href="/shop/home/goods/products">电熨斗</a></li>
+														<li><a href="/shop/home/goods/products">太阳能/热水器</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
-													<h4 class="top">man</h4>
+													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="#">accessories</a></li>
-														<li><a href="#">kids</a></li>
-														<li><a href="#">style videos</a></li>
+														<li><a href="/shop/home/goods/products">热水壶</a></li>
+														<li><a href="/shop/home/goods/products">家用搅拌机</a></li>
+														<li><a href="/shop/home/goods/products">果蔬解毒机</a></li>
+														<li><a href="/shop/home/goods/products">咖啡机/壶</a></li>
+														<li><a href="/shop/home/goods/products">家用净水器</a></li>
+														<li><a href="/shop/home/goods/products">消毒柜</a></li>
 													</ul>	
 												</div>
 											</div>
 											<div class="col1">
 												<div class="h_nav">
-													<h4>style zone</h4>
+													<h4> &nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="/shop/home/goods/products">微波炉/电烤箱</a></li>
+														<li><a href="/shop/home/goods/products">净水器/加湿器</a></li>
+														<li><a href="/shop/home/goods/products">电热杯</a></li>
+														<li><a href="/shop/home/goods/products">豆浆机</a></li>
+														<li><a href="/shop/home/goods/products">电饼铛</a></li>
+														<li><a href="/shop/home/goods/products">电磁炉</a></li>
 													</ul>	
 												</div>							
-											</div>
-											<div class="col1">
 												<div class="h_nav">
-													<h4>style zone</h4>
+													<h4 class="top"> &nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="/shop/home/goods/products">冰箱/冷藏柜</a></li>
+														<li><a href="/shop/home/goods/products">电风扇</a></li>
+														<li><a href="/shop/home/goods/products">榨汁机/面包机</a></li>
+														<li><a href="/shop/home/goods/products">电视机</a></li>
+														<li><a href="/shop/home/goods/products">电饭煲</a></li>
+														<li><a href="/shop/home/goods/products">油烟机</a></li>
 													</ul>	
 												</div>							
 											</div>
 											<div class="col1 men">
 												<div class="men-pic">
-													<img src="<?php echo IMG_URL; ?>men.png" title="" />
+													<img style="width:350px;height:400px" src="<?php echo IMG_URL; ?>dianqi.jpg" title="" />
 												</div>
 											</div>
 										</div>
 									</div>
 									</li>
-					  			<li class="active grid"><a class="color4" href="#">women</a>
+					  			<li class="active grid"><a class="color4" href="#"><i class="icon-camera"></i>&nbsp;电脑数码</a>
 									<div class="megapanel">
 										<div class="row">
 											<div class="col1">
 												<div class="h_nav">
-													<h4>shop</h4>
+													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="/shop/home/goods/products">音响</a></li>
+														<li><a href="/shop/home/goods/products">电脑附件</a></li>
+														<li><a href="/shop/home/goods/products">显示器</a></li>
+														<li><a href="/shop/home/goods/products">耳机</a></li>
+														<li><a href="/shop/home/goods/products">单片机</a></li>
+														<li><a href="/shop/home/goods/products">内存条</a></li>
 													</ul>	
 												</div>	
 												<div class="h_nav">
-													<h4>help</h4>
+													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="/shop/home/goods/products">录音笔</a></li>
+														<li><a href="/shop/home/goods/products">小灵通</a></li>
+														<li><a href="/shop/home/goods/products">固定电话</a></li>
+														<li><a href="/shop/home/goods/products">数据线</a></li>
+														<li><a href="/shop/home/goods/products">手写笔</a></li>
+														<li><a href="/shop/home/goods/products">充电器</a></li>
 													</ul>	
 												</div>							
 											</div>
 											<div class="col1">
 												<div class="h_nav">
-													<h4>my company</h4>
+													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="/shop/home/goods/products">麦克风</a></li>
+														<li><a href="/shop/home/goods/products">学习机</a></li>
+														<li><a href="/shop/home/goods/products">移动硬盘</a></li>
+														<li><a href="/shop/home/goods/products">摄像头</a></li>
+														<li><a href="/shop/home/goods/products">U盘/内存卡</a></li>
+														<li><a href="/shop/home/goods/products">手机</a></li>
 													</ul>	
 												</div>												
-											</div>
-											<div class="col1">
 												<div class="h_nav">
-													<h4>account</h4>
+													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">login</a></li>
-														<li><a href="../goods/products.html">create an account</a></li>
-														<li><a href="../goods/products.html">create wishlist</a></li>
-														<li><a href="../goods/products.html">my shopping bag</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
-														<li><a href="../goods/products.html">create wishlist</a></li>
+														<li><a href="/shop/home/goods/products">MP3/MP4/MP5</a></li>
+														<li><a href="/shop/home/goods/products">照相机</a></li>
+														<li><a href="/shop/home/goods/products">打印机</a></li>
+														<li><a href="/shop/home/goods/products">复印机</a></li>
+														<li><a href="/shop/home/goods/products">台式电脑</a></li>
+														<li><a href="/shop/home/goods/products">笔记本</a></li>
 													</ul>	
 												</div>						
 											</div>
-											<div class="col1">
-												<div class="h_nav">
-													<h4>my company</h4>
-													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-													</ul>	
-												</div>
-											</div>
-											<div class="col1">
-												<div class="h_nav">
-													<h4>popular</h4>
-													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-													</ul>	
-												</div>
-											</div>
-											<div class="col1 women">
-												<div class="women-pic">
-													<img src="<?php echo IMG_URL; ?>women.png" title="" />
+											<div class="col1 men">
+												<div class="men-pic">
+													<img style="width:400px;height:400px" src="<?php echo IMG_URL; ?>shuma.png" title="" />
 												</div>
 											</div>
 										</div>
@@ -313,48 +286,40 @@
 										</div>
 					    				</div>
 									</li>				
-									<li><a class="color5" href="#">KIDS</a>
+									<li><a class="color5" href="#"><i class="icon-cab"></i>&nbsp;汽车装饰</a>
 									<div class="megapanel">
 										<div class="row">
 											<div class="col1">
 												<div class="h_nav">
-													<h4>popular</h4>
+													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">login</a></li>
+														<li><a href="/shop/home/goods/products">汽车配件</a></li>
+														<li><a href="/shop/home/goods/products">二手车</a></li>
+														<li><a href="/shop/home/goods/products">二手摩托车</a></li>
+														<li><a href="/shop/home/goods/products">牵引车</a></li>
+														<li><a href="/shop/home/goods/products">半挂车</a></li>
+														<li><a href="/shop/home/goods/products">电动车/自行车</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
-													<h4 class="top">man</h4>
+													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="/shop/home/goods/products">内饰</a></li>
+														<li><a href="/shop/home/goods/products">外饰</a></li>
+														<li><a href="/shop/home/goods/products">GPS</a></li>
+														<li><a href="/shop/home/goods/products">保养</a></li>
+														<li><a href="/shop/home/goods/products">视听</a></li>
+														<li><a href="/shop/home/goods/products">其他</a></li>
 													</ul>	
 												</div>
 											</div>
 											<div class="col1">
 												<div class="h_nav">
-													<h4>style zone</h4>
-													<ul>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
-													</ul>	
-												</div>							
+												</div>
 											</div>
-											<div class="col1 kids">
-												<div class="kids-pic">
-													<img src="<?php echo IMG_URL; ?>kids1.png" title="" />
+											<div class="col1 men">
+												<div class="men-pic">
+													<img style="width:400px;height:200px" src="<?php echo IMG_URL; ?>car.png" title="" />
 												</div>
 											</div>
 											<div class="col1"></div>
@@ -364,62 +329,60 @@
 										</div>
 									</div>
 									</li>
-									<li><a class="color6" href="#">SPORTS</a>
+									<li><a class="color6" href="#"><i class="icon-home" style="font-size:17px;"></i>&nbsp;家居家饰</a>
 									<div class="megapanel">
 										<div class="row">
 											<div class="col1">
 												<div class="h_nav">
-													<h4>shop</h4>
+													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="/shop/home/goods/products">灯具</a></li>
+														<li><a href="/shop/home/goods/products">梳妆用品</a></li>
+														<li><a href="/shop/home/goods/products">沐浴用品</a></li>
+														<li><a href="/shop/home/goods/products">棋牌麻将</a></li>
+														<li><a href="/shop/home/goods/products">厨房用品</a></li>
+														<li><a href="/shop/home/goods/products">家纺</a></li>
 													</ul>	
 												</div>	
 												<div class="h_nav">
-													<h4 class="top">my company</h4>
+													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="/shop/home/goods/products">充气床</a></li>
+														<li><a href="/shop/home/goods/products">鞋柜</a></li>
+														<li><a href="/shop/home/goods/products">吧台</a></li>
+														<li><a href="/shop/home/goods/products">床头柜</a></li>
+														<li><a href="/shop/home/goods/products">视听柜</a></li>
+														<li><a href="/shop/home/goods/products">休闲桌</a></li>
 													</ul>	
 												</div>												
 											</div>
 											<div class="col1">
 												<div class="h_nav">
-													<h4>man</h4>
+													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="/shop/home/goods/products">衣架/日用</a></li>
+														<li><a href="/shop/home/goods/products">沙发/座椅</a></li>
+														<li><a href="/shop/home/goods/products">电脑桌</a></li>
+														<li><a href="/shop/home/goods/products">床</a></li>
+														<li><a href="/shop/home/goods/products">茶具</a></li>
+														<li><a href="/shop/home/goods/products">梳妆台/首饰架</a></li>
+													</ul>	
+												</div>
+												<div class="h_nav">
+													<h4 class="top">&nbsp;</h4>
+													<ul>
+														<li><a href="/shop/home/goods/products">餐桌</a></li>
+														<li><a href="/shop/home/goods/products">窗帘/珠帘</a></li>
+														<li><a href="/shop/home/goods/products">清洁用品</a></li>
+														<li><a href="/shop/home/goods/products">手电筒</a></li>
+														<li><a href="/shop/home/goods/products">床垫</a></li>
+														<li><a href="/shop/home/goods/products">其他</a></li>
 													</ul>	
 												</div>						
 											</div>
-											<div class="col1">
-												<div class="h_nav">
-													<h4>help</h4>
-													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-													</ul>	
-												</div>							
-											</div>
-											<div class="col1 sports">
-												<div class="sports-pic">
-													<img src="<?php echo IMG_URL; ?>sport.png" title="" />
+											<div class="col1 men">
+												<div class="men-pic">
+													<img style="width:500px;height:350px" src="<?php echo IMG_URL; ?>jiaju.png" title="" />
 												</div>
 											</div>
 										</div>
@@ -432,75 +395,49 @@
 										</div>
 									</div>
 									</li>
-									<li><a class="color7" href="#">NIKE SPORTSWEAR</a>
+									<li><a class="color7" href="#"><i class="icon-fax"></i>&nbsp;办公用品</a>
 									<div class="megapanel">
 										<div class="row">
 											<div class="col1">
 												<div class="h_nav">
-													<h4>shop</h4>
+													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="/shop/home/goods/products">设备耗材</a></li>
+														<li><a href="/shop/home/goods/products">办公电器</a></li>
+														<li><a href="/shop/home/goods/products">文件夹册</a></li>
+														<li><a href="/shop/home/goods/products">办公家具</a></li>
+														<li><a href="/shop/home/goods/products">商务用品</a></li>
+														<li><a href="/shop/home/goods/products">日用/劳保</a></li>
 													</ul>	
 												</div>		
 												<div class="h_nav">
-													<h4>my company</h4>
+													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="/shop/home/goods/products">装订用品</a></li>
+														<li><a href="/shop/home/goods/products">测绘用品</a></li>
+														<li><a href="/shop/home/goods/products">修正辅助</a></li>
+														<li><a href="/shop/home/goods/products">资料管理</a></li>
+														<li><a href="/shop/home/goods/products">桌面用品</a></li>
+														<li><a href="/shop/home/goods/products">记事本/簿</a></li>
 													</ul>	
 												</div>					
 											</div>
 											<div class="col1">
 												<div class="h_nav">
-													<h4>help</h4>
+													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
+														<li><a href="/shop/home/goods/products">财务用品</a></li>
+														<li><a href="/shop/home/goods/products">办公用笔</a></li>
+														<li><a href="/shop/home/goods/products">办公用纸</a></li>
+														<li><a href="/shop/home/goods/products">办公数码</a></li>
+														<li><a href="/shop/home/goods/products">办公设备</a></li>
+														<li><a href="/shop/home/goods/products">办公软件</a></li>
 													</ul>	
 												</div>							
 											</div>
-											<div class="col1">
-												<div class="h_nav">
-													<h4>my company</h4>
-													<ul>
-														<li><a href="../goods/products.html">trends</a></li>
-														<li><a href="../goods/products.html">sale</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-													</ul>	
-												</div>												
-											</div>
-											<div class="col1">
-												<div class="h_nav">
-													<h4>account</h4>
-													<ul>
-														<li><a href="../goods/products.html">login</a></li>
-														<li><a href="../goods/products.html">create an account</a></li>
-														<li><a href="../goods/products.html">create wishlist</a></li>
-														<li><a href="../goods/products.html">my shopping bag</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
-														<li><a href="../goods/products.html">create wishlist</a></li>
-													</ul>	
-												</div>						
-											</div>
-											<div class="col1 nike">
-												<div class="nike-pic">
-													<img src="<?php echo IMG_URL; ?>nike.png" title="" />
+											<div class="col1 men">
+												<div class="men-pic">
+													<img style="width:500px;height:350px" src="<?php echo IMG_URL; ?>bangong.jpg" title="" />
 												</div>
 											</div>
 										</div>
@@ -513,49 +450,51 @@
 										</div>
 					    				</div>
 									</li>
-									<li><a class="color8" href="#">NIKEiD</a>
+									<li><a class="color8" href="#"><i class="icon-spin4 animate-spin"></i>&nbsp;其他分类</a>
 									<div class="megapanel">
 										<div class="row">
 											<div class="col1">
 												<div class="h_nav">
-													<h4>style zone</h4>
+													<h4><i class="icon-soccer-ball"></i>&nbsp;旅游运动</h4>
 													<ul>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">women</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">brands</a></li>
+														<li><a href="/shop/home/goods/products">户外服装</a></li>
+														<li><a href="/shop/home/goods/products">野营用品</a></li>
+														<li><a href="/shop/home/goods/products">探险用品</a></li>
+														<li><a href="/shop/home/goods/products">户外包</a></li>
+														<li><a href="/shop/home/goods/products">攀岩装备</a></li>
+														<li><a href="/shop/home/goods/products">望远镜</a></li>
+													</ul>	
+												</div>
+												<div class="h_nav">
+													<h4 class="top"><i class="icon-lifebuoy"></i>&nbsp;古董收藏</h4>
+													<ul>
+														<li><a href="/shop/home/goods/products">趣味</a></li>
+														<li><a href="/shop/home/goods/products">收藏</a></li>
+														<li><a href="/shop/home/goods/products">古董</a></li>
+														<li><a href="/shop/home/goods/products">书画</a></li>
+														<li><a href="/shop/home/goods/products">邮票</a></li>
+														<li><a href="/shop/home/goods/products">纪念</a></li>
 													</ul>	
 												</div>							
 											</div>
 											<div class="col1">
 												<div class="h_nav">
-													<h4>popular</h4>
+													<h4><i class="icon-guidedog"></i>&nbsp;宠物宝贝</h4>
 													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">men</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">login</a></li>
+														<li><a href="/shop/home/goods/products">狗狗</a></li>
+														<li><a href="/shop/home/goods/products">猫咪</a></li>
+														<li><a href="/shop/home/goods/products">小鸟</a></li>
+														<li><a href="/shop/home/goods/products">宠物用品</a></li>
+														<li><a href="/shop/home/goods/products">宠物食粮</a></li>
+														<li><a href="/shop/home/goods/products">其他</a></li>
 													</ul>	
 												</div>
-												<div class="h_nav">
-													<h4 class="top">man</h4>
-													<ul>
-														<li><a href="../goods/products.html">new arrivals</a></li>
-														<li><a href="../goods/products.html">accessories</a></li>
-														<li><a href="../goods/products.html">kids</a></li>
-														<li><a href="../goods/products.html">style videos</a></li>
-													</ul>	
-												</div>
-											<div class="col1"></div>
-											<div class="col1"></div>
-											<div class="col1"></div>
-											<div class="col1"></div>
 										</div>
 									</div>
 									</div>
 									</li>
+									
+									
 							</ul>
 
 					</div>
@@ -568,33 +507,30 @@
 			<div class="wrap">
 			<ul id="jquery-demo">
 			  <li>
-			    <a href="#slide1">
-			      <img src="<?php echo IMG_URL; ?>slide-1.jpg" alt="" />
+			    <a target="_blank" href="http://www.taobao.com/market/2015dacu/game-hc.php?spm=2007.1000261.638273021.2.YKzMWW">
+			      <img style="width:800px;height:400px; margin:50px 0 50px 0" src="<?php echo IMG_URL; ?>cheap.png" alt="" />
 			    </a>
 			    <div class="slider-detils">
-			    	<h3>MENS FOOT BALL <label>BOOTS</label></h3>
-			    	<span>Stay true to your team all day, every day, game day.</span>
-			    	<a class="slide-btn" href="details.html"> Shop Now</a>
+			    	<a class="slide-btn" href="/shop/home/goods/release" ><span>处理闲置<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
+			   		<a class="slide-btn" href="/shop/home/goods/details" ><span>发布信息<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
 			    </div>
 			  </li>
 			  <li>
-			    <a href="#slide2">
-			      <img src="<?php echo IMG_URL; ?>slide-4.jpg"  alt="" />
+			    <a target="_blank" href="http://sz.58.com/pingguo.shtml">
+			      <img style="width:800px;height:400px; margin:50px 0 50px 0" src="<?php echo IMG_URL; ?>apple.png"  alt="" />
 			    </a>
 			     <div class="slider-detils">
-			    	<h3>MENS FOOT BALL <label>BOOTS</label></h3>
-			    	<span>Stay true to your team all day, every day, game day.</span>
-			    	<a class="slide-btn" href="details.html"> Shop Now</a>
+			    	<a class="slide-btn" href="/shop/home/goods/release" ><span>处理闲置<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
+			   		<a class="slide-btn" href="/shop/home/goods/details" ><span>发布信息<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
 			    </div>
 			  </li>
 			  <li>
-			    <a href="#slide3">
-			      <img src="<?php echo IMG_URL; ?>slide-1.jpg" alt="" />
+			    <a target="_blank" href="http://hi.taobao.com/market/hi/detail2014.php?spm=2007.1000261.638273021.3.YKzMWW&id=11914">
+			      <img style="width:800px;height:400px; margin:50px 0 50px 0"  src="<?php echo IMG_URL; ?>baby.png" alt="" />
 			    </a>
 			     <div class="slider-detils">
-			    	<h3>MENS FOOT BALL <label>BOOTS</label></h3>
-			    	<span>Stay true to your team all day, every day, game day.</span>
-			    	<a class="slide-btn" href="details.html"> Shop Now</a>
+			    	<a class="slide-btn" href="/shop/home/goods/release" ><span>处理闲置<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
+			   		<a class="slide-btn" href="/shop/home/goods/details" ><span>发布信息<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
 			    </div>
 			  </li>
 			</ul>
@@ -605,7 +541,6 @@
 		<!----start-price-rage--->
 		<div class="wrap">
 			<div class="price-rage">
-				<h3>Weekly selection:</h3>
 				<div id="slider-range">
 				</div>
 			</div>

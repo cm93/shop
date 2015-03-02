@@ -17,7 +17,7 @@ class UserController extends Controller{
     }
     public function logout(){
         session('username',null);
-        $this->display('/shop/index.php');
+        $this->display('index/index');
     }
     public function verifyIMG(){
         $config=array(

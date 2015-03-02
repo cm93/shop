@@ -108,56 +108,25 @@
 					</div>
 				</div>
 <script type="text/javascript">
-var json = [
-	{"name":"衣服" , "id" : "1" , "pid" : 0},
-	{"name":"裤子" , "id" : "2" , "pid" : 0},
-	{"name":"鞋子" , "id" : "3" , "pid" : 0},
-	
-	{"name":"衬衣" , "id" : "4" , "pid" : 1},
-	{"name":"毛衣" , "id" : "5" , "pid" : 1},
-	{"name":"内衣" , "id" : "6" , "pid" : 1},
-	
-	{"name":"大" , "id" : "10" , "pid" : 6},
-	{"name":"大" , "id" : "11" , "pid" : 7},
-	{"name":"大" , "id" : "7" , "pid" : 4},
-	{"name":"中" , "id" : "8" , "pid" : 4},
-	{"name":"小" , "id" : "9" , "pid" : 4}
-];
-treeRoot : document.getElementById("classifyTree"),//dom树根
-btn : document.getElementById("cid1"),
-btnText : document.getElementById("cid1Text"),
-btnClick : document.getElementById("classifyClick"),
-json : this.json,
-rootId : 0,//一级分类ID
-//根据json建立dom树
-setDomTree : function(){
-	function creatEl(name){return document.createElement(name);}//创建标签
-	var ul = creatEl("ul");
-	//先建立根节点
-	for(var i=0;i<this.json.length;i++){
-		if(this.json[i].pid==this.rootId){
-			var li =  creatEl("li");
-			var span = creatEl("span");
-			span.alt = this.json[i].id;
-			span.innerHTML = this.json[i].name;
-			li.appendChild(span);
-			ul.appendChild(li);
-			this.json.splice(i,1);//已经载入页面删除当前数组		
-			i--;//数组删除，下次循环继续查询当前位置
-		}
-	}													
-	this.treeRoot.appendChild(ul);
-
-	this.addNodes(this.treeRoot.getElementsByTagName("ul")[0]);//获取插入的根ul,再查询是否有子类
-}
-alert(setDomTree(json));
+	$(function(){
+		$("#all").change(function(e){
+			if ($("#all").val() == "电脑数码"){
+				$("#classlist").children().remove();
+				var shuma=["音响","电脑附件","显示器"];
+				for(var i=0;i<shuma.length;i++){
+					$("#classlist").append("<option value='"+shuma[i]+"'>"+shuma[i]+"</option>")
+				}
+			}
+			
+		})
+	})
 </script>
 		<div class="content login-box">
 			<div class="login-main">
 				<div class="wrap">
 					<h1>发布信息</h1>
 					<div class="register-grids">
-						<form action="./register" method="post"> 
+						<form action="./show" method="post"> 
 								<div class="register-top-grid">
 										<div>
 											<span ><label>*</label>发布规则：</span>
@@ -166,10 +135,58 @@ alert(setDomTree(json));
 											<span style="padding-left:75px;">3、没提供【实物照片】或是【虚拟物品】；</span>
 											<span style="padding-left:75px;">4、【标题】【照片】与描述内容严重不符。</span>
 										</div>
+										<div id="selecter">
+										<span ><label>*</label>选择分类：</span>
+											 <select id="all" name="all" style="margin-left:75px;height:30px;border-color:#EEE;width:150px">
+      											<option value="家用电器">家用电器</option>
+										      	<option value="电脑数码">电脑数码</option>
+										      	<option value="家居家饰">家居家饰</option>
+										      	<option value="办公用品">办公用品</option>
+										      	<option value="旅游运动">旅游运动</option>
+										      	<option value="宠物宝贝">宠物宝贝</option>
+										      	<option value="古董收藏">古董收藏</option>
+										  	</select>
+										  	<select id="classlist" name="classlist" style="margin-left:25px;height:30px;border-color:#EEE;width:150px">
+      											<option value="按摩器">按摩器</option>
+										      	<option value="压力锅">压力锅</option>
+										      	<option value="电吹风">电吹风</option>
+										      	<option value="吸尘器">吸尘器</option>
+										      	<option value="电熨斗">电熨斗</option>
+										      	<option value="太阳能/热水器">太阳能/热水器</option>
+										      	<option value="热水壶">热水壶</option>
+										      	<option value="家用搅拌机">家用搅拌机</option>
+												<option value="果蔬解毒机">果蔬解毒机</option>
+												<option value="咖啡机/壶">咖啡机/壶</option>
+												<option value="家用净水器">家用净水器</option>
+												<option value="消毒柜">消毒柜</option>
+												<option value="微波炉/电烤箱">微波炉/电烤箱</option>
+												<option value="净水器/加湿器">净水器/加湿器</option>
+												<option value="电热杯">电热杯</option>
+												<option value="豆浆机">豆浆机</option>
+												<option value="电饼铛">电饼铛</option>
+												<option value="电磁炉">电磁炉</option>
+												<option value="冰箱/冷藏柜">冰箱/冷藏柜</option>
+												<option value="电风扇">电风扇</option>
+												<option value="榨汁机/面包机">榨汁机/面包机</option>
+												<option value="电视机">电视机</option>
+												<option value="电饭煲">电饭煲</option>
+												<option value="油烟机">油烟机</option>
+										  	</select>
+										</div>
 										<div>
 											<span>手机号码<label>*</label></span>
 											<input type="text" name="phonenumber" id="phonenumber" class="required" placeholder="请输入正确的手机号码" required="required"> 
 										</div>
+										<div class="classifyBox">
+    <div id="classifyClick">
+        <input type="text" id="cid1Text"/>
+        <div class="arrowBorder">
+            <div class="downArrow"></div>
+        </div>    
+    </div>
+    <div id="classifyTree">
+    </div>  
+</div>
 										
 								</div>
 								<div class="clear"> </div>
@@ -182,28 +199,6 @@ alert(setDomTree(json));
 										<div>
 											<span>确认密码<label>*</label></span>
 											<input type="password" name="confirm" id="confirm" class="required" autocomplete="off" placeholder="再次确认你的密码" required="required">
-										</div>
-										<div>
-											<textarea class="textarea1" name="rule" style="width:99%" rows="10" readonly="readonly">⒈ 二手网服务条款
-二手网立足于商务，为客户提供全方位的服务。
-二手网的各项电子服务的所有权和运作权归二手网所有。二手网提供的服务将完全按照其发布的章程、服务条款和操作规则严格执行。会员若完全同意所有服务条款，并完成注册程序，即可成为二手网的正式会员。
-⒉ 基本条件
-二手网以自己的操作系统，通过互联网络为会员提供网络服务。为此，会员须具备以下基本条件：
-⑴　自行配备上网所需设备，包括电脑、调制解调器或其它必备上网装置。
-⑵　自行负担商家上网所需支付的与此服务有关的电话费用、网络费用。
-⒊ 服务条件
-基于二手网提供的网络服务的商业性和时效性：
-⑴　会员对其发布的信息负责，应提供详尽、真实、准确的商家资料，不得发布不真实的、有歧义的信息，绝对禁止发布误导性的、恶意的消息。
-⑵　随时更新注册资料，以符合及时、详尽、准确的要求。
-⑶　二手网向会员提供的会员帐号及密码只供会员使用。如果会员将帐号或密码丢失或被盗，应及时重新登记并重新设置密码。会员造成的帐号失密，应自行承担责任。
-⑷　会员若发现二手网发布的信息不准确或发生错误，以及其它错误行为，应及时通知本网。若问题未能及时解决，可进入本网的投诉程序。
-⑸　二手网向会员提供的商品信息之编辑、编制、传播的版权和知识产权，全部由二手网拥有；未经二手网事先以书面表示同意，任何人不得以各种形式复制、散布、出售、出版、广播、转播该商品信息。
-⑹　二手网如发现会员提供的资料包含有不正确的信息，将发出警告，并保留停止或终止其会员资格的权利。
-⑺　会员如违反本协议而造成二手网的经济损失，本网有权追究其经济责任与法律责任。
-⒋ 会员权利与义务
-会员的所有行为必须符合国家法律的规定。请仔细阅读“交易须知”中的有关条款，如违反国家法律规定和本协议，出现任何纠纷及不良结果，将由行为人独立承担所有责任。
-会员可随时对二手网的服务提出批评、建议。
-</textarea>
 										</div>
 								</div>
 								<div class="clear"> </div>

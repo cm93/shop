@@ -11,5 +11,8 @@ class GoodsController extends Controller {
     public function products(){
         $this->details();
     }
+    public function show(){
+        var_dump($_POST);
+    }
    
 }
