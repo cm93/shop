@@ -9,11 +9,11 @@
 <body>
 <div class="topbar">
 <div class="topbarnav">
-<div class="bar-right"><a href=""> <?php print_r(session('username'));?></a>&nbsp;&nbsp;用户中心&nbsp;&nbsp;|&nbsp;<a href="/Login?Action=Logout">退出</a>&nbsp;</div>
+<div class="bar-right"><a href=""> <?php print_r(session('username'));?></a>&nbsp;&nbsp;用户中心&nbsp;&nbsp;|&nbsp;<a href="/shop/home/user/logout">退出</a>&nbsp;</div>
 </div></div>
 <div class="head"><div class="head-left">
 <a href="/" target="_blank" class="logo"><img src="http://www.qqershou.com/Member/images/logo.png" alt=全球二手网></a><span>用户中心</span></div>
-<a class="ask-price fr" href="/Member/User_ClassADD?Action=Add" title="发布信息" target="_blank">发布信息</a><a class="ask-xianzhi fr" href="/Product/Post" title="处理闲置" target="_blank">处理闲置</a>
+<a class="ask-price fr" href="/Member/User_ClassADD?Action=Add" title="发布信息" target="_blank">发布信息</a><a class="ask-xianzhi fr" href="#" title="处理闲置" target="_blank">处理闲置</a>
 <div class="ali-search fr">
 <form action="/Search/Search" name="searchform" method="POST" target="_blank">
 <input name="City" type=hidden value=0>
@@ -22,13 +22,13 @@
 <button type="submit" id="alisearch-submit" class="">搜 索</button></form>
 </div></div>
 <div class="memnav"><div class="module"><ul>
-<span style="float:right; font-size:12px; width:140px;color:#FFFFFF"><a href="/home/help.Html" style="color:#FFFFFF" target=_blank>帮助中心</a> | <a style="color:#FFFFFF" href="/VIP/" target=_blank>我要推广</a></span>
-<li id="h"><a href="/" target="_blank">网站首页</a></li>
-<li id="h_index" class="active"><a href="/Member/">用户中心</a></li>
-<li id="h_account" class="noactive"><a href="/Member/User_EditInfo">我的账户</a></li>
-<li id="h_security" class="noactive"><a href="/Member/User_RZ">安全中心</a></li>
-<li id="h_e" class="noactive"><a href="/Member/User_Yi?Action=jingjia">我的推广</a></li>
-<li class="noactive"><a href="/VIP/">申请VIP</a></li>
+<span style="float:right; font-size:12px; width:140px;color:#FFFFFF"><a href="#" style="color:#FFFFFF" >帮助中心</a> | <a style="color:#FFFFFF" href="#">我要推广</a></span>
+<li id="h"><a href="./">网站首页</a></li>
+<li id="h_index" class="active"><a href="./member">用户中心</a></li>
+<li id="h_account" class="noactive"><a href="./user">我的账户</a></li>
+<li id="h_security" class="noactive"><a href="#">安全中心</a></li>
+<li id="h_e" class="noactive"><a href="#">我的推广</a></li>
+<li class="noactive"><a href="#">申请VIP</a></li>
 </ul></div></div>
 <DIV class="body-wrap">
 <div class="left-wrap">
@@ -48,15 +48,31 @@
 <B>&nbsp;闲置物品</B>
 </DIV>
 <DIV class=c></DIV>
+ <script language="javascript">
+    function delcfm() {
+        if (!confirm("确认要删除？")) {
+            window.event.returnValue = false;
+        }
+    }
+</script>
 <TABLE class=basetb cellSpacing=0 cellPadding=0 width='100%'>
 <TBODY>
-<TR id=tablehead>
-<TH width=78>图片</TH>
-<TH >名称 </TH>
-<TH width=140>发布时间 </TH>
-<TH width=110>状态 </TH>
-<TH width=100>推广 </TH>
-<TH width=110>操作 </TH></TR>
+
+	<TR id=tablehead>
+	<TH width=178>图片</TH>
+	<TH >名称 </TH>
+	<TH width=140>发布时间 </TH>
+	<TH width=110>状态 </TH>
+	<TH width=110>操作 </TH></TR>
+	<?php foreach ($data as $key => $value) { ?>
+	<TR class="product">
+		<TH width=178><img style="width:178px;height:150px" src="<?php echo explode(" ", $value[12])[0]; ?>" title="product-name" /></TH>
+	<TH > <a href="/shop/home/goods/details?id=<?php echo $value[0]; ?>"><?php echo $value[1]; ?></a></TH>
+	<TH width=140><?php echo $value[16]; ?></TH>
+	<TH width=110>状态:发布</TH>
+	<TH width=110>操作:&nbsp;<a href="/shop/home/index/user_product?del=<?php echo $value[0]; ?>" onclick="delcfm()">删除</a>&nbsp;&nbsp;&nbsp;<a href="/shop/home/goods/updata?id=<?php echo $value[0];?>">修改</a></TH>
+	</TR>
+	<?php } ?>
 </TBODY></TABLE>
 <table width=100% border=0 cellspacing=0 cellpadding=0>
 <tr>

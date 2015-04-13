@@ -10,7 +10,59 @@
  */
 
 // t: current time, b: begInnIng value, c: change In value, d: duration
+$(function(){
+	$(".color2").attr("href","/shop/home/goods/products?class=a");
+	$(".color4").attr("href","/shop/home/goods/products?class=b");
+	$(".color5").attr("href","/shop/home/goods/products?class=c");
+	$(".color6").attr("href","/shop/home/goods/products?class=d");
+	$(".color7").attr("href","/shop/home/goods/products?class=e");
+	$(".color8").attr("href","/shop/home/goods/products?class=f");
+	$(".h_nav ul li a").click(function(){
+		$(this).attr("href","/shop/home/goods/products?class="+$(this).html())
+	})
 
+									    var $cart = $('#cart');
+									        $('#clickme').click(function(e) {
+									         e.stopPropagation();
+									       if ($cart.is(":hidden")) {
+									           $cart.slideDown("slow");
+									       } 
+										del();
+
+									    });
+									        $cart.mouseleave(function(e){
+									        	$cart.slideUp("slow");
+									        })
+
+	$.get("/shop/home/goods/showcart", function(data){
+												
+												if(data.length != 0){
+													    	$("#cart").empty();
+				    	for (var i=0;i<data.length;i++)
+{
+	var imformation = '<div class="goods" style="margin-bottom:10px;"><img src="'+data[i][1]+'" style="width:66px;height:66px;"><a href="http://localhost/shop/home/goods/details?id='+data[i][6]+'" style="color:white;position:absolute;padding-left:10px;">'+data[i][2]+'</a><span class="deletegoods"  style="padding-left:10px;"><a id="del"  name="'+data[i][0]+'">删除</a><span style="margin-left:90px;">¥'+data[i][3]+'</span></span></div>'
+	$("#cart").append(imformation);
+}
+$("#cart").append('<a href="#"><button type="button" class="btnn" style="background-color:gray;width:250px">去结账</button></a>')
+}
+cartlen();
+										});
+	function cartlen(){
+		len = $(".goods").length;
+		$("#clickme").append('<strong id="Num" style="display: block;position: absolute;left: 15px;padding: 0 4px;min-width: 8px;height: 16px;line-height: 14px;text-align: center;color: #fff;font-size: 11px;font-weight: 400;background: #F40;border-radius: 8px;">'+len+'</strong>');
+		if(len == 0){
+			$("#cart").empty().append("你的购物车是空的")
+		}
+	}
+	function del(){
+		$("#del").click(function(){
+												$.get("/shop/home/goods/delcart?id="+$(this).attr("name"));
+												$(this).parent().parent().remove();
+												$("#Num").remove();
+												cartlen();
+										});
+	}
+})
 jQuery.extend( jQuery.easing,
 {
 	easeInQuad: function (x, t, b, c, d) {

@@ -3,6 +3,7 @@
 <html>
 	<head>
 		<title>二手网</title>
+		<link href="<?php echo CSS_URL; ?>pagination.css" rel='stylesheet' type='text/css' />
 		<link href="<?php echo CSS_URL; ?>css/fontello.css" rel='stylesheet' type='text/css' />
 		<link href="<?php echo CSS_URL; ?>input.css" rel='stylesheet' type='text/css' />
 		<link href="<?php echo CSS_URL; ?>style.css" rel='stylesheet' type='text/css' />
@@ -65,24 +66,6 @@
 						<div class="top-header-left">
 							<ul>
 								<!---cart-tonggle-script---->
-								<script type="text/javascript">
-									$(function(){
-									    var $cart = $('#cart');
-									        $('#clickme').click(function(e) {
-									         e.stopPropagation();
-									       if ($cart.is(":hidden")) {
-									           $cart.slideDown("slow");
-									       } else {
-									           $cart.slideUp("slow");
-									       }
-									    });
-									    $(document.body).click(function () {
-									       if ($cart.not(":hidden")) {
-									           $cart.slideUp("slow");
-									       } 
-									    });
-									    });
-								</script>
 								<!---//cart-tonggle-script---->
 								<li><a class="cart" href="#"><span id="clickme"> </span></a></li>
 								<!---start-cart-bag---->
@@ -91,7 +74,7 @@
 								<li><a class="info" href="#"><span> </span></a></li>
 							</ul>
 						</div>
-						<div class="top-header-center" style="width:1000px">
+						<div class="top-header-center" style="width:750px">
 							<div class="top-header-center-alert-left">
 								<h3>FREE DELIVERY</h3>
 							</div>
@@ -128,8 +111,8 @@
 				<div class="mid-header">
 					<div class="wrap">
 						<div class="mid-grid-left" style="padding-top:50px;">
-							<form method="post" action="#">
-								<input type="search" placeholder="请输入搜素文字" />	
+							<form id="search" method="post"  action="/shop/home/goods/products">
+								<input id="sear" name="search"  type="search" value="<?php echo $_POST['search']; ?>" valplaceholder="请输入搜素文字" />	
 							</form>
 						</div>
 						<div class="mid-grid-right">
@@ -486,70 +469,82 @@
 				<!----//End-bottom-header---->
 			<!---//End-header---->
 		<!----start-image-slider---->
+		<script type="text/javascript">
+		$(function(){
+
+		var color2=["家用电器","按摩器","压力锅","电吹风","吸尘器","电熨斗","太阳能/热水器","热水壶","家用搅拌机","果蔬解毒机","咖啡机/壶","家用净水器","消毒柜","微波炉/电烤箱","净水器/加湿器","电热杯","豆浆机","电饼铛","电磁炉","冰箱/冷藏柜","电风扇","榨汁机/面包机","电视机","电饭煲","油烟机"];
+	var color4=["电脑数码","音响","电脑附件","显示器","耳机","单片机","内存条","录音笔","小灵通","固定电话","数据线","手写笔","充电器","麦克风","学习机","移动硬盘","摄像头","U盘/内存卡","手机","MP3/MP4/MP5","照相机","打印机","复印机","台式电脑","笔记本"];
+	var color5=["汽车装饰","汽车配件","二手车","二手摩托车","牵引车","半挂车","电动车/自行车","内饰","外饰","GPS","保养","视听","其他"];
+	var color6=["家居家饰","灯具","梳妆用品","沐浴用品","棋牌麻将","厨房用品","家纺","充气床","鞋柜","吧台","床头柜","视听柜","休闲桌","衣架/日用","沙发/座椅","电脑桌","床","茶具","梳妆台/首饰架","餐桌","窗帘/珠帘","清洁用品","手电筒","床垫","其他"];
+	var color7=["办公用品","设备耗材","办公电器","文件夹册","办公家具","商务用品","日用/劳保","装订用品","测绘用品","修正辅助","资料管理","桌面用品","记事本/簿","财务用品","办公用笔","办公用纸","办公数码","办公设备","办公软件"];
+	var color8=["其他分类","户外服装","野营用品","探险用品","户外包","攀岩装备","望远镜","趣味","收藏","古董","书画","邮票","纪念","狗狗","猫咪","小鸟","宠物用品","宠物食粮","其他"];
+	
+			var get ="<?php echo $_GET['class']; ?>";
+			var obj = {a:color2,b:color4,c:color5,d:color6,e:color7,f:color8};
+			if(get.length == "1"){
+				$("#sort").append(obj.<?php echo $_GET['class']; ?>[0]);
+				for(i=1;i<obj.<?php echo $_GET['class']; ?>.length;i++){
+					var a ='<li><a class="category" href="">'+obj.<?php echo $_GET['class']; ?>[i]+'</a></li>';
+					$("#products").append(a);
+				}
+			}else{
+				for(var p in obj){
+					if(obj[p].indexOf(get) != -1){
+						$("#sort").append(obj[p][0]+"::<span style='color:#E45D5D'>"+get+"</span>");
+						for(i=1;i<obj[p].length;i++){
+								if(i == obj[p].indexOf(get)){
+									var a ='<li><a class="category" style="color:#E45D5D" href="">'+obj[p][i]+'</a></li>';
+								$("#products").append(a);
+								}else{
+									var a ='<li><a class="category" href="">'+obj[p][i]+'</a></li>';
+								$("#products").append(a);
+								}
+						}
+					}
+				}
+				
+			}
+			$(".category").click(function(){
+		$(this).attr("href","/shop/home/goods/products?class="+$(this).html())
+	})
+	$("#<?php echo $_GET['price']; ?>").css("color","#E45D5D");
+});
+		</script>
+		<script type="text/javascript">
+		$(function(){
+			var get ="<?php echo $_GET['class']; ?>";
+			if(get.length == 0){
+				$(".product-box-head").remove();
+				$(".content-left").remove();
+				$(".product-grids").css("margin-top","50px");
+				totle = "共搜索到<?php echo $totle; ?>件商品";
+				$("#totle").append(totle);
+			}
+		})
+		</script>
 		<div class="content product-box-main">
 			<div class="wrap">
 				<div class="content-left">
 					<div class="content-left-top-brands">
-						<h3>Categories</h3>
-						<ul>
-							<li><a href="#">ALL</a></li>
-							<li><a href="#">WOMEN</a></li>
-							<li><a href="#">NEW ARRIVALS</a></li>
-							<li><a href="#">TRENDS</a></li>
-							<li><a href="#">BOYS</a></li>
-							<li><a href="#">GIRLS</a></li>
-							<li><a href="#">SALE</a></li>
+						<h3 style="width:200px" id="sort"></h3>
+						<ul id="products">
 						</ul>
 					</div>
-						<div class="content-left-top-grid">
-							<div class="content-left-price-selection content-left-top-brands-prices">
-								<h4>Select Price:</h4>
-								<div class="price-selection-tree">
-									<span class="col_checkbox">
-										<input id="10" class="css-checkbox10" type="checkbox">
-										<label class="normal"><i for="10" name="demo_lbl_10"  class="css-label10"> </i> 400</label>
-									</span>
-									<span class="col_checkbox">
-										<input id="11" class="css-checkbox11" type="checkbox">
-										<label class="active1"><i for="11" name="demo_lbl_11"  class="css-label11"> </i>350</label>
-									</span>
-									<span class="col_checkbox">
-										<input id="12" class="css-checkbox12" type="checkbox">
-										<label class="normal"><i for="12" name="demo_lbl_12"  class="css-label12"> </i> 300</label>
-									</span>
-									<span class="col_checkbox">
-										<input id="13" class="css-checkbox13" type="checkbox">
-										<label class="normal"><i for="13" name="demo_lbl_13"  class="css-label13"> </i>250</label>
-									</span>
-									<span class="col_checkbox">
-										<input id="14" class="css-checkbox14" type="checkbox">
-										<label class="normal"><i for="14" name="demo_lbl_14"  class="css-label14"> </i> 200</label>
-									</span>
-									<span class="col_checkbox">
-										<input id="15" class="css-checkbox15" type="checkbox">
-										<label class="normal"><i for="15" name="demo_lbl_15"  class="css-label15"> </i>150</label>
-									</span>
-								</div>
-								
-						</div>
-						</div>
+						
 				</div>
 				<div class="content-right product-box">
 					<div class="product-box-head">
 							<div class="product-box-head-left">
-								<h3>Products <span>(500)</span></h3>
 							</div>
 							<div class="product-box-head-right">
 								<ul>
-									<li><span>Sort ::</span><a href="#"> </a></li>
-									<li><label> </label> <a href="#"> Popular</a></li>
-									<li><label> </label> <a href="#"> New</a></li>
-									<li><label> </label> <a href="#"> Discount</a></li>
-									<li><span>Price ::</span><a href="#">Low High</a></li>
+									<li><a id="asc" href="/shop/products?class=<?php echo $_GET['class']; ?>&price=asc">价格从低到高</a></li>
+									<li><a id="desc" href="/shop/products?class=<?php echo $_GET['class']; ?>&price=desc">价格从高到低</a></li>
 								</ul>
 							</div>
 							<div class="clear"> </div>
 					</div>
+					<div id="totle" style="color:red"></div>
 					<div class="product-grids">
 						<!--- start-rate---->
 							<script src="<?php echo JS_URL; ?>jstarbox.js"></script>
@@ -576,7 +571,13 @@
 								});
 							</script>
 							<!---//End-rate---->
-						<div class="product-grid fade" onclick="location.href='details.html';">
+						<?php foreach ($goods as $key => $value) {?>
+							
+						<div onClick="location.href='<?php if(!session('username')){echo '/shop/home/user/login';}else{echo '/shop/home/goods/details?id='.$value[0];}?>';" <?php if($key == 2 || $key== 5 || $key ==8){
+							echo 'class="product-grid fade last-grid"';
+							}else{
+								echo 'class="product-grid fade"';
+								} ?>>
 							<div class="product-grid-head">
 								<ul class="grid-social">
 									<li><a class="facebook" href="#"><span> </span></a></li>
@@ -585,22 +586,21 @@
 									<div class="clear"> </div>
 								</ul>
 								<div class="block">
-									<div class="starbox small ghosting"> </div> <span> (46)</span>
+									<div class="starbox small ghosting"> </div> <span> (0)</span>
 								</div>
 							</div>
 							<div class="product-pic">
-								<a href="#"><img src="<?php echo IMG_URL; ?>product2.jpg" title="product-name" /></a>
+								<a href="#"><img style="width:240px;height:150px" src="<?php echo explode(" ", $value[12])[0]; ?>" title="product-name" /></a>
 								<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
-								<span>Men's Firm-Ground Football Boot</span>
+								<a href="#" style="margin-top:5px;height:30px;" ><?php echo str_replace($search,"<font color='red'>".$search."</font>",$value[1]); ?></a>
 								</p>
 							</div>
 							<div class="product-info">
 								<div class="product-info-cust">
-									<a href="details.html">Details</a>
+									<a href="details.html">详细信息</a>
 								</div>
 								<div class="product-info-price">
-									<a href="details.html">&#163; 380</a>
+									<a href="details.html">￥ <?php echo  $value[8] ?></a>
 								</div>
 								<div class="clear"> </div>
 							</div>
@@ -608,268 +608,12 @@
 								<span> </span>
 							</div>
 						</div>
-						<div class="product-grid fade" onclick="location.href='details.html';">
-							<div class="product-grid-head">
-								<ul class="grid-social">
-									<li><a class="facebook" href="#"><span> </span></a></li>
-									<li><a class="twitter" href="#"><span> </span></a></li>
-									<li><a class="googlep" href="#"><span> </span></a></li>
-									<div class="clear"> </div>
-								</ul>
-								<div class="block">
-									<div class="starbox small ghosting"> </div> <span> (46)</span>
-								</div>
-							</div>
-							<div class="product-pic">
-								<a href="#"><img src="<?php echo IMG_URL; ?>product1.jpg" title="product-name" /></a>
-								<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
-								<span>Men's Firm-Ground Football Boot</span>
-								</p>
-							</div>
-							<div class="product-info">
-								<div class="product-info-cust">
-									<a href="details.html">Details</a>
-								</div>
-								<div class="product-info-price">
-									<a href="details.html">&#163; 375</a>
-								</div>
-								<div class="clear"> </div>
-							</div>
-							<div class="more-product-info">
-								<span> </span>
-							</div>
-						</div>
-						<div class="product-grid fade last-grid" onclick="location.href='details.html';">
-							<div class="product-grid-head">
-								<ul class="grid-social">
-									<li><a class="facebook" href="#"><span> </span></a></li>
-									<li><a class="twitter" href="#"><span> </span></a></li>
-									<li><a class="googlep" href="#"><span> </span></a></li>
-									<div class="clear"> </div>
-								</ul>
-								<div class="block">
-									<div class="starbox small ghosting"> </div> <span> (46)</span>
-								</div>
-							</div>
-							<div class="product-pic">
-								<a href="#"><img src="<?php echo IMG_URL; ?>product3.jpg" title="product-name" /></a>
-								<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
-								<span>Men's Firm-Ground Football Boot</span>
-								</p>
-							</div>
-							<div class="product-info">
-								<div class="product-info-cust">
-									<a href="details.html">Details</a>
-								</div>
-								<div class="product-info-price">
-									<a href="details.html">&#163; 350</a>
-								</div>
-								<div class="clear"> </div>
-							</div>
-							<div class="more-product-info">
-								<span> </span>
-							</div>
-						</div>
-						<div class="product-grid fade" onclick="location.href='details.html';">
-							<div class="product-grid-head">
-								<ul class="grid-social">
-									<li><a class="facebook" href="#"><span> </span></a></li>
-									<li><a class="twitter" href="#"><span> </span></a></li>
-									<li><a class="googlep" href="#"><span> </span></a></li>
-									<div class="clear"> </div>
-								</ul>
-								<div class="block">
-									<div class="starbox small ghosting"> </div> <span> (46)</span>
-								</div>
-							</div>
-							<div class="product-pic">
-								<a href="#"><img src="<?php echo IMG_URL; ?>product4.jpg" title="product-name" /></a>
-								<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
-								<span>Men's Firm-Ground Football Boot</span>
-								</p>
-							</div>
-							<div class="product-info">
-								<div class="product-info-cust">
-									<a href="details.html">Details</a>
-								</div>
-								<div class="product-info-price">
-									<a href="details.html">&#163; 370</a>
-								</div>
-								<div class="clear"> </div>
-							</div>
-							<div class="more-product-info">
-								<span> </span>
-							</div>
-						</div>
-						<div class="product-grid fade" onclick="location.href='details.html';">
-							<div class="product-grid-head">
-								<ul class="grid-social">
-									<li><a class="facebook" href="#"><span> </span></a></li>
-									<li><a class="twitter" href="#"><span> </span></a></li>
-									<li><a class="googlep" href="#"><span> </span></a></li>
-									<div class="clear"> </div>
-								</ul>
-								<div class="block">
-									<div class="starbox small ghosting"> </div> <span> (46)</span>
-								</div>
-							</div>
-							<div class="product-pic">
-								<a href="#"><img src="<?php echo IMG_URL; ?>product5.jpg" title="product-name" /></a>
-								<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
-								<span>Men's Firm-Ground Football Boot</span>
-								</p>
-							</div>
-							<div class="product-info">
-								<div class="product-info-cust">
-									<a href="details.html">Details</a>
-								</div>
-								<div class="product-info-price">
-									<a href="details.html">&#163; 355</a>
-								</div>
-								<div class="clear"> </div>
-							</div>
-							<div class="more-product-info">
-								<span> </span>
-							</div>
-						</div>
-						<div class="product-grid fade last-grid" onclick="location.href='details.html';">
-							<div class="product-grid-head">
-								<ul class="grid-social">
-									<li><a class="facebook" href="#"><span> </span></a></li>
-									<li><a class="twitter" href="#"><span> </span></a></li>
-									<li><a class="googlep" href="#"><span> </span></a></li>
-									<div class="clear"> </div>
-								</ul>
-								<div class="block">
-									<div class="starbox small ghosting"> </div> <span> (46)</span>
-								</div>
-							</div>
-							<div class="product-pic">
-								<a href="#"><img src="<?php echo IMG_URL; ?>product6.jpg" title="product-name" /></a>
-								<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
-								<span>Men's Firm-Ground Football Boot</span>
-								</p>
-							</div>
-							<div class="product-info">
-								<div class="product-info-cust">
-									<a href="details.html">Details</a>
-								</div>
-								<div class="product-info-price">
-									<a href="details.html">&#163; 390</a>
-								</div>
-								<div class="clear"> </div>
-							</div>
-							<div class="more-product-info">
-								<span> </span>
-							</div>
-						</div>
-						<div class="product-grid fade" onclick="location.href='details.html';">
-							<div class="product-grid-head">
-								<ul class="grid-social">
-									<li><a class="facebook" href="#"><span> </span></a></li>
-									<li><a class="twitter" href="#"><span> </span></a></li>
-									<li><a class="googlep" href="#"><span> </span></a></li>
-									<div class="clear"> </div>
-								</ul>
-								<div class="block">
-									<div class="starbox small ghosting"> </div> <span> (46)</span>
-								</div>
-							</div>
-							<div class="product-pic">
-								<a href="#"><img src="<?php echo IMG_URL; ?>product4.jpg" title="product-name" /></a>
-								<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
-								<span>Men's Firm-Ground Football Boot</span>
-								</p>
-							</div>
-							<div class="product-info">
-								<div class="product-info-cust">
-									<a href="details.html">Details</a>
-								</div>
-								<div class="product-info-price">
-									<a href="details.html">&#163; 370</a>
-								</div>
-								<div class="clear"> </div>
-							</div>
-							<div class="more-product-info">
-								<span> </span>
-							</div>
-						</div>
-						<div class="product-grid fade" onclick="location.href='details.html';">
-							<div class="product-grid-head">
-								<ul class="grid-social">
-									<li><a class="facebook" href="#"><span> </span></a></li>
-									<li><a class="twitter" href="#"><span> </span></a></li>
-									<li><a class="googlep" href="#"><span> </span></a></li>
-									<div class="clear"> </div>
-								</ul>
-								<div class="block">
-									<div class="starbox small ghosting"> </div> <span> (46)</span>
-								</div>
-							</div>
-							<div class="product-pic">
-								<a href="#"><img src="<?php echo IMG_URL; ?>product5.jpg" title="product-name" /></a>
-								<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
-								<span>Men's Firm-Ground Football Boot</span>
-								</p>
-							</div>
-							<div class="product-info">
-								<div class="product-info-cust">
-									<a href="details.html">Details</a>
-								</div>
-								<div class="product-info-price">
-									<a href="details.html">&#163; 355</a>
-								</div>
-								<div class="clear"> </div>
-							</div>
-							<div class="more-product-info">
-								<span> </span>
-							</div>
-						</div>
-						<div class="product-grid fade last-grid"  onclick="location.href='details.html';">
-							<div class="product-grid-head">
-								<ul class="grid-social">
-									<li><a class="facebook" href="#"><span> </span></a></li>
-									<li><a class="twitter" href="#"><span> </span></a></li>
-									<li><a class="googlep" href="#"><span> </span></a></li>
-									<div class="clear"> </div>
-								</ul>
-								<div class="block">
-									<div class="starbox small ghosting"> </div> <span> (46)</span>
-								</div>
-							</div>
-							<div class="product-pic">
-								<a href="#"><img src="<?php echo IMG_URL; ?>product6.jpg" title="product-name" /></a>
-								<p>
-								<a href="#"><small>Nike</small> HYPERVENOM <small>Phantom</small> FG</a>
-								<span>Men's Firm-Ground Football Boot</span>
-								</p>
-							</div>
-							<div class="product-info">
-								<div class="product-info-cust">
-									<a href="details.html">Details</a>
-								</div>
-								<div class="product-info-price">
-									<a href="details.html">&#163; 390</a>
-								</div>
-								<div class="clear"> </div>
-							</div>
-							<div class="more-product-info">
-								<span> </span>
-							</div>
-						</div>
+						<?php } ?>
+						
 						<div class="clear"> </div>
 					</div>
 					<!----start-load-more-products---->
-					<div class="loadmore-products">
-						<a href="#">Loadmore</a>
-					</div>
+					<div class="pagination pagination-large">{$page}</div>
 					<!----//End-load-more-products---->
 				</div>
 				<div class="clear"> </div>

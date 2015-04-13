@@ -75,7 +75,7 @@
 								<li><a class="info" href="#"><span> </span></a></li>
 							</ul>
 						</div>
-						<div class="top-header-center">
+						<div class="top-header-center" width:750px>
 							<div class="top-header-center-alert-left">
 								<h3>FREE DELIVERY</h3>
 							</div>

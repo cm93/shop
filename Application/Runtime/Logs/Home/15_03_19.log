@@ -1,0 +1,210 @@
+[ 2015-03-19T10:29:33+08:00 ] 127.0.0.1 /shop/home/user/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 39 行.
+
+[ 2015-03-19T10:29:33+08:00 ] 127.0.0.1 /shop/home/user/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 39 行.
+
+[ 2015-03-19T10:29:34+08:00 ] 127.0.0.1 /shop/home/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.user [ RunTime:0.036002s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 14 行.
+
+[ 2015-03-19T17:05:55+08:00 ] 127.0.0.1 /shop/home/user/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 39 行.
+
+[ 2015-03-19T17:05:55+08:00 ] 127.0.0.1 /shop/home/user/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 39 行.
+
+[ 2015-03-19T17:05:55+08:00 ] 127.0.0.1 /shop/home/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.user [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 14 行.
+
+[ 2015-03-19T17:46:51+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T17:46:51+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.min.js
+ERR: 非法操作:umeditor.min.js
+
+[ 2015-03-19T17:46:51+08:00 ] 127.0.0.1 /shop/home/goods/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2015-03-19T17:46:51+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.config.js
+ERR: 非法操作:umeditor.config.js
+
+[ 2015-03-19T17:46:51+08:00 ] 127.0.0.1 /shop/home/goods/third-party/jquery.min.js
+ERR: 非法操作:third-party
+
+[ 2015-03-19T17:46:56+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T17:47:26+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T17:47:59+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.config.js
+ERR: 非法操作:umeditor.config.js
+
+[ 2015-03-19T17:47:59+08:00 ] 127.0.0.1 /shop/home/goods/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2015-03-19T17:47:59+08:00 ] 127.0.0.1 /shop/home/goods/third-party/jquery.min.js
+ERR: 非法操作:third-party
+
+[ 2015-03-19T17:47:59+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.min.js
+ERR: 非法操作:umeditor.min.js
+
+[ 2015-03-19T17:48:13+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T17:48:13+08:00 ] 127.0.0.1 /shop/home/goods/third-party/jquery.min.js
+ERR: 非法操作:third-party
+
+[ 2015-03-19T17:48:13+08:00 ] 127.0.0.1 /shop/home/goods/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2015-03-19T17:48:13+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.config.js
+ERR: 非法操作:umeditor.config.js
+
+[ 2015-03-19T17:48:13+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.min.js
+ERR: 非法操作:umeditor.min.js
+
+[ 2015-03-19T17:48:14+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T17:48:14+08:00 ] 127.0.0.1 /shop/home/goods/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2015-03-19T17:48:14+08:00 ] 127.0.0.1 /shop/home/goods/third-party/jquery.min.js
+ERR: 非法操作:third-party
+
+[ 2015-03-19T17:48:14+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.min.js
+ERR: 非法操作:umeditor.min.js
+
+[ 2015-03-19T17:48:14+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.config.js
+ERR: 非法操作:umeditor.config.js
+
+[ 2015-03-19T17:48:15+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.config.js
+ERR: 非法操作:umeditor.config.js
+
+[ 2015-03-19T17:48:15+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.min.js
+ERR: 非法操作:umeditor.min.js
+
+[ 2015-03-19T17:48:15+08:00 ] 127.0.0.1 /shop/home/goods/third-party/jquery.min.js
+ERR: 非法操作:third-party
+
+[ 2015-03-19T17:48:15+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T17:48:15+08:00 ] 127.0.0.1 /shop/home/goods/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2015-03-19T17:48:17+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T17:48:25+08:00 ] 127.0.0.1 /shop/home/goods/third-party/jquery.min.js
+ERR: 非法操作:third-party
+
+[ 2015-03-19T17:48:25+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T17:48:25+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.min.js
+ERR: 非法操作:umeditor.min.js
+
+[ 2015-03-19T17:48:25+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.config.js
+ERR: 非法操作:umeditor.config.js
+
+[ 2015-03-19T17:48:25+08:00 ] 127.0.0.1 /shop/home/goods/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2015-03-19T17:48:28+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T17:49:58+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T18:05:40+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T18:06:43+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 模板不存在:./Application/Home/View/Goods/themes.html
+
+[ 2015-03-19T18:06:45+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 模板不存在:./Application/Home/View/Goods/themes.html
+
+[ 2015-03-19T18:06:52+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T18:07:18+08:00 ] 127.0.0.1 /shop/home/goods/themes/default/css/umeditor.css
+ERR: 非法操作:themes
+
+[ 2015-03-19T18:08:07+08:00 ] 127.0.0.1 /shop/home/goods/third-party/jquery.min.js
+ERR: 非法操作:third-party
+
+[ 2015-03-19T18:08:07+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.config.js
+ERR: 非法操作:umeditor.config.js
+
+[ 2015-03-19T18:08:07+08:00 ] 127.0.0.1 /shop/home/goods/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2015-03-19T18:08:07+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.min.js
+ERR: 非法操作:umeditor.min.js
+
+[ 2015-03-19T18:09:02+08:00 ] 127.0.0.1 /shop/home/goods/third-party/jquery.min.js
+ERR: 非法操作:third-party
+
+[ 2015-03-19T18:09:02+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.min.js
+ERR: 非法操作:umeditor.min.js
+
+[ 2015-03-19T18:09:02+08:00 ] 127.0.0.1 /shop/home/goods/umeditor.config.js
+ERR: 非法操作:umeditor.config.js
+
+[ 2015-03-19T18:09:02+08:00 ] 127.0.0.1 /shop/home/goods/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2015-03-19T21:42:39+08:00 ] 127.0.0.1 /shop/home/user/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 39 行.
+
+[ 2015-03-19T21:42:40+08:00 ] 127.0.0.1 /shop/home/user/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 39 行.
+
+[ 2015-03-19T21:42:41+08:00 ] 127.0.0.1 /shop/home/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.user [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 14 行.
+

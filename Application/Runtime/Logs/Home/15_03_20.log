@@ -1,0 +1,121 @@
+[ 2015-03-20T18:49:51+08:00 ] 127.0.0.1 /shop/home/user/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 39 行.
+
+[ 2015-03-20T18:49:52+08:00 ] 127.0.0.1 /shop/home/user/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 39 行.
+
+[ 2015-03-20T18:49:54+08:00 ] 127.0.0.1 /shop/home/user/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 39 行.
+
+[ 2015-03-20T18:49:54+08:00 ] 127.0.0.1 /shop/home/user/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 39 行.
+
+[ 2015-03-20T18:49:56+08:00 ] 127.0.0.1 /shop/home/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.user [ RunTime:0.019001s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 14 行.
+
+[ 2015-03-20T21:38:58+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c22ee6c4e0.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 53 行.
+ERR: 参数错误或者未定义:url
+
+[ 2015-03-20T21:39:16+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c2303078d9.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 53 行.
+ERR: 参数错误或者未定义:url
+
+[ 2015-03-20T21:41:28+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c2386c7487.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 53 行.
+ERR: 参数错误或者未定义:url
+
+[ 2015-03-20T21:45:13+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c2468558d7.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 53 行.
+ERR: 参数错误或者未定义:url
+
+[ 2015-03-20T21:45:45+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c248734b10.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 53 行.
+ERR: 参数错误或者未定义:url
+
+[ 2015-03-20T21:46:07+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c249e94431.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-20T21:46:20+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c24aae239f.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 53 行.
+ERR: 参数错误或者未定义:data
+
+[ 2015-03-20T21:51:54+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c25f88d678.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 53 行.
+ERR: 参数错误或者未定义:data
+
+[ 2015-03-20T21:52:10+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c26093a981.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 53 行.
+ERR: 参数错误或者未定义:data
+
+[ 2015-03-20T21:53:44+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c2667930ef.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 53 行.
+ERR: 参数错误或者未定义:data
+
+[ 2015-03-20T21:55:26+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c26ccc6360.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 45 行.
+ERR: 非法操作:del
+
+[ 2015-03-20T21:56:05+08:00 ] 127.0.0.1 /shop/home/goods/del?http://localhost/shop/Uploads/2015-03-20/550c26f459b14.jpg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 45 行.
+ERR: 非法操作:del
+

@@ -1,0 +1,1991 @@
+[ 2015-04-01T17:36:08+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-04-01T17:36:21+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T17:36:26+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-04-01T17:36:29+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T17:46:01+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T17:46:04+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T17:46:06+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-01T17:46:59+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T18:36:05+08:00 ] 127.0.0.1 /shop/home/goods/cart?_=1427884564182
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T18:36:39+08:00 ] 127.0.0.1 /shop/home/goods/cart?_=1427884564183
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T18:38:31+08:00 ] 127.0.0.1 /shop/home/goods/cart?_=1427884708663
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-01T18:38:33+08:00 ] 127.0.0.1 /shop/home/goods/cart?_=1427884708664
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T18:38:43+08:00 ] 127.0.0.1 /shop/home/goods/cart?_=1427884720201
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T18:38:45+08:00 ] 127.0.0.1 /shop/home/goods/cart?_=1427884720202
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T18:39:19+08:00 ] 127.0.0.1 /shop/home/goods/cart?http://localhost/shop/Uploads/2015-03-29/5517593d71536.png&_=1427884749593
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T18:45:51+08:00 ] 127.0.0.1 /shop/home/goods/cart?image=http://localhost/shop/Uploads/2015-03-29/5517593d71536.png&name=%E7%88%B1%E4%B8%8A%E5%A4%A7%E5%A3%B0&price=2&_=1427885145338
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T18:46:17+08:00 ] 127.0.0.1 /shop/home/goods/cart?image=http://localhost/shop/Uploads/2015-03-29/5517593d71536.png&name=%E7%88%B1%E4%B8%8A%E5%A4%A7%E5%A3%B0&price=2&_=1427885175807
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: data C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T18:46:20+08:00 ] 127.0.0.1 /shop/home/goods/cart?image=http://localhost/shop/Uploads/2015-03-29/5517593d71536.png&name=%E7%88%B1%E4%B8%8A%E5%A4%A7%E5%A3%B0&price=2&_=1427885175808
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 58 行.
+NOTIC: [8] Undefined variable: data C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T18:48:39+08:00 ] 127.0.0.1 /shop/home/goods/cart?image=http://localhost/shop/Uploads/2015-03-29/5517593d71536.png&name=%E7%88%B1%E4%B8%8A%E5%A4%A7%E5%A3%B0&price=2&_=1427885317161
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: data C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 56 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:48:41+08:00 ] 127.0.0.1 /shop/home/goods/cart?image=http://localhost/shop/Uploads/2015-03-29/5517593d71536.png&name=%E7%88%B1%E4%B8%8A%E5%A4%A7%E5%A3%B0&price=2&_=1427885317162
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: data C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 56 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:48:57+08:00 ] 127.0.0.1 /shop/home/goods/cart?image=http://localhost/shop/Uploads/2015-03-29/5517593d71536.png&name=%E7%88%B1%E4%B8%8A%E5%A4%A7%E5%A3%B0&price=2&_=1427885335172
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: data C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 56 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:49:50+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined variable: data C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 56 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:51:06+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:52:13+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:52:19+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:53:44+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:54:02+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:55:17+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:55:21+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:56:11+08:00 ] 127.0.0.1 /shop/home/goods/cart?image=http://localhost/shop/Uploads/2015-03-29/5517593d71536.png&name=%E7%88%B1%E4%B8%8A%E5%A4%A7%E5%A3%B0&price=2&_=1427885767627
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:56:35+08:00 ] 127.0.0.1 /shop/home/goods/cart/image=http://localhost/shop/Uploads/2015-03-29/5517593d71536.png&name=%E7%88%B1%E4%B8%8A%E5%A4%A7%E5%A3%B0&price=2?_=1427885793281
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:56:46+08:00 ] 127.0.0.1 /shop/home/goods/cart/image=http://localhost/shop/Uploads/2015-03-29/5517593d71536.png&name=%E7%88%B1%E4%B8%8A%E5%A4%A7%E5%A3%B0&price=2?_=1427885803532
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:32+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:35+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:37+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:37+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:37+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:37+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:37+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:38+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:38+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:38+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:38+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:38+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:38+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:39+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:39+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:39+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:39+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:39+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:39+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:40+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:40+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:41+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:41+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:41+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:41+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:41+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:42+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:42+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:42+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:42+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:42+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:42+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:43+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:43+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:43+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:43+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:43+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:44+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:44+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:44+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:44+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:44+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:46+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:46+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:49+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:49+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:49+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:49+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:49+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T18:58:49+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T19:01:58+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T19:02:27+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T19:04:33+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 57 行.
+
+[ 2015-04-01T19:06:40+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 61 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+
+[ 2015-04-01T19:08:28+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 61 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 59 行.
+
+[ 2015-04-01T19:10:02+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:10:32+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:15:56+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [2] Missing argument 1 for Home\Model\GoodsModel::cart(), called in C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php on line 57 and defined C:\wamp\www\shop\Application\Home\Model\GoodsModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: data C:\wamp\www\shop\Application\Home\Model\GoodsModel.class.php 第 19 行.
+NOTIC: [8] Undefined variable: data C:\wamp\www\shop\Application\Home\Model\GoodsModel.class.php 第 19 行.
+NOTIC: [8] Undefined variable: data C:\wamp\www\shop\Application\Home\Model\GoodsModel.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:16:26+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:17:53+08:00 ] 127.0.0.1 /shop/home/user/check_verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 39 行.
+
+[ 2015-04-01T19:17:54+08:00 ] 127.0.0.1 /shop/home/user/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\UserModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 5 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 5 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.user [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' C:\wamp\www\shop\Application\Home\Model\UserModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\UserController.class.php 第 14 行.
+
+[ 2015-04-01T19:18:05+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:18:37+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:24:34+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:24:35+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:24:35+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:27:59+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:28:00+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:28:56+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:28:56+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:29:29+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:29:30+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:29:44+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:29:44+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:29:45+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:29:45+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T19:29:45+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T20:38:05+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T20:38:21+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T20:39:29+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T20:46:52+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T20:48:20+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T20:52:02+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T20:52:21+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T20:52:28+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T20:59:00+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T20:59:13+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:00:33+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:01:42+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:02:03+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:02:16+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:02:30+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:03:30+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:04:03+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:05:12+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:07:08+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:07:24+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:08:41+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:08:54+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:09:08+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:09:37+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:09:43+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:12:05+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:12:15+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:12:42+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:13:14+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:14:03+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:14:37+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:15:12+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:16:11+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: query C:\wamp\www\shop\Application\Home\Model\GoodsModel.class.php 第 21 行.
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, null given C:\wamp\www\shop\Application\Home\Model\GoodsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:16:30+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: query C:\wamp\www\shop\Application\Home\Model\GoodsModel.class.php 第 21 行.
+NOTIC: [2] mysql_fetch_row() expects parameter 1 to be resource, null given C:\wamp\www\shop\Application\Home\Model\GoodsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:16:53+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:17:09+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:17:30+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:17:55+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:18:10+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:18:20+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:18:28+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:19:04+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 62 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:47:32+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T21:47:49+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427896050024
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T21:47:52+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427896050025
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T21:49:37+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427896175192
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T21:50:47+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427896245315
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T21:51:15+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427896274159
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T21:52:38+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427896357627
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-04-01T21:56:14+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427896573729
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T21:59:19+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427896757540
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T21:59:33+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427896772969
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:02:50+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427896968189
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:04:15+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897054233
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+
+[ 2015-04-01T22:04:40+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897079030
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+
+[ 2015-04-01T22:04:57+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897095432
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 67 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:09:49+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897388742
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:09:52+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897388743
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:09:53+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897388744
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:09:56+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897388745
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:10:05+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897396931
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:13:16+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897595668
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:13:46+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897595669
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:13:47+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897595670
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-04-01T22:13:51+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897595671
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:14:52+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897689973
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:15:04+08:00 ] 127.0.0.1 /shop/home/goods/cart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 60 行.
+
+[ 2015-04-01T22:15:23+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897721604
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:15:35+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897733916
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.063004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:15:37+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897733917
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:15:37+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897733918
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:15:38+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897733919
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:15:42+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897733920
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:15:43+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897733921
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-01T22:15:45+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897733922
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:16:09+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897766223
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:16:11+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897766224
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:16:17+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897766225
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-04-01T22:16:22+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897766226
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:16:27+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897766227
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:16:28+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897766228
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 69 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:16:55+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897814091
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:16:59+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897814092
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:17:01+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897814093
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:17:03+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897814094
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:17:03+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897814095
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-04-01T22:17:21+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897840982
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:17:23+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897840983
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-04-01T22:17:24+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897840984
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:17:25+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897840985
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:17:52+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897871649
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:17:53+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897871650
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-04-01T22:17:54+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427897871651
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:20:50+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427898047732
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:20:51+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427898047733
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-01T22:24:31+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:24:31+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427898270893
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:24:38+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:24:38+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427898270894
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:25:38+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:25:38+08:00 ] 127.0.0.1 /shop/home/goods/showcart?_=1427898337405
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:26:55+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:26:55+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:26:58+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:26:59+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:27:03+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:27:09+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:27:14+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:28:24+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:28:26+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:28:30+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:28:31+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:28:32+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:28:37+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+
+[ 2015-04-01T22:28:37+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Controller\GoodsController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 70 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 65 行.
+

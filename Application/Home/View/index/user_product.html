@@ -48,15 +48,31 @@
 <B>&nbsp;闲置物品</B>
 </DIV>
 <DIV class=c></DIV>
+ <script language="javascript">
+    function delcfm() {
+        if (!confirm("确认要删除？")) {
+            window.event.returnValue = false;
+        }
+    }
+</script>
 <TABLE class=basetb cellSpacing=0 cellPadding=0 width='100%'>
 <TBODY>
-<TR id=tablehead>
-<TH width=78>图片</TH>
-<TH >名称 </TH>
-<TH width=140>发布时间 </TH>
-<TH width=110>状态 </TH>
-<TH width=100>推广 </TH>
-<TH width=110>操作 </TH></TR>
+
+	<TR id=tablehead>
+	<TH width=178>图片</TH>
+	<TH >名称 </TH>
+	<TH width=140>发布时间 </TH>
+	<TH width=110>状态 </TH>
+	<TH width=110>操作 </TH></TR>
+	<?php foreach ($data as $key => $value) { ?>
+	<TR class="product">
+		<TH width=178><img style="width:178px;height:150px" src="<?php echo explode(" ", $value[12])[0]; ?>" title="product-name" /></TH>
+	<TH > <a href="/shop/home/goods/details?id=<?php echo $value[0]; ?>"><?php echo $value[1]; ?></a></TH>
+	<TH width=140><?php echo $value[16]; ?></TH>
+	<TH width=110>状态:发布</TH>
+	<TH width=110>操作:&nbsp;<a href="/shop/home/index/user_product?del=<?php echo $value[0]; ?>" onclick="delcfm()">删除</a>&nbsp;&nbsp;&nbsp;<a href="/shop/home/goods/updata?id=<?php echo $value[0];?>">修改</a></TH>
+	</TR>
+	<?php } ?>
 </TBODY></TABLE>
 <table width=100% border=0 cellspacing=0 cellpadding=0>
 <tr>

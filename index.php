@@ -20,12 +20,17 @@ define('APP_DEBUG',True);
 
 // 定义应用目录
 define('HOME_URL', 'http://localhost/shop/home/');
+define('Admin','http://localhost/shop/admin/');
 define('APP_PATH','./Application/');
 define('SITE_URL','http://localhost/');
+define('UPLOAD', SITE_URL.'shop/Uploads/');
 define('CSS_URL',SITE_URL.'shop/Application/public/Home/css/');
 define('IMG_URL',SITE_URL.'shop/Application/public/Home/images/');
 define('JS_URL',SITE_URL.'shop/Application/public/Home/js/');
-
+define('CSS',SITE_URL.'shop/Application/public/Admin/css/');
+define('IMG',SITE_URL.'shop/Application/public/Admin/images/');
+define('JS',SITE_URL.'shop/Application/public/Admin/js/');
+session_set_cookie_params(172800);
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 

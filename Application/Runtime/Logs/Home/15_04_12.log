@@ -1,0 +1,1176 @@
+[ 2015-04-12T10:51:52+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T11:11:30+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T11:20:50+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T11:25:27+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T13:18:07+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.012001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:12:16+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:12:17+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:12:22+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:12:25+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:12:31+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:12:38+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:12:48+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:12:52+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:13:01+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:13:05+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.038002s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:13:07+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:13:13+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:13:15+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:13:18+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:13:26+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:13:28+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:13:42+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:15:00+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:15:02+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:15:02+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:15:03+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:15:04+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:15:05+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:15:06+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:15:07+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:15:07+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:15:08+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:15:09+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:10+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:17+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.008000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:19+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:21+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.008000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:26+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:26+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:27+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:28+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:28+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:29+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:29+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:30+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:49+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:50+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:50+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:16:53+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:00+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.008000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:02+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:08+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.020001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:24+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:28+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.045003s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:34+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:39+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:41+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:43+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:49+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:55+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.018001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:18:59+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:02+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:10+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:14+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:17+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:22+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:29+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.049003s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:31+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:32+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:35+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:39+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:47+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:19:49+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:20:14+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:20:17+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:20:17+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:20:18+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:20:19+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:20:30+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:20:32+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:20:47+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.003001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:20:49+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:20:52+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:20:56+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:21:02+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.047002s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:21:04+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:21:07+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:26:03+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:26:03+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:26:06+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:26:08+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:26:12+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:26:14+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:26:16+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 131 行.
+
+[ 2015-04-12T16:30:18+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:30:20+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:30:22+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:30:52+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:30:57+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:30:58+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:30:59+08:00 ] 127.0.0.1 /shop/Application/Home/Goods/themes/default/css/umeditor.css
+ERR: 无法加载控制器:Application
+
+[ 2015-04-12T16:30:59+08:00 ] 127.0.0.1 /shop/index.php/Goods/umeditor.config.js
+ERR: 非法操作:umeditor.config.js
+
+[ 2015-04-12T16:30:59+08:00 ] 127.0.0.1 /shop/index.php/Goods/lang/zh-cn/zh-cn.js
+ERR: 非法操作:lang
+
+[ 2015-04-12T16:30:59+08:00 ] 127.0.0.1 /shop/index.php/Goods/umeditor.min.js
+ERR: 非法操作:umeditor.min.js
+
+[ 2015-04-12T16:30:59+08:00 ] 127.0.0.1 /shop/index.php/Goods/third-party/jquery.min.js
+ERR: 非法操作:third-party
+
+[ 2015-04-12T16:31:01+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:31:04+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:31:06+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.008000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:31:07+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:31:18+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:31:22+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.014001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:36:46+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:48+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:50+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:51+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:52+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:52+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:53+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:53+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.008000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:54+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:57+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:58+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:58+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:36:59+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:37:01+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:37:02+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:37:03+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:37:06+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:37:07+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:37:09+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 132 行.
+
+[ 2015-04-12T16:50:36+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.009000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:50:37+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:50:39+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.008000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:50:44+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:50:51+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:50:52+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:50:54+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:50:56+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:50:58+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:51:02+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:52:03+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:52:03+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T16:52:06+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T17:02:50+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T17:19:46+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T20:30:10+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T20:30:11+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T20:30:48+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.006001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T20:33:12+08:00 ] 127.0.0.1 /shop/home/goods/showcart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wamp\www\shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM shop.goods [ RunTime:0.007001s ]
+NOTIC: [8] Use of undefined constant json - assumed 'json' C:\wamp\www\shop\Application\Home\Controller\GoodsController.class.php 第 130 行.
+
+[ 2015-04-12T20:49:41+08:00 ] 127.0.0.1 /shop/Application/public/Admin/js/jquery-1.7.2.min.js
+ERR: 无法加载控制器:Application
+
+[ 2015-04-12T20:49:42+08:00 ] 127.0.0.1 /shop/Application/public/Admin/js/jquery-1.7.2.min.js
+ERR: 无法加载控制器:Application
+
+[ 2015-04-12T20:52:38+08:00 ] 127.0.0.1 /shop/Application/public/Admin/js/moadl.js
+ERR: 无法加载控制器:Application
+

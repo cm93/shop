@@ -1,5 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>
-<!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
 <html>
 	<head>
 		<title>二手网</title>
@@ -48,24 +47,6 @@
 						<div class="top-header-left">
 							<ul>
 								<!---cart-tonggle-script---->
-								<script type="text/javascript">
-									$(function(){
-									    var $cart = $('#cart');
-									        $('#clickme').click(function(e) {
-									         e.stopPropagation();
-									       if ($cart.is(":hidden")) {
-									           $cart.slideDown("slow");
-									       } else {
-									           $cart.slideUp("slow");
-									       }
-									    });
-									    $(document.body).click(function () {
-									       if ($cart.not(":hidden")) {
-									           $cart.slideUp("slow");
-									       } 
-									    });
-									    });
-								</script>
 								<!---//cart-tonggle-script---->
 								<li><a class="cart" href="#"><span id="clickme"> </span></a></li>
 								<!---start-cart-bag---->
@@ -74,7 +55,7 @@
 								<li><a class="info" href="#"><span> </span></a></li>
 							</ul>
 						</div>
-						<div class="top-header-center">
+						<div class="top-header-center" width:750px>
 							<div class="top-header-center-alert-left">
 								<h3>FREE DELIVERY</h3>
 							</div>
@@ -118,7 +99,7 @@
 						<a class="acount-btn" href="register.html">Creat an Account</a>
 						<img alt="" src="http://www.qqershou.com/UpFile/Img/201207/1207041655581360.gif">
 					</div>
-					<div class="login-right">
+					<div class="login-right" style="width:435px">
 						<h3>会员登录</h3>
 						<form method="post" action="./login" id="login">
 							<div>
@@ -165,9 +146,8 @@
 				});
 				}
 		})
-		//$("#code").focus(function(e){
-		//	$("#false").remove();
-		//});
+		
+	a="<?php print_r($_GET["release"]); ?>";
 		$("#submit").click(function(e){
 			e.preventDefault();
 			if(code){
@@ -179,7 +159,12 @@
 				    dataType:'json',    
 				    success:function(data) { 
 				    	if(data.status == 1){
-				    		 location.href = "../index/index";
+				    		if(a == 1){
+				    			location.href="../goods/release"
+				    		}
+				    		else{
+				    		 	location.href = "../index/index";
+				    		}
 				    	}else{
 				    		alert("密码错误");  	
 				    	}

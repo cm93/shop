@@ -51,24 +51,6 @@
 						<div class="top-header-left">
 							<ul>
 								<!---cart-tonggle-script---->
-								<script type="text/javascript">
-									$(function(){
-									    var $cart = $('#cart');
-									        $('#clickme').click(function(e) {
-									         e.stopPropagation();
-									       if ($cart.is(":hidden")) {
-									           $cart.slideDown("slow");
-									       } else {
-									           $cart.slideUp("slow");
-									       }
-									    });
-									    $(document.body).click(function () {
-									       if ($cart.not(":hidden")) {
-									           $cart.slideUp("slow");
-									       } 
-									    });
-									    });
-								</script>
 								<!---//cart-tonggle-script---->
 								<li><a class="cart" href="#"><span id="clickme"> </span></a></li>
 								<!---start-cart-bag---->
@@ -77,7 +59,7 @@
 								<li><a class="info" href="#"><span> </span></a></li>
 							</ul>
 						</div>
-						<div class="top-header-center" style="width:1000px">
+						<div class="top-header-center" style="width:750px">
 							<div class="top-header-center-alert-left">
 								<h3>FREE DELIVERY</h3>
 							</div>
@@ -114,8 +96,8 @@
 				<div class="mid-header">
 					<div class="wrap">
 						<div class="mid-grid-left" style="padding-top:50px;">
-							<form method="post" action="#">
-								<input type="search" placeholder="请输入搜素文字" />	
+							<form id="search" method="post"  action="/shop/home/goods/products">
+								<input id="sear" name="search"  type="search" placeholder="请输入搜素文字" />	
 							</form>
 						</div>
 						<div class="mid-grid-right">

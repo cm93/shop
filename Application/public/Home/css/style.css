@@ -64,7 +64,7 @@ body{
 	display:none;
 }
 #cart{
-	width: 12%;
+	width: 18%;
 	background-color: #08080B;
 	position: absolute;
 	padding: 0.9em 1em 1em 1em;
@@ -183,7 +183,7 @@ text-decoration: none;
 /*----start-price-rage----*/
 /*----start-content----*/
 .content{
-	padding-top:2.5em;
+	padding-top:0.5em;
 }
 .content-left-price-selection h4{
 	color: #08080B;
@@ -1306,6 +1306,14 @@ h2.resp-accordion:first-child {
 #prev.disabled, #next.disabled {
 	display: none !important;
 }
+.btnn{
+	width:150px;margin-top: 5px;margin-bottom: 5px;color: #fff;background-color: #d9534f;border-color: #d43f3a;display: inline-block;padding: 6px 12px;margin-bottom: 0;font-size: 14px;font-weight: 400;line-height: 1.42857143;text-align: center;white-space: nowrap;vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;cursor: pointer;
+-webkit-user-select: none;background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;font-family: inherit;-webkit-appearance: button;text-transform: none;overflow: visible;
+}
 .details-left-slider{
 	float:left;
 	width: 38%;
@@ -1338,9 +1346,9 @@ h2.resp-accordion:first-child {
 .product-detail-info{
 	color: #08080B;
 	display: block;
-	font-size: 0.8em;
-	padding: 1em 0;
-	line-height: 1.5em;
+	font-size: 1em;
+	padding: 0.7em 0;
+	line-height: 0.5em;
 }
 .price{
 	float:left;
@@ -1358,14 +1366,7 @@ h2.resp-accordion:first-child {
 	font-size: 1.2em;
 	padding: 0 0 0.5em 0;
 }
-.stock{
-	float:right;
-}
-.stock i{
-	color: green;
-	margin-top: 2em;
-	display: block;
-}
+
 .product-colors li a span{
 	width:32px;
 	height:32px;
@@ -1637,7 +1638,7 @@ h2.resp-accordion:first-child {
 	text-transform: uppercase;
 }
 .product-box-head-right ul li a{
-	color:#E45D5D;
+	color:#08080B;
 	font-weight: 700;
 	font-size: 0.875em;
 	padding: 0.5em 0;
@@ -1648,7 +1649,7 @@ h2.resp-accordion:first-child {
 	-o-transition:0.5s all;
 }
 .product-box-head-right ul li a:hover{
-	color:#08080B;
+	color:#E45D5D;
 }
 .product-box-head-right ul li label{
 	height: 9px;
@@ -2085,7 +2086,7 @@ span.mail a:hover{
 		left: 36%;
 	}
 	#cart {
-		width: 20%;
+		width: 30%;
 	}
 	.product-box-head-left {
 		float: none;
@@ -2218,7 +2219,7 @@ span.mail a:hover{
 		left: 36%;
 	}
 	#cart {
-		width: 24%;
+		width: 30%;
 	}
 	.product-box-head-left {
 		float: none;
@@ -2758,5 +2759,6 @@ span.mail a:hover{
 	.product-pic p {
 		padding: 0 1em 1em 1em;
 	}
+	
 	
 }

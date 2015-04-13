@@ -9,11 +9,11 @@
 <body>
 <div class="topbar">
 <div class="topbarnav">
-<div class="bar-right"><a href=""> <?php print_r(session('username'));?></a>&nbsp;&nbsp;用户中心&nbsp;&nbsp;|&nbsp;<a href="/Login?Action=Logout">退出</a>&nbsp;</div>
+<div class="bar-right"><a href=""> <?php print_r(session('username'));?></a>&nbsp;&nbsp;用户中心&nbsp;&nbsp;|&nbsp;<a href="/shop/home/user/logout">退出</a>&nbsp;</div>
 </div></div>
 <div class="head"><div class="head-left">
 <a href="/" target="_blank" class="logo"><img src="http://www.qqershou.com/Member/images/logo.png" alt=全球二手网></a><span>用户中心</span></div>
-<a class="ask-price fr" href="/Member/User_ClassADD?Action=Add" title="发布信息" target="_blank">发布信息</a><a class="ask-xianzhi fr" href="/Product/Post" title="处理闲置" target="_blank">处理闲置</a>
+<a class="ask-price fr" href="/Member/User_ClassADD?Action=Add" title="发布信息" target="_blank">发布信息</a><a class="ask-xianzhi fr" href="#" title="处理闲置" target="_blank">处理闲置</a>
 <div class="ali-search fr">
 <form action="/Search/Search" name="searchform" method="POST" target="_blank">
 <input name="City" type=hidden value=0>
@@ -22,37 +22,36 @@
 <button type="submit" id="alisearch-submit" class="">搜 索</button></form>
 </div></div>
 <div class="memnav"><div class="module"><ul>
-<span style="float:right; font-size:12px; width:140px;color:#FFFFFF"><a href="/home/help.Html" style="color:#FFFFFF" target=_blank>帮助中心</a> | <a style="color:#FFFFFF" href="/VIP/" target=_blank>我要推广</a></span>
-<li id="h"><a href="/" target="_blank">网站首页</a></li>
-<li id="h_index" class="active"><a href="/Member/">用户中心</a></li>
-<li id="h_account" class="noactive"><a href="/Member/User_EditInfo">我的账户</a></li>
-<li id="h_security" class="noactive"><a href="/Member/User_RZ">安全中心</a></li>
-<li id="h_e" class="noactive"><a href="/Member/User_Yi?Action=jingjia">我的推广</a></li>
-<li class="noactive"><a href="/VIP/">申请VIP</a></li>
+<span style="float:right; font-size:12px; width:140px;color:#FFFFFF"><a href="#" style="color:#FFFFFF" >帮助中心</a> | <a style="color:#FFFFFF" href="#">我要推广</a></span>
+<li id="h"><a href="./">网站首页</a></li>
+<li id="h_index" class="active"><a href="./member">用户中心</a></li>
+<li id="h_account" class="noactive"><a href="./user">我的账户</a></li>
+<li id="h_security" class="noactive"><a href="#">安全中心</a></li>
+<li id="h_e" class="noactive"><a href="#">我的推广</a></li>
+<li class="noactive"><a href="#">申请VIP</a></li>
 </ul></div></div>
 <DIV class="body-wrap">
 <div class="left-wrap">
 <div class="left-menu">
-<span onmouseover="$(this).addClass('active')" class="active"><a href="/Member/" class=mc>个人中心</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/Member/User_Product" class=mpost>闲置物品</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/Member/User_ClassADD" class=mpost>分类信息</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/Member/User_EditInfo" class=mhelp>个人资料</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="/Member/User_Message" class=mmessage>我的消息</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="/Member/User_Collection" class=mpay>我的收藏</a></span>
-
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/member/" class=mc>个人中心</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user_product" class=mpost>闲置物品</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user_classADD" class=mpost>分类信息</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user" class=mhelp>个人资料</a></span>
+<span onmouseover="$(this).addClass('active')"  class="active"><a href="/shop/home/index/user_message" class=mmessage>我的消息</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="/shop/home/index/user_collection" class=mpay>我的收藏</a></span>
 </div>
 </div>	
 <div class="right-wrap">
-<div class=UserPath>您的位置：<a href=Index>会员中心</a> >> <a href=User_Message>短信中心</a></div><table width='100%' cellpadding=3 cellspacing=1 class=td30><tr><td valign=top colspan=2>
+<div class=UserPath>您的位置：<a href="./member">会员中心</a> >> <a href=User_Message>短信中心</a></div><table width='100%' cellpadding=3 cellspacing=1 class=td30><tr><td valign=top colspan=2>
 <form action='?W=&Page=' name=myform method=POST>
 <DIV class=area_cz>
 <table width=600 border=0 cellspacing=0 cellpadding=0>
 <tr><td width=28>&nbsp;</td>
-<td width=48><a href=User_Message><img align=middle title=收件箱 src=img/msg_take.gif border=0></a></td>
+<td width=48><a href=User_Message><img align=middle title=收件箱 src="http://www.qqershou.com/Member/img/msg_take.gif" border=0></a></td>
 <td width=58><a href=User_Message>收件箱</a></td>
-<td width=48><a href=?W=Sender><img align=middle title=发件箱 src=img/msg_send.gif border=0></a></td>
+<td width=48><a href=?W=Sender><img align=middle title=发件箱 src="http://www.qqershou.com/Member/img/msg_send.gif" border=0></a></td>
 <td width=58><a href=?W=Sender>发件箱</a></td>
-<td width=48><a href=?Action=Send><img align=middle title=写邮件 src=img/msg_write.gif border=0></a></td>
+<td width=48><a href=?Action=Send><img align=middle title=写邮件 src="http://www.qqershou.com/Member/img/msg_write.gif" border=0></a></td>
 <td width=58><a href=?Action=Send>写邮件</a></td>
 <td>&nbsp;</td>
 </tr></table>

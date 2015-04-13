@@ -3,6 +3,11 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
+        $Goods = new \Home\Model\GoodsModel();
+        $result = $Goods->showgoods();
+        $row = $Goods->wanted();
+        $this->assign('want',$row);
+        $this->assign('goods',$result);
         $this->display();
     }
     public function user(){
@@ -35,6 +40,12 @@ class IndexController extends Controller {
         $this->display();
     }
     public function user_product(){
+        $Goods = new \Home\Model\GoodsModel();
+        $result = $Goods->user_product();
+        $this->assign("data",$result);
+        if($_GET["del"]){
+            $Goods->del($_GET["del"]);
+        }
         $this->display();   
     }
     public function user_classadd(){
@@ -100,5 +111,8 @@ class IndexController extends Controller {
     }
     public function seach(){
         echo "aaaaa";
+    }
+    public function showgoods(){
+        
     }
 }
