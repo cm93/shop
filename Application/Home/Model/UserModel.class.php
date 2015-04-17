@@ -45,6 +45,7 @@ class UserModel extends Model {
     }
     public function email($data){
         $sql = sprintf("UPDATE `user` SET `checkemail` = 1 WHERE `username` = '%s' LIMIT 1",$data['user']);
+       
         return mysql_query($sql);
     }
 }

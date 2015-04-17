@@ -100,9 +100,9 @@
 		username = "<?php print_r(session('username'));?>";
 		$(function(){
 			if(username == ""){
-				$(".top-header-right").append('<ul><li><a href="/shop/home/user/login">登录</a><span> </span></li><li><a href="/shop/home/user/register">注册</a></li></ul>')
+				$(".top-header-right").append('<ul><li><a href="<?php echo HOME;?>user/login">登录</a><span> </span></li><li><a href="<?php echo HOME;?>user/register">注册</a></li></ul>')
 			}else{
-				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='/shop/home/index/member'>用户中心</a>,<a href='/shop/home/user/logout'>退出</a>]<li></ul>";
+				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='<?php echo HOME;?>index/member'>用户中心</a>,<a href='<?php echo HOME;?>user/logout'>退出</a>]<li></ul>";
 				$(".top-header-right").append(html);
 			}
 		})
@@ -112,12 +112,12 @@
 				<div class="mid-header">
 					<div class="wrap">
 						<div class="mid-grid-left" style="padding-top:50px;">
-							<form id="search" method="post"  action="/shop/home/goods/products">
+							<form id="search" method="post"  action="<?php echo HOME;?>goods/products">
 								<input id="sear" name="search"  type="search" value="<?php echo $_POST['search']; ?>" valplaceholder="请输入搜素文字" />	
 							</form>
 						</div>
 						<div class="mid-grid-right">
-							<a class="logo" href="../index"><span> </span></a>
+							<a class="logo" href="<?php echo HOME;?>"><span> </span></a>
 						</div>
 						<div class="clear"> </div>
 					</div>
@@ -135,23 +135,23 @@
 												<div class="h_nav">
 													<h4> &nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">按摩器</a></li>
-														<li><a href="../goods/products">压力锅</a></li>
-														<li><a href="../goods/products">电吹风</a></li>
-														<li><a href="../goods/products">吸尘器</a></li>
-														<li><a href="../goods/products">电熨斗</a></li>
-														<li><a href="../goods/products">太阳能/热水器</a></li>
+														<li><a href="#">按摩器</a></li>
+														<li><a href="#">压力锅</a></li>
+														<li><a href="#">电吹风</a></li>
+														<li><a href="#">吸尘器</a></li>
+														<li><a href="#">电熨斗</a></li>
+														<li><a href="#">太阳能/热水器</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">热水壶</a></li>
-														<li><a href="../goods/products">家用搅拌机</a></li>
-														<li><a href="../goods/products">果蔬解毒机</a></li>
-														<li><a href="../goods/products">咖啡机/壶</a></li>
-														<li><a href="../goods/products">家用净水器</a></li>
-														<li><a href="../goods/products">消毒柜</a></li>
+														<li><a href="#">热水壶</a></li>
+														<li><a href="#">家用搅拌机</a></li>
+														<li><a href="#">果蔬解毒机</a></li>
+														<li><a href="#">咖啡机/壶</a></li>
+														<li><a href="#">家用净水器</a></li>
+														<li><a href="#">消毒柜</a></li>
 													</ul>	
 												</div>
 											</div>
@@ -159,23 +159,23 @@
 												<div class="h_nav">
 													<h4> &nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">微波炉/电烤箱</a></li>
-														<li><a href="../goods/products">净水器/加湿器</a></li>
-														<li><a href="../goods/products">电热杯</a></li>
-														<li><a href="../goods/products">豆浆机</a></li>
-														<li><a href="../goods/products">电饼铛</a></li>
-														<li><a href="../goods/products">电磁炉</a></li>
+														<li><a href="#">微波炉/电烤箱</a></li>
+														<li><a href="#">净水器/加湿器</a></li>
+														<li><a href="#">电热杯</a></li>
+														<li><a href="#">豆浆机</a></li>
+														<li><a href="#">电饼铛</a></li>
+														<li><a href="#">电磁炉</a></li>
 													</ul>	
 												</div>							
 												<div class="h_nav">
 													<h4 class="top"> &nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">冰箱/冷藏柜</a></li>
-														<li><a href="../goods/products">电风扇</a></li>
-														<li><a href="../goods/products">榨汁机/面包机</a></li>
-														<li><a href="../goods/products">电视机</a></li>
-														<li><a href="../goods/products">电饭煲</a></li>
-														<li><a href="../goods/products">油烟机</a></li>
+														<li><a href="#">冰箱/冷藏柜</a></li>
+														<li><a href="#">电风扇</a></li>
+														<li><a href="#">榨汁机/面包机</a></li>
+														<li><a href="#">电视机</a></li>
+														<li><a href="#">电饭煲</a></li>
+														<li><a href="#">油烟机</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -194,23 +194,23 @@
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">音响</a></li>
-														<li><a href="../goods/products">电脑附件</a></li>
-														<li><a href="../goods/products">显示器</a></li>
-														<li><a href="../goods/products">耳机</a></li>
-														<li><a href="../goods/products">单片机</a></li>
-														<li><a href="../goods/products">内存条</a></li>
+														<li><a href="#">音响</a></li>
+														<li><a href="#">电脑附件</a></li>
+														<li><a href="#">显示器</a></li>
+														<li><a href="#">耳机</a></li>
+														<li><a href="#">单片机</a></li>
+														<li><a href="#">内存条</a></li>
 													</ul>	
 												</div>	
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">录音笔</a></li>
-														<li><a href="../goods/products">小灵通</a></li>
-														<li><a href="../goods/products">固定电话</a></li>
-														<li><a href="../goods/products">数据线</a></li>
-														<li><a href="../goods/products">手写笔</a></li>
-														<li><a href="../goods/products">充电器</a></li>
+														<li><a href="#">录音笔</a></li>
+														<li><a href="#">小灵通</a></li>
+														<li><a href="#">固定电话</a></li>
+														<li><a href="#">数据线</a></li>
+														<li><a href="#">手写笔</a></li>
+														<li><a href="#">充电器</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -218,23 +218,23 @@
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">麦克风</a></li>
-														<li><a href="../goods/products">学习机</a></li>
-														<li><a href="../goods/products">移动硬盘</a></li>
-														<li><a href="../goods/products">摄像头</a></li>
-														<li><a href="../goods/products">U盘/内存卡</a></li>
-														<li><a href="../goods/products">手机</a></li>
+														<li><a href="#">麦克风</a></li>
+														<li><a href="#">学习机</a></li>
+														<li><a href="#">移动硬盘</a></li>
+														<li><a href="#">摄像头</a></li>
+														<li><a href="#">U盘/内存卡</a></li>
+														<li><a href="#">手机</a></li>
 													</ul>	
 												</div>												
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">MP3/MP4/MP5</a></li>
-														<li><a href="../goods/products">照相机</a></li>
-														<li><a href="../goods/products">打印机</a></li>
-														<li><a href="../goods/products">复印机</a></li>
-														<li><a href="../goods/products">台式电脑</a></li>
-														<li><a href="../goods/products">笔记本</a></li>
+														<li><a href="#">MP3/MP4/MP5</a></li>
+														<li><a href="#">照相机</a></li>
+														<li><a href="#">打印机</a></li>
+														<li><a href="#">复印机</a></li>
+														<li><a href="#">台式电脑</a></li>
+														<li><a href="#">笔记本</a></li>
 													</ul>	
 												</div>						
 											</div>
@@ -260,23 +260,23 @@
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">汽车配件</a></li>
-														<li><a href="../goods/products">二手车</a></li>
-														<li><a href="../goods/products">二手摩托车</a></li>
-														<li><a href="../goods/products">牵引车</a></li>
-														<li><a href="../goods/products">半挂车</a></li>
-														<li><a href="../goods/products">电动车/自行车</a></li>
+														<li><a href="#">汽车配件</a></li>
+														<li><a href="#">二手车</a></li>
+														<li><a href="#">二手摩托车</a></li>
+														<li><a href="#">牵引车</a></li>
+														<li><a href="#">半挂车</a></li>
+														<li><a href="#">电动车/自行车</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">内饰</a></li>
-														<li><a href="../goods/products">外饰</a></li>
-														<li><a href="../goods/products">GPS</a></li>
-														<li><a href="../goods/products">保养</a></li>
-														<li><a href="../goods/products">视听</a></li>
-														<li><a href="../goods/products">其他</a></li>
+														<li><a href="#">内饰</a></li>
+														<li><a href="#">外饰</a></li>
+														<li><a href="#">GPS</a></li>
+														<li><a href="#">保养</a></li>
+														<li><a href="#">视听</a></li>
+														<li><a href="#">其他</a></li>
 													</ul>	
 												</div>
 											</div>
@@ -303,23 +303,23 @@
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">灯具</a></li>
-														<li><a href="../goods/products">梳妆用品</a></li>
-														<li><a href="../goods/products">沐浴用品</a></li>
-														<li><a href="../goods/products">棋牌麻将</a></li>
-														<li><a href="../goods/products">厨房用品</a></li>
-														<li><a href="../goods/products">家纺</a></li>
+														<li><a href="#">灯具</a></li>
+														<li><a href="#">梳妆用品</a></li>
+														<li><a href="#">沐浴用品</a></li>
+														<li><a href="#">棋牌麻将</a></li>
+														<li><a href="#">厨房用品</a></li>
+														<li><a href="#">家纺</a></li>
 													</ul>	
 												</div>	
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">充气床</a></li>
-														<li><a href="../goods/products">鞋柜</a></li>
-														<li><a href="../goods/products">吧台</a></li>
-														<li><a href="../goods/products">床头柜</a></li>
-														<li><a href="../goods/products">视听柜</a></li>
-														<li><a href="../goods/products">休闲桌</a></li>
+														<li><a href="#">充气床</a></li>
+														<li><a href="#">鞋柜</a></li>
+														<li><a href="#">吧台</a></li>
+														<li><a href="#">床头柜</a></li>
+														<li><a href="#">视听柜</a></li>
+														<li><a href="#">休闲桌</a></li>
 													</ul>	
 												</div>												
 											</div>
@@ -327,23 +327,23 @@
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">衣架/日用</a></li>
-														<li><a href="../goods/products">沙发/座椅</a></li>
-														<li><a href="../goods/products">电脑桌</a></li>
-														<li><a href="../goods/products">床</a></li>
-														<li><a href="../goods/products">茶具</a></li>
-														<li><a href="../goods/products">梳妆台/首饰架</a></li>
+														<li><a href="#">衣架/日用</a></li>
+														<li><a href="#">沙发/座椅</a></li>
+														<li><a href="#">电脑桌</a></li>
+														<li><a href="#">床</a></li>
+														<li><a href="#">茶具</a></li>
+														<li><a href="#">梳妆台/首饰架</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">餐桌</a></li>
-														<li><a href="../goods/products">窗帘/珠帘</a></li>
-														<li><a href="../goods/products">清洁用品</a></li>
-														<li><a href="../goods/products">手电筒</a></li>
-														<li><a href="../goods/products">床垫</a></li>
-														<li><a href="../goods/products">其他</a></li>
+														<li><a href="#">餐桌</a></li>
+														<li><a href="#">窗帘/珠帘</a></li>
+														<li><a href="#">清洁用品</a></li>
+														<li><a href="#">手电筒</a></li>
+														<li><a href="#">床垫</a></li>
+														<li><a href="#">其他</a></li>
 													</ul>	
 												</div>						
 											</div>
@@ -369,23 +369,23 @@
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">设备耗材</a></li>
-														<li><a href="../goods/products">办公电器</a></li>
-														<li><a href="../goods/products">文件夹册</a></li>
-														<li><a href="../goods/products">办公家具</a></li>
-														<li><a href="../goods/products">商务用品</a></li>
-														<li><a href="../goods/products">日用/劳保</a></li>
+														<li><a href="#">设备耗材</a></li>
+														<li><a href="#">办公电器</a></li>
+														<li><a href="#">文件夹册</a></li>
+														<li><a href="#">办公家具</a></li>
+														<li><a href="#">商务用品</a></li>
+														<li><a href="#">日用/劳保</a></li>
 													</ul>	
 												</div>		
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">装订用品</a></li>
-														<li><a href="../goods/products">测绘用品</a></li>
-														<li><a href="../goods/products">修正辅助</a></li>
-														<li><a href="../goods/products">资料管理</a></li>
-														<li><a href="../goods/products">桌面用品</a></li>
-														<li><a href="../goods/products">记事本/簿</a></li>
+														<li><a href="#">装订用品</a></li>
+														<li><a href="#">测绘用品</a></li>
+														<li><a href="#">修正辅助</a></li>
+														<li><a href="#">资料管理</a></li>
+														<li><a href="#">桌面用品</a></li>
+														<li><a href="#">记事本/簿</a></li>
 													</ul>	
 												</div>					
 											</div>
@@ -393,12 +393,12 @@
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">财务用品</a></li>
-														<li><a href="../goods/products">办公用笔</a></li>
-														<li><a href="../goods/products">办公用纸</a></li>
-														<li><a href="../goods/products">办公数码</a></li>
-														<li><a href="../goods/products">办公设备</a></li>
-														<li><a href="../goods/products">办公软件</a></li>
+														<li><a href="#">财务用品</a></li>
+														<li><a href="#">办公用笔</a></li>
+														<li><a href="#">办公用纸</a></li>
+														<li><a href="#">办公数码</a></li>
+														<li><a href="#">办公设备</a></li>
+														<li><a href="#">办公软件</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -424,23 +424,23 @@
 												<div class="h_nav">
 													<h4><i class="icon-soccer-ball"></i>&nbsp;旅游运动</h4>
 													<ul>
-														<li><a href="../goods/products">户外服装</a></li>
-														<li><a href="../goods/products">野营用品</a></li>
-														<li><a href="../goods/products">探险用品</a></li>
-														<li><a href="../goods/products">户外包</a></li>
-														<li><a href="../goods/products">攀岩装备</a></li>
-														<li><a href="../goods/products">望远镜</a></li>
+														<li><a href="#">户外服装</a></li>
+														<li><a href="#">野营用品</a></li>
+														<li><a href="#">探险用品</a></li>
+														<li><a href="#">户外包</a></li>
+														<li><a href="#">攀岩装备</a></li>
+														<li><a href="#">望远镜</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
 													<h4 class="top"><i class="icon-lifebuoy"></i>&nbsp;古董收藏</h4>
 													<ul>
-														<li><a href="../goods/products">趣味</a></li>
-														<li><a href="../goods/products">收藏</a></li>
-														<li><a href="../goods/products">古董</a></li>
-														<li><a href="../goods/products">书画</a></li>
-														<li><a href="../goods/products">邮票</a></li>
-														<li><a href="../goods/products">纪念</a></li>
+														<li><a href="#">趣味</a></li>
+														<li><a href="#">收藏</a></li>
+														<li><a href="#">古董</a></li>
+														<li><a href="#">书画</a></li>
+														<li><a href="#">邮票</a></li>
+														<li><a href="#">纪念</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -448,12 +448,12 @@
 												<div class="h_nav">
 													<h4><i class="icon-guidedog"></i>&nbsp;宠物宝贝</h4>
 													<ul>
-														<li><a href="../goods/products">狗狗</a></li>
-														<li><a href="../goods/products">猫咪</a></li>
-														<li><a href="../goods/products">小鸟</a></li>
-														<li><a href="../goods/products">宠物用品</a></li>
-														<li><a href="../goods/products">宠物食粮</a></li>
-														<li><a href="../goods/products">其他</a></li>
+														<li><a href="#">狗狗</a></li>
+														<li><a href="#">猫咪</a></li>
+														<li><a href="#">小鸟</a></li>
+														<li><a href="#">宠物用品</a></li>
+														<li><a href="#">宠物食粮</a></li>
+														<li><a href="#">其他</a></li>
 													</ul>	
 												</div>
 										</div>
@@ -472,7 +472,7 @@
 					 	<?php foreach ($data as $key => $value) {?>
 					 		<tr>
 					 			<th scope="row" style="width:100px"><?php $date = strtotime(date("Y-m-d H:i:s"));$ch=floor(($date-strtotime($value[10]))/60); if($ch == 0){ echo "1分钟前"; }elseif($ch <= 60 && $ch>=1){ echo $ch."分钟前"; }elseif ($ch<=1440 && $ch>60) { echo floor($ch/60)."小时前"; }else{ if (floor($ch/3600) == 0){ echo "1天前"; }else{ echo floor($ch/3600)."天前"; } }?></th>
-					 			<td ><a href="/shop/goods/wants?id=<?php echo $value[0]; ?>"><?php echo $value[1]; ?>&nbsp;&nbsp;&nbsp;</a><?php if($value[3] == null ){ echo "面议"; }else{ echo '<b class="pri" style=" color: red;font-weight: bold;">'.$value[3].'-'.$value[4].'</b>元'; } ?></td>
+					 			<td ><a href="<?php echo HOME; ?>goods/wants?id=<?php echo $value[0]; ?>"><?php echo $value[1]; ?>&nbsp;&nbsp;&nbsp;</a><?php if($value[3] == null ){ echo "面议"; }else{ echo '<b class="pri" style=" color: red;font-weight: bold;">'.$value[3].'-'.$value[4].'</b>元'; } ?></td>
 					 		</tr>
 					 	<?php } ?>
 					 		<tr>

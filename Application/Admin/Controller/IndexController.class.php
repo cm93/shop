@@ -3,6 +3,7 @@ namespace Admin\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
+    	if(cookie("admin")){
     	$server = array();
     	$server["os"]= $this->getOS();
     	$server["browser"]= $this->browser($_SERVER['HTTP_USER_AGENT']);
@@ -12,10 +13,26 @@ class IndexController extends Controller {
     	$this->assign("count",$result);
     	$this->assign("server",$server);
     	$this->display();
+    	}else{
+    		$this->display("User/login");
+    	}
     }
     public function content(){
     	$Goods = new \Home\Controller\GoodsController();
     	$Goods->wanted();
+    }
+    public function goods(){
+    	$Goods = new \Home\Model\GoodsModel();
+    	$count = $Goods->countgoods();
+    	$page  = new \Think\Page($count,9);
+    	$show  = $page->show();
+        $totle = $page->totalRows;
+        $result = $Goods->search(null,null,$page->firstRow);
+        $page->setConfig('header','件商品');
+        $this->assign('goods',$result);
+        $this->assign('page',$show);
+        $this->assign('totle',$totle);
+        $this->display();
     }
  
     public function browser ($Agent) {

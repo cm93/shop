@@ -11,14 +11,15 @@
 
 // t: current time, b: begInnIng value, c: change In value, d: duration
 $(function(){
-	$(".color2").attr("href","/shop/home/goods/products?class=a");
-	$(".color4").attr("href","/shop/home/goods/products?class=b");
-	$(".color5").attr("href","/shop/home/goods/products?class=c");
-	$(".color6").attr("href","/shop/home/goods/products?class=d");
-	$(".color7").attr("href","/shop/home/goods/products?class=e");
-	$(".color8").attr("href","/shop/home/goods/products?class=f");
+	var src = "http://localhost/home/goods/";
+	$(".color2").attr("href",src+"products?class=a");
+	$(".color4").attr("href",src+"products?class=b");
+	$(".color5").attr("href",src+"products?class=c");
+	$(".color6").attr("href",src+"products?class=d");
+	$(".color7").attr("href",src+"products?class=e");
+	$(".color8").attr("href",src+"products?class=f");
 	$(".h_nav ul li a").click(function(){
-		$(this).attr("href","/shop/home/goods/products?class="+$(this).html())
+		$(this).attr("href",src+"products?class="+$(this).html())
 	})
 
 									    var $cart = $('#cart');
@@ -34,13 +35,13 @@ $(function(){
 									        	$cart.slideUp("slow");
 									        })
 
-	$.get("/shop/home/goods/showcart", function(data){
+	$.get(src+"showcart", function(data){
 												
 												if(data.length != 0){
 													    	$("#cart").empty();
 				    	for (var i=0;i<data.length;i++)
 {
-	var imformation = '<div class="goods" style="margin-bottom:10px;"><img src="'+data[i][1]+'" style="width:66px;height:66px;"><a href="http://localhost/shop/home/goods/details?id='+data[i][6]+'" style="color:white;position:absolute;padding-left:10px;">'+data[i][2]+'</a><span class="deletegoods"  style="padding-left:10px;"><a id="del"  name="'+data[i][0]+'">删除</a><span style="margin-left:90px;">¥'+data[i][3]+'</span></span></div>'
+	var imformation = '<div class="goods" style="margin-bottom:10px;"><img src="'+data[i][1]+'" style="width:66px;height:66px;"><a href="'+src+'goods/details?id='+data[i][6]+'" style="color:white;position:absolute;padding-left:10px;">'+data[i][2]+'</a><span class="deletegoods"  style="padding-left:10px;"><a id="del"  name="'+data[i][0]+'">删除</a><span style="margin-left:90px;">¥'+data[i][3]+'</span></span></div>'
 	$("#cart").append(imformation);
 }
 $("#cart").append('<a href="#"><button type="button" class="btnn" style="background-color:gray;width:250px">去结账</button></a>')
@@ -56,7 +57,7 @@ cartlen();
 	}
 	function del(){
 		$("#del").click(function(){
-												$.get("/shop/home/goods/delcart?id="+$(this).attr("name"));
+												$.get(src+"delcart?id="+$(this).attr("name"));
 												$(this).parent().parent().remove();
 												$("#Num").remove();
 												cartlen();

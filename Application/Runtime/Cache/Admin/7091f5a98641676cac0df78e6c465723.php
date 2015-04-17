@@ -14,38 +14,38 @@
 </head>
 <body>
 <div class="lefter">
-    <div class="logo"><a href="http://www.pintuer.com" target="_blank"><img src="<?php echo IMG; ?>llgo.png" alt="后台管理系统" /></a></div>
+    <div class="logo"><img src="<?php echo IMG; ?>llgo.png" alt="后台管理系统" /></div>
 </div>
 <div class="righter nav-navicon" id="admin-nav">
     <div class="mainer">
         <div class="admin-navbar">
             <span class="float-right">
-                <a class="button button-little bg-main" href="/shop/" target="_blank">前台首页</a>
-                <a class="button button-little bg-yellow" href="<?php echo Admin; ?>user/login">注销登录</a>
+                <a class="button button-little bg-main" href="<?php echo SITE_URL; ?>" target="_blank">前台首页</a>
+                <a class="button button-little bg-yellow" id="logout" href="<?php echo ADMIN; ?>user/logout">注销登录</a>
             </span>
             <ul class="nav nav-inline admin-nav">
-                <li><a href="./index" class="icon-home"> 开始</a>
-                    <ul><li><a href="./system">系统设置</a></li>
-                    <li><a href="./content">求购管理</a></li>
-                    <li><a href="./goods">商品管理</a></li>
-                    <li><a href="./member">会员管理</a></li>
+                <li><a href="<?php echo ADMIN; ?>" class="icon-home"> 开始</a>
+                    <ul><li><a href="<?php echo ADMIN; ?>Index/system">系统设置</a></li>
+                    <li><a href="<?php echo ADMIN; ?>Index/content">求购管理</a></li>
+                    <li><a href="<?php echo ADMIN; ?>Index/goods">商品管理</a></li>
+                    <li><a href="<?php echo ADMIN; ?>Index/member">会员管理</a></li>
                     <li><a href="#">文件管理</a></li>
                     <li><a href="#">栏目管理</a></li></ul>
                 </li>
-                <li class="active"><a href="./system" class="icon-cog"> 系统</a>
+                <li class="active"><a href="<?php echo ADMIN; ?>Index/system" class="icon-cog"> 系统</a>
                     <ul><li><a href="#">全局设置</a></li>
                     <li class="active"><a href="#">系统设置</a>
                     </li><li><a href="#">会员设置</a></li>
                     <li><a href="#">积分设置</a></li></ul>
                 </li>
-                <li><a href="./content" class="icon-file-text">求购</a>
+                <li><a href="<?php echo ADMIN; ?>Index/content" class="icon-file-text">求购</a>
                     <ul><li><a href="#">添加内容</a></li>
                     <li class="active"><a href="#">内容管理</a></li>
                     <li><a href="#">分类设置</a></li>
                     <li><a href="#">链接管理</a></li></ul>
                 </li>
-                <li><a href="./goods" class="icon-shopping-cart">商品</a></li>
-                <li><a href="./member" class="icon-user"> 会员</a></li>
+                <li><a href="<?php echo ADMIN; ?>Index/goods" class="icon-shopping-cart">商品</a></li>
+                <li><a href="<?php echo ADMIN; ?>Index/member" class="icon-user"> 会员</a></li>
                 <li><a href="#" class="icon-file"> 文件</a></li>
                 <li><a href="#" class="icon-th-list"> 栏目</a></li>
             </ul>
@@ -53,8 +53,8 @@
         <div class="admin-bread">
             <span>您好，<?php echo cookie('admin');?>，欢迎您的光临。</span>
             <ul class="bread">
-                <li><a href="./index" class="icon-home"> 开始</a></li>
-                <li><a href="./system">设置</a></li>
+                <li><a href="<?php echo ADMIN; ?>" class="icon-home"> 开始</a></li>
+                <li><a href="<?php echo ADMIN; ?>Index/system">设置</a></li>
                 <li>系统设置</li>
             </ul>
         </div>

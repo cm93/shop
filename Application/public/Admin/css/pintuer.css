@@ -1077,3 +1077,7 @@ a:focus,a:hover{color:#09c;} /*链接-悬浮颜色*/
 {color:#333;border-color:#3bc;background-color:#3bc;} /*融合-文本色-边框-背景*/
 .button.border-dot:hover,.button.border-dot:focus,.button.bg-dot:hover,.button.bg-dot:focus
 {color:#fff;border-color:#f00;background-color:#f00;} /*点缀色-文本-边框-背景*/
+.images {
+	width: 80%;
+	height: 70px;
+}

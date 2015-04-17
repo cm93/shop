@@ -17,7 +17,7 @@ class UserController extends Controller{
     }
     public function logout(){
         session('username',null);
-        $this->display('index/index');
+        $this->display('Index/index');
     }
     public function verifyIMG(){
         $config=array(
@@ -43,7 +43,7 @@ class UserController extends Controller{
             $User = new \Home\Model\UserModel();
             $result = $User->add($_POST);
             if($result){
-                $this->success('新增成功', '/shop/index.php');
+                $this->success('新增成功', HOME.'index.php');
                 session('username',$_POST['username']);
             } else {
                 $this->error('新增失败');

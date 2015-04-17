@@ -88,9 +88,9 @@
 		username = "<?php print_r(session('username'));?>";
 		$(function(){
 			if(username == ""){
-				$(".top-header-right").append('<ul><li><a href="/shop/home/user/login">登录</a><span> </span></li><li><a href="/shop/home/user/register">注册</a></li></ul>')
+				$(".top-header-right").append('<ul><li><a href="<?php echo HOME;?>user/login">登录</a><span> </span></li><li><a href="<?php echo HOME;?>user/register">注册</a></li></ul>')
 			}else{
-				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='/shop/home/index/member'>用户中心</a>,<a href='/shop/home/user/logout'>退出</a>]<li></ul>";
+				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='<?php echo HOME;?>index/member'>用户中心</a>,<a href='<?php echo HOME;?>user/logout'>退出</a>]<li></ul>";
 				$(".top-header-right").append(html);
 			}
 		})
@@ -100,7 +100,7 @@
 				<div class="mid-header">
 					<div class="wrap">
 						<div class="mid-grid-right">
-							<a class="logo" href="../index"><span> </span></a>
+							<a class="logo" href="<?php echo HOME;?>"><span> </span></a>
 						</div>
 						<div class="clear"> </div>
 					</div>
@@ -154,7 +154,7 @@
 											<span ><label>*</label>物品描述：</span>
 											
 										</div>
-										<iframe src="http://localhost/shop/public/ume/" style="width:1050px;height:320px;" name="describe" scrolling="no" id="describe">
+										<iframe src="<?php echo SITE_URL; ?>Public/ume/" style="width:1050px;height:320px;" name="describe" scrolling="no" id="describe">
 										</iframe>
 										<input type="hidden" name="area" value="<?php print_r($area);?>">
 										<input type="submit" value="发布求购" id="sub" style="margin-left:75px;"/>

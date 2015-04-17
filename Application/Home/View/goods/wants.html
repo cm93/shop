@@ -124,7 +124,7 @@
 				    	$("#cart").empty();
 				    	for (var i=0;i<data.length;i++)
 {
-	var imformation = '<div class="goods" style="margin-bottom:10px;"><img src="'+data[i][1]+'" style="width:66px;height:66px;"><a href="http://localhost/shop/home/goods/details?id='+data[i][6]+'" style="color:white;position:absolute;padding-left:10px;">'+data[i][2]+'</a><span class="deletegoods"  style="padding-left:10px;"><a id="del"  name="'+data[i][0]+'">删除</a><span style="margin-left:90px;">¥'+data[i][3]+'</span></span></div>'
+	var imformation = '<div class="goods" style="margin-bottom:10px;"><img src="'+data[i][1]+'" style="width:66px;height:66px;"><a href="<?php echo HOME;?>goods/details?id='+data[i][6]+'" style="color:white;position:absolute;padding-left:10px;">'+data[i][2]+'</a><span class="deletegoods"  style="padding-left:10px;"><a id="del"  name="'+data[i][0]+'">删除</a><span style="margin-left:90px;">¥'+data[i][3]+'</span></span></div>'
 	$("#cart").append(imformation);
 }
 cartlen();
@@ -183,9 +183,9 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 		username = "<?php print_r(session('username'));?>";
 		$(function(){
 			if(username == ""){
-				$(".top-header-right").append('<ul><li><a href="/shop/home/user/login">登录</a><span> </span></li><li><a href="/shop/home/user/register">注册</a></li></ul>')
+				$(".top-header-right").append('<ul><li><a href="<?php echo HOME;?>user/login">登录</a><span> </span></li><li><a href="<?php echo HOME;?>user/register">注册</a></li></ul>')
 			}else{
-				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='/shop/home/index/member'>用户中心</a>,<a href='/shop/home/user/logout'>退出</a>]<li></ul>";
+				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='<?php echo HOME;?>index/member'>用户中心</a>,<a href='<?php echo HOME;?>user/logout'>退出</a>]<li></ul>";
 				$(".top-header-right").append(html);
 			}
 		})
@@ -195,12 +195,12 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 				<div class="mid-header">
 					<div class="wrap">
 						<div class="mid-grid-left" style="padding-top:50px;">
-							<form id="search" method="post"  action="/shop/home/goods/products">
+							<form id="search" method="post"  action="<?php echo HOME;?>goods/products">
 								<input id="sear" name="search"  type="search" placeholder="请输入搜素文字" />	
 							</form>
 						</div>
 						<div class="mid-grid-right">
-							<a class="logo" href="../index"><span> </span></a>
+							<a class="logo" href="<?php echo HOME;?>"><span> </span></a>
 						</div>
 						<div class="clear"> </div>
 					</div>

@@ -124,7 +124,7 @@
 				    	$("#cart").empty();
 				    	for (var i=0;i<data.length;i++)
 {
-	var imformation = '<div class="goods" style="margin-bottom:10px;"><img src="'+data[i][1]+'" style="width:66px;height:66px;"><a href="http://localhost/shop/home/goods/details?id='+data[i][6]+'" style="color:white;position:absolute;padding-left:10px;">'+data[i][2]+'</a><span class="deletegoods"  style="padding-left:10px;"><a id="del"  name="'+data[i][0]+'">删除</a><span style="margin-left:90px;">¥'+data[i][3]+'</span></span></div>'
+	var imformation = '<div class="goods" style="margin-bottom:10px;"><img src="'+data[i][1]+'" style="width:66px;height:66px;"><a href="<?php echo HOME;?>goods/details?id='+data[i][6]+'" style="color:white;position:absolute;padding-left:10px;">'+data[i][2]+'</a><span class="deletegoods"  style="padding-left:10px;"><a id="del"  name="'+data[i][0]+'">删除</a><span style="margin-left:90px;">¥'+data[i][3]+'</span></span></div>'
 	$("#cart").append(imformation);
 }
 cartlen();
@@ -183,9 +183,9 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 		username = "<?php print_r(session('username'));?>";
 		$(function(){
 			if(username == ""){
-				$(".top-header-right").append('<ul><li><a href="/shop/home/user/login">登录</a><span> </span></li><li><a href="/shop/home/user/register">注册</a></li></ul>')
+				$(".top-header-right").append('<ul><li><a href="<?php echo HOME;?>user/login">登录</a><span> </span></li><li><a href="<?php echo HOME;?>user/register">注册</a></li></ul>')
 			}else{
-				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='/shop/home/index/member'>用户中心</a>,<a href='/shop/home/user/logout'>退出</a>]<li></ul>";
+				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='<?php echo HOME;?>index/member'>用户中心</a>,<a href='<?php echo HOME;?>user/logout'>退出</a>]<li></ul>";
 				$(".top-header-right").append(html);
 			}
 		})
@@ -195,7 +195,7 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 				<div class="mid-header">
 					<div class="wrap">
 						<div class="mid-grid-left" style="padding-top:50px;">
-							<form id="search" method="post"  action="/shop/home/goods/products">
+							<form id="search" method="post"  action="<?php echo HOME;?>goods/products">
 								<input id="sear" name="search"  type="search" placeholder="请输入搜素文字" />	
 							</form>
 						</div>
@@ -218,23 +218,23 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 												<div class="h_nav">
 													<h4> &nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">按摩器</a></li>
-														<li><a href="../goods/products">压力锅</a></li>
-														<li><a href="../goods/products">电吹风</a></li>
-														<li><a href="../goods/products">吸尘器</a></li>
-														<li><a href="../goods/products">电熨斗</a></li>
-														<li><a href="../goods/products">太阳能/热水器</a></li>
+														<li><a href="#">按摩器</a></li>
+														<li><a href="#">压力锅</a></li>
+														<li><a href="#">电吹风</a></li>
+														<li><a href="#">吸尘器</a></li>
+														<li><a href="#">电熨斗</a></li>
+														<li><a href="#">太阳能/热水器</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">热水壶</a></li>
-														<li><a href="../goods/products">家用搅拌机</a></li>
-														<li><a href="../goods/products">果蔬解毒机</a></li>
-														<li><a href="../goods/products">咖啡机/壶</a></li>
-														<li><a href="../goods/products">家用净水器</a></li>
-														<li><a href="../goods/products">消毒柜</a></li>
+														<li><a href="#">热水壶</a></li>
+														<li><a href="#">家用搅拌机</a></li>
+														<li><a href="#">果蔬解毒机</a></li>
+														<li><a href="#">咖啡机/壶</a></li>
+														<li><a href="#">家用净水器</a></li>
+														<li><a href="#">消毒柜</a></li>
 													</ul>	
 												</div>
 											</div>
@@ -242,23 +242,23 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 												<div class="h_nav">
 													<h4> &nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">微波炉/电烤箱</a></li>
-														<li><a href="../goods/products">净水器/加湿器</a></li>
-														<li><a href="../goods/products">电热杯</a></li>
-														<li><a href="../goods/products">豆浆机</a></li>
-														<li><a href="../goods/products">电饼铛</a></li>
-														<li><a href="../goods/products">电磁炉</a></li>
+														<li><a href="#">微波炉/电烤箱</a></li>
+														<li><a href="#">净水器/加湿器</a></li>
+														<li><a href="#">电热杯</a></li>
+														<li><a href="#">豆浆机</a></li>
+														<li><a href="#">电饼铛</a></li>
+														<li><a href="#">电磁炉</a></li>
 													</ul>	
 												</div>							
 												<div class="h_nav">
 													<h4 class="top"> &nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">冰箱/冷藏柜</a></li>
-														<li><a href="../goods/products">电风扇</a></li>
-														<li><a href="../goods/products">榨汁机/面包机</a></li>
-														<li><a href="../goods/products">电视机</a></li>
-														<li><a href="../goods/products">电饭煲</a></li>
-														<li><a href="../goods/products">油烟机</a></li>
+														<li><a href="#">冰箱/冷藏柜</a></li>
+														<li><a href="#">电风扇</a></li>
+														<li><a href="#">榨汁机/面包机</a></li>
+														<li><a href="#">电视机</a></li>
+														<li><a href="#">电饭煲</a></li>
+														<li><a href="#">油烟机</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -277,23 +277,23 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">音响</a></li>
-														<li><a href="../goods/products">电脑附件</a></li>
-														<li><a href="../goods/products">显示器</a></li>
-														<li><a href="../goods/products">耳机</a></li>
-														<li><a href="../goods/products">单片机</a></li>
-														<li><a href="../goods/products">内存条</a></li>
+														<li><a href="#">音响</a></li>
+														<li><a href="#">电脑附件</a></li>
+														<li><a href="#">显示器</a></li>
+														<li><a href="#">耳机</a></li>
+														<li><a href="#">单片机</a></li>
+														<li><a href="#">内存条</a></li>
 													</ul>	
 												</div>	
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">录音笔</a></li>
-														<li><a href="../goods/products">小灵通</a></li>
-														<li><a href="../goods/products">固定电话</a></li>
-														<li><a href="../goods/products">数据线</a></li>
-														<li><a href="../goods/products">手写笔</a></li>
-														<li><a href="../goods/products">充电器</a></li>
+														<li><a href="#">录音笔</a></li>
+														<li><a href="#">小灵通</a></li>
+														<li><a href="#">固定电话</a></li>
+														<li><a href="#">数据线</a></li>
+														<li><a href="#">手写笔</a></li>
+														<li><a href="#">充电器</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -301,23 +301,23 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">麦克风</a></li>
-														<li><a href="../goods/products">学习机</a></li>
-														<li><a href="../goods/products">移动硬盘</a></li>
-														<li><a href="../goods/products">摄像头</a></li>
-														<li><a href="../goods/products">U盘/内存卡</a></li>
-														<li><a href="../goods/products">手机</a></li>
+														<li><a href="#">麦克风</a></li>
+														<li><a href="#">学习机</a></li>
+														<li><a href="#">移动硬盘</a></li>
+														<li><a href="#">摄像头</a></li>
+														<li><a href="#">U盘/内存卡</a></li>
+														<li><a href="#">手机</a></li>
 													</ul>	
 												</div>												
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">MP3/MP4/MP5</a></li>
-														<li><a href="../goods/products">照相机</a></li>
-														<li><a href="../goods/products">打印机</a></li>
-														<li><a href="../goods/products">复印机</a></li>
-														<li><a href="../goods/products">台式电脑</a></li>
-														<li><a href="../goods/products">笔记本</a></li>
+														<li><a href="#">MP3/MP4/MP5</a></li>
+														<li><a href="#">照相机</a></li>
+														<li><a href="#">打印机</a></li>
+														<li><a href="#">复印机</a></li>
+														<li><a href="#">台式电脑</a></li>
+														<li><a href="#">笔记本</a></li>
 													</ul>	
 												</div>						
 											</div>
@@ -343,23 +343,23 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">汽车配件</a></li>
-														<li><a href="../goods/products">二手车</a></li>
-														<li><a href="../goods/products">二手摩托车</a></li>
-														<li><a href="../goods/products">牵引车</a></li>
-														<li><a href="../goods/products">半挂车</a></li>
-														<li><a href="../goods/products">电动车/自行车</a></li>
+														<li><a href="#">汽车配件</a></li>
+														<li><a href="#">二手车</a></li>
+														<li><a href="#">二手摩托车</a></li>
+														<li><a href="#">牵引车</a></li>
+														<li><a href="#">半挂车</a></li>
+														<li><a href="#">电动车/自行车</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">内饰</a></li>
-														<li><a href="../goods/products">外饰</a></li>
-														<li><a href="../goods/products">GPS</a></li>
-														<li><a href="../goods/products">保养</a></li>
-														<li><a href="../goods/products">视听</a></li>
-														<li><a href="../goods/products">其他</a></li>
+														<li><a href="#">内饰</a></li>
+														<li><a href="#">外饰</a></li>
+														<li><a href="#">GPS</a></li>
+														<li><a href="#">保养</a></li>
+														<li><a href="#">视听</a></li>
+														<li><a href="#">其他</a></li>
 													</ul>	
 												</div>
 											</div>
@@ -386,23 +386,23 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">灯具</a></li>
-														<li><a href="../goods/products">梳妆用品</a></li>
-														<li><a href="../goods/products">沐浴用品</a></li>
-														<li><a href="../goods/products">棋牌麻将</a></li>
-														<li><a href="../goods/products">厨房用品</a></li>
-														<li><a href="../goods/products">家纺</a></li>
+														<li><a href="#">灯具</a></li>
+														<li><a href="#">梳妆用品</a></li>
+														<li><a href="#">沐浴用品</a></li>
+														<li><a href="#">棋牌麻将</a></li>
+														<li><a href="#">厨房用品</a></li>
+														<li><a href="#">家纺</a></li>
 													</ul>	
 												</div>	
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">充气床</a></li>
-														<li><a href="../goods/products">鞋柜</a></li>
-														<li><a href="../goods/products">吧台</a></li>
-														<li><a href="../goods/products">床头柜</a></li>
-														<li><a href="../goods/products">视听柜</a></li>
-														<li><a href="../goods/products">休闲桌</a></li>
+														<li><a href="#">充气床</a></li>
+														<li><a href="#">鞋柜</a></li>
+														<li><a href="#">吧台</a></li>
+														<li><a href="#">床头柜</a></li>
+														<li><a href="#">视听柜</a></li>
+														<li><a href="#">休闲桌</a></li>
 													</ul>	
 												</div>												
 											</div>
@@ -410,23 +410,23 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">衣架/日用</a></li>
-														<li><a href="../goods/products">沙发/座椅</a></li>
-														<li><a href="../goods/products">电脑桌</a></li>
-														<li><a href="../goods/products">床</a></li>
-														<li><a href="../goods/products">茶具</a></li>
-														<li><a href="../goods/products">梳妆台/首饰架</a></li>
+														<li><a href="#">衣架/日用</a></li>
+														<li><a href="#">沙发/座椅</a></li>
+														<li><a href="#">电脑桌</a></li>
+														<li><a href="#">床</a></li>
+														<li><a href="#">茶具</a></li>
+														<li><a href="#">梳妆台/首饰架</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">餐桌</a></li>
-														<li><a href="../goods/products">窗帘/珠帘</a></li>
-														<li><a href="../goods/products">清洁用品</a></li>
-														<li><a href="../goods/products">手电筒</a></li>
-														<li><a href="../goods/products">床垫</a></li>
-														<li><a href="../goods/products">其他</a></li>
+														<li><a href="#">餐桌</a></li>
+														<li><a href="#">窗帘/珠帘</a></li>
+														<li><a href="#">清洁用品</a></li>
+														<li><a href="#">手电筒</a></li>
+														<li><a href="#">床垫</a></li>
+														<li><a href="#">其他</a></li>
 													</ul>	
 												</div>						
 											</div>
@@ -452,23 +452,23 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">设备耗材</a></li>
-														<li><a href="../goods/products">办公电器</a></li>
-														<li><a href="../goods/products">文件夹册</a></li>
-														<li><a href="../goods/products">办公家具</a></li>
-														<li><a href="../goods/products">商务用品</a></li>
-														<li><a href="../goods/products">日用/劳保</a></li>
+														<li><a href="#">设备耗材</a></li>
+														<li><a href="#">办公电器</a></li>
+														<li><a href="#">文件夹册</a></li>
+														<li><a href="#">办公家具</a></li>
+														<li><a href="#">商务用品</a></li>
+														<li><a href="#">日用/劳保</a></li>
 													</ul>	
 												</div>		
 												<div class="h_nav">
 													<h4 class="top">&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">装订用品</a></li>
-														<li><a href="../goods/products">测绘用品</a></li>
-														<li><a href="../goods/products">修正辅助</a></li>
-														<li><a href="../goods/products">资料管理</a></li>
-														<li><a href="../goods/products">桌面用品</a></li>
-														<li><a href="../goods/products">记事本/簿</a></li>
+														<li><a href="#">装订用品</a></li>
+														<li><a href="#">测绘用品</a></li>
+														<li><a href="#">修正辅助</a></li>
+														<li><a href="#">资料管理</a></li>
+														<li><a href="#">桌面用品</a></li>
+														<li><a href="#">记事本/簿</a></li>
 													</ul>	
 												</div>					
 											</div>
@@ -476,12 +476,12 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 												<div class="h_nav">
 													<h4>&nbsp;</h4>
 													<ul>
-														<li><a href="../goods/products">财务用品</a></li>
-														<li><a href="../goods/products">办公用笔</a></li>
-														<li><a href="../goods/products">办公用纸</a></li>
-														<li><a href="../goods/products">办公数码</a></li>
-														<li><a href="../goods/products">办公设备</a></li>
-														<li><a href="../goods/products">办公软件</a></li>
+														<li><a href="#">财务用品</a></li>
+														<li><a href="#">办公用笔</a></li>
+														<li><a href="#">办公用纸</a></li>
+														<li><a href="#">办公数码</a></li>
+														<li><a href="#">办公设备</a></li>
+														<li><a href="#">办公软件</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -507,23 +507,23 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 												<div class="h_nav">
 													<h4><i class="icon-soccer-ball"></i>&nbsp;旅游运动</h4>
 													<ul>
-														<li><a href="../goods/products">户外服装</a></li>
-														<li><a href="../goods/products">野营用品</a></li>
-														<li><a href="../goods/products">探险用品</a></li>
-														<li><a href="../goods/products">户外包</a></li>
-														<li><a href="../goods/products">攀岩装备</a></li>
-														<li><a href="../goods/products">望远镜</a></li>
+														<li><a href="#">户外服装</a></li>
+														<li><a href="#">野营用品</a></li>
+														<li><a href="#">探险用品</a></li>
+														<li><a href="#">户外包</a></li>
+														<li><a href="#">攀岩装备</a></li>
+														<li><a href="#">望远镜</a></li>
 													</ul>	
 												</div>
 												<div class="h_nav">
 													<h4 class="top"><i class="icon-lifebuoy"></i>&nbsp;古董收藏</h4>
 													<ul>
-														<li><a href="../goods/products">趣味</a></li>
-														<li><a href="../goods/products">收藏</a></li>
-														<li><a href="../goods/products">古董</a></li>
-														<li><a href="../goods/products">书画</a></li>
-														<li><a href="../goods/products">邮票</a></li>
-														<li><a href="../goods/products">纪念</a></li>
+														<li><a href="#">趣味</a></li>
+														<li><a href="#">收藏</a></li>
+														<li><a href="#">古董</a></li>
+														<li><a href="#">书画</a></li>
+														<li><a href="#">邮票</a></li>
+														<li><a href="#">纪念</a></li>
 													</ul>	
 												</div>							
 											</div>
@@ -531,12 +531,12 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 												<div class="h_nav">
 													<h4><i class="icon-guidedog"></i>&nbsp;宠物宝贝</h4>
 													<ul>
-														<li><a href="../goods/products">狗狗</a></li>
-														<li><a href="../goods/products">猫咪</a></li>
-														<li><a href="../goods/products">小鸟</a></li>
-														<li><a href="../goods/products">宠物用品</a></li>
-														<li><a href="../goods/products">宠物食粮</a></li>
-														<li><a href="../goods/products">其他</a></li>
+														<li><a href="#">狗狗</a></li>
+														<li><a href="#">猫咪</a></li>
+														<li><a href="#">小鸟</a></li>
+														<li><a href="#">宠物用品</a></li>
+														<li><a href="#">宠物食粮</a></li>
+														<li><a href="#">其他</a></li>
 													</ul>	
 												</div>
 										</div>
@@ -775,7 +775,7 @@ $("#cart").append('<a href="#"><button type="button" class="btnn" style="backgro
 							<!---//End-rate---->
 					       <div id="owl-demo" class="owl-carousel">
 					       <?php foreach ($other as $key => $value) {?>
-				                <div class="item" onclick="location.href='/shop/home/goods/details?id=<?php echo $value[0]; ?>';">
+				                <div class="item" onclick="location.href='<?php echo HOME;?>goods/details?id=<?php echo $value[0]; ?>';">
 				                	<div class="product-grid fade sproduct-grid">
 										<div class="product-pic">
 											<a href="#"><img style="width:240px;height:150px" src="<?php echo explode(" ", $value[12])[0]; ?>" title="product-name" /></a>

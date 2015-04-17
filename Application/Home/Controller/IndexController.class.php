@@ -77,7 +77,7 @@ class IndexController extends Controller {
         
         $mail->Subject = '二手网会员邮箱认证申请！';
         $mail->Body    = '尊敬的用户：</br>您好,感谢您对本站的支持，您的邮箱认证申请已成功，请在24小时内点击以下链接来完成认证申请。</br> 注意：经过认证后，您将不能修改邮箱地址。</br>
-'.'http://localhost/shop/home/index/checkemail?email='.$row[5].'&user='.session('username').'</br>
+'.HOME.'home/index/checkemail?email='.$row[5].'&user='.session('username').'</br>
 (如果不能点击该链接地址，请复制并粘贴到浏览器的地址输入框)</br>
 </br>
     想提高您的会员诚信度，进行会员信息认证。认证用户所发布的信息对于其他浏览用户来说更具真实性，将更受欢迎。</br>

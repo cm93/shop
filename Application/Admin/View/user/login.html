@@ -21,14 +21,14 @@
         $("#sub").click(function(e){
             e.preventDefault();
             $.ajax({    
-                    url:'./login',
+                    url:'<?php echo ADMIN;?>User/login',
                     data:$('#admin').serialize(),
                     type:'post',    
                     cache:false,    
                     dataType:'json',    
                     success:function(data) { 
                         if(data.status ==1){
-                            location.href='<?php echo Admin;?>index/index';
+                            location.href='<?php echo ADMIN;?>';
                         }else{
                             $(".input-help").remove();
                             $("#error").append('<div class="input-help"><ul><li>密码错误</li></ul></div>');
@@ -42,11 +42,11 @@
         })
     })
 </script>
-<iframe src="./back" style="position:absolute;width:100%;height:100%;" id="back"></iframe>
+<iframe src="<?php echo ADMIN;?>User/back" style="position:absolute;width:100%;height:100%;" id="back"></iframe>
 <div class="container" style="position:absolute;top:0%;left:30%;display:none">
     <div class="line">
         <div class="xs6 xm4 xs3-move xm4-move">
-            <form action="./login" method="post" id="admin">
+            <form action="<?php echo ADMIN;?>/User/login" method="post" id="admin">
             <div class="panel">
                 <div class="panel-head"><strong>登录后台管理系统</strong></div>
                 <div class="panel-body" style="padding:30px;">

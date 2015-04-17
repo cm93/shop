@@ -9,7 +9,7 @@
 <body>
 <div class="topbar">
 <div class="topbarnav">
-<div class="bar-right"><a href=""> <?php print_r(session('username'));?></a>&nbsp;&nbsp;用户中心&nbsp;&nbsp;|&nbsp;<a href="/shop/home/user/logout">退出</a>&nbsp;</div>
+<div class="bar-right"><a href=""> <?php print_r(session('username'));?></a>&nbsp;&nbsp;用户中心&nbsp;&nbsp;|&nbsp;<a href="<?php echo HOME;?>user/logout">退出</a>&nbsp;</div>
 </div></div>
 <div class="head"><div class="head-left">
 <a href="/" target="_blank" class="logo"><img src="http://www.qqershou.com/Member/images/logo.png" alt=全球二手网></a><span>用户中心</span></div>
@@ -23,9 +23,9 @@
 </div></div>
 <div class="memnav"><div class="module"><ul>
 <span style="float:right; font-size:12px; width:140px;color:#FFFFFF"><a href="#" style="color:#FFFFFF" >帮助中心</a> | <a style="color:#FFFFFF" href="#">我要推广</a></span>
-<li id="h"><a href="./">网站首页</a></li>
-<li id="h_index" class="active"><a href="./member">用户中心</a></li>
-<li id="h_account" class="noactive"><a href="./user">我的账户</a></li>
+<li id="h"><a href="<?php echo HOME;?>index/">网站首页</a></li>
+<li id="h_index" class="active"><a href="<?php echo HOME;?>index/member">用户中心</a></li>
+<li id="h_account" class="noactive"><a href="<?php echo HOME;?>index/user">我的账户</a></li>
 <li id="h_security" class="noactive"><a href="#">安全中心</a></li>
 <li id="h_e" class="noactive"><a href="#">我的推广</a></li>
 <li class="noactive"><a href="#">申请VIP</a></li>
@@ -33,16 +33,16 @@
 <DIV class="body-wrap">
 <div class="left-wrap">
 <div class="left-menu">
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active') class=""><a href="/shop/home/index/member/" class=mc>个人中心</a></span>
-<span onmouseover="$(this).addClass('active')"  class="active"><a href="/shop/home/index/user_product" class=mpost>闲置物品</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user_classADD" class=mpost>分类信息</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user" class=mhelp>个人资料</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="/shop/home/index/user_message" class=mmessage>我的消息</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="/shop/home/index/user_collection" class=mpay>我的收藏</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active') class=""><a href="<?php echo HOME;?>index/member/" class=mc>个人中心</a></span>
+<span onmouseover="$(this).addClass('active')"  class="active"><a href="<?php echo HOME;?>index/user_product" class=mpost>闲置物品</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="<?php echo HOME;?>index/user_classADD" class=mpost>分类信息</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="<?php echo HOME;?>index/user" class=mhelp>个人资料</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="<?php echo HOME;?>index/user_message" class=mmessage>我的消息</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="<?php echo HOME;?>index/user_collection" class=mpay>我的收藏</a></span>
 </div>
 </div>	
 <div class="right-wrap">
-<div class=UserPath>您的位置：<a href="./member">会员中心</a> >> <a href=User_Product>闲置物品</a></div><table width='100%' cellpadding=3 cellspacing=1><tr><td valign=top colspan=2>
+<div class=UserPath>您的位置：<a href="<?php echo HOME;?>index/member">会员中心</a> >> <a href=User_Product>闲置物品</a></div><table width='100%' cellpadding=3 cellspacing=1><tr><td valign=top colspan=2>
 <form action='?Page=' name=myform method=POST>
 <DIV class=area_cz>
 <B>&nbsp;闲置物品</B>
@@ -67,10 +67,10 @@
 	<?php foreach ($data as $key => $value) { ?>
 	<TR class="product">
 		<TH width=178><img style="width:178px;height:150px" src="<?php echo explode(" ", $value[12])[0]; ?>" title="product-name" /></TH>
-	<TH > <a href="/shop/home/goods/details?id=<?php echo $value[0]; ?>"><?php echo $value[1]; ?></a></TH>
+	<TH > <a href="<?php echo HOME;?>goods/details?id=<?php echo $value[0]; ?>"><?php echo $value[1]; ?></a></TH>
 	<TH width=140><?php echo $value[16]; ?></TH>
 	<TH width=110>状态:发布</TH>
-	<TH width=110>操作:&nbsp;<a href="/shop/home/index/user_product?del=<?php echo $value[0]; ?>" onclick="delcfm()">删除</a>&nbsp;&nbsp;&nbsp;<a href="/shop/home/goods/updata?id=<?php echo $value[0];?>">修改</a></TH>
+	<TH width=110>操作:&nbsp;<a href="<?php echo HOME;?>index/user_product?del=<?php echo $value[0]; ?>" onclick="delcfm()">删除</a>&nbsp;&nbsp;&nbsp;<a href="<?php echo HOME;?>goods/updata?id=<?php echo $value[0];?>">修改</a></TH>
 	</TR>
 	<?php } ?>
 </TBODY></TABLE>

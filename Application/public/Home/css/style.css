@@ -1,4 +1,6 @@
- /* reset */
+ @media screen and(max-width:1366px){
+	body{ width:1366px;}
+	} /* reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 ol,ul{list-style:none;margin:0px;padding:0px;}
@@ -88,10 +90,10 @@ body{
 }
 /*----//End-cart-tonggle----*/
 .cart span{
-	background:url(/shop/Application/public/Home/images/image-sprit.png) no-repeat 0px 0px;
+	background:url(/Application/public/Home/images/image-sprit.png) no-repeat 0px 0px;
 }
 .info span{
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -22px 0px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -22px 0px;
 }
 .top-header-center-alert-left{
 	float: left;
@@ -168,7 +170,7 @@ text-decoration: none;
 	width: 230px;
 	height: 70px;
 	display: inline-block;
-	background: url(/shop/Application/public/Home/images/logo.png) ;
+	background: url(/Application/public/Home/images/logo.png) ;
 }
 .logo{
 	position:relative;
@@ -204,19 +206,19 @@ text-decoration: none;
 	height:20px;
 	width:20px;
 	display:block;
-	background:url(/shop/Application/public/Home/images/image-sprit.png) no-repeat;
+	background:url(/Application/public/Home/images/image-sprit.png) no-repeat;
 }
 .cheked{
 	height:20px;
 	width:20px;
 	display:block;
-	background:url(/shop/Application/public/Home/images/image-sprit.png) no-repeat 50% 50%;
+	background:url(/Application/public/Home/images/image-sprit.png) no-repeat 50% 50%;
 }
 .disabled{
 	height:20px;
 	width:20px;
 	display:block;
-	background:url(/shop/Application/public/Home/images/image-sprit.png) no-repeat 0% 100%;
+	background:url(/Application/public/Home/images/image-sprit.png) no-repeat 0% 100%;
 }
 .price-selection-tree input[type="checkbox"]{
 	display:none;
@@ -247,10 +249,10 @@ input[type=checkbox].css-checkbox10 + label i.css-label10 {
 	background-repeat: no-repeat;
 	background-position: 0 0px;
 	cursor: pointer;
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -0px -82px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -0px -82px;
 }
 input[type=checkbox].css-checkbox10:checked + label i.css-label10 {
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -0px -82px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -0px -82px;
 	height: 20px;
 }
 input[type=checkbox].css-checkbox11 + label i.css-label11 {
@@ -261,10 +263,10 @@ input[type=checkbox].css-checkbox11 + label i.css-label11 {
 	background-repeat: no-repeat;
 	background-position: 0 0px;
 	cursor: pointer;
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat 0px -147px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat 0px -147px;
 }
 input[type=checkbox].css-checkbox11:checked + label i.css-label11 {
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -2px -81px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -2px -81px;
 	height: 22px;
 }
 /*----*/
@@ -276,10 +278,10 @@ input[type=checkbox].css-checkbox12 + label i.css-label12 {
 	background-repeat: no-repeat;
 	background-position: 0 0px;
 	cursor: pointer;
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -2px -222px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -2px -222px;
 }
 input[type=checkbox].css-checkbox12:checked + label i.css-label12 {
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -2px -81px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -2px -81px;
 	height: 22px;
 }
 /*----*/
@@ -292,10 +294,10 @@ input[type=checkbox].css-checkbox13 + label i.css-label13 {
 	background-repeat: no-repeat;
 	background-position: 0 0px;
 	cursor: pointer;
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -2px -222px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -2px -222px;
 }
 input[type=checkbox].css-checkbox13:checked + label i.css-label13 {
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -2px -81px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -2px -81px;
 	height: 22px;
 }
 /*----*/
@@ -308,10 +310,10 @@ input[type=checkbox].css-checkbox14 + label i.css-label14 {
 	background-repeat: no-repeat;
 	background-position: 0 0px;
 	cursor: pointer;
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -2px -222px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -2px -222px;
 }
 input[type=checkbox].css-checkbox14:checked + label i.css-label14 {
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -2px -81px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -2px -81px;
 	height: 22px;
 }
 /*----*/
@@ -324,10 +326,10 @@ input[type=checkbox].css-checkbox15 + label i.css-label15 {
 	background-repeat: no-repeat;
 	background-position: 0 0px;
 	cursor: pointer;
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -2px -222px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -2px -222px;
 }
 input[type=checkbox].css-checkbox15:checked + label i.css-label15 {
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -2px -81px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -2px -81px;
 	height: 22px;
 }
 /*----*/
@@ -469,7 +471,7 @@ input[type=checkbox].css-checkbox15:checked + label i.css-label15 {
 	font-weight: 700;
 }
 .product-info{
-	background: url(/shop/Application/public/Home/images/price-border.png) repeat-y 0px 0px#ECECEC;
+	background: url(/Application/public/Home/images/price-border.png) repeat-y 0px 0px#ECECEC;
 	border-top: 1px solid #E9E9E9;
 }
 .grid-social{
@@ -479,7 +481,7 @@ input[type=checkbox].css-checkbox15:checked + label i.css-label15 {
 	width: 30px;
 	height: 30px;
 	display: block;
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -30px -155px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -30px -155px;
 	position: absolute;
 	top: 0px;
 	right: 0;
@@ -604,14 +606,14 @@ input[type=checkbox].css-checkbox15:checked + label i.css-label15 {
 	height: 37px;
 	border: none;
 	text-indent: 100%;
-	background: url(/shop/Application/public/Home/images/move-top.png) no-repeat 0px 0px;
+	background: url(/Application/public/Home/images/move-top.png) no-repeat 0px 0px;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 }
 #toTop:hover{
-	background: url(/shop/Application/public/Home/images/move-toph.png) no-repeat 0px 0px;
+	background: url(/Application/public/Home/images/move-toph.png) no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 48px;
@@ -912,7 +914,7 @@ h2.resp-accordion:first-child {
 .bottom-border{
 	height:3px;
 	width:100%;
-	background:url(/shop/Application/public/Home/images/border.png) repeat-x;
+	background:url(/Application/public/Home/images/border.png) repeat-x;
 	display:block;
 }
 /*----//End-modal-content-right-price-btn----*/
@@ -1142,7 +1144,7 @@ h2.resp-accordion:first-child {
 }
 .checkbox input + i:after {
 	content: '';
-	background: url("/shop/Application/public/Home/images/mark.png") no-repeat 3px 2px;
+	background: url("/Application/public/Home/images/mark.png") no-repeat 3px 2px;
 	top: -1px;
 	left: -1px;
 	width: 15px;
@@ -1206,7 +1208,7 @@ h2.resp-accordion:first-child {
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 	margin-bottom: 1em;
-	background: url(/shop/Application/public/Home/images/price-border.png) repeat-y 100% 0%;
+	background: url(/Application/public/Home/images/price-border.png) repeat-y 100% 0%;
 }
 .product-head li{
 	display:inline-block;
@@ -1281,7 +1283,7 @@ h2.resp-accordion:first-child {
 }
  
 #prev, #next {
-	background: transparent url('/shop/Application/public/Home/images/carousel_nav.png') no-repeat 0 0;
+	background: transparent url('/Application/public/Home/images/carousel_nav.png') no-repeat 0 0;
 	display: block;
 	width: 19px;
 	height: 20px;
@@ -1329,7 +1331,7 @@ border-radius: 4px;font-family: inherit;-webkit-appearance: button;text-transfor
 	width: 132px;
 	height: 24px;
 	display: inline-block;
-	background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -30px -122px;
+	background: url(/Application/public/Home/images/image-sprit.png) no-repeat -30px -122px;
 }
 .pro-rate li a{
 	color: #08080B;
@@ -1457,16 +1459,16 @@ border-radius: 4px;font-family: inherit;-webkit-appearance: button;text-transfor
 	display:inline-block;
 }
 .share-face span{
-	background:url(/shop/Application/public/Home/images/social-share.png) no-repeat 0px 0px; 
+	background:url(/Application/public/Home/images/social-share.png) no-repeat 0px 0px; 
 }
 .share-twitter span{
-	background: url(/shop/Application/public/Home/images/social-share.png) no-repeat -37px 0px;
+	background: url(/Application/public/Home/images/social-share.png) no-repeat -37px 0px;
 }
 .share-google span{
-	background: url(/shop/Application/public/Home/images/social-share.png) no-repeat -37px -37px;
+	background: url(/Application/public/Home/images/social-share.png) no-repeat -37px -37px;
 }
 .share-rss span{
-	background: url(/shop/Application/public/Home/images/social-share.png) no-repeat 0px -37px;
+	background: url(/Application/public/Home/images/social-share.png) no-repeat 0px -37px;
 }
 .product-share{
 	margin:1em 0;
@@ -1496,7 +1498,7 @@ border-radius: 4px;font-family: inherit;-webkit-appearance: button;text-transfor
 .details-right{
 	float: right;
 	width: 19%;
-	background: url(/shop/Application/public/Home/images/add.jpg) no-repeat 0px 0px;
+	background: url(/Application/public/Home/images/add.jpg) no-repeat 0px 0px;
 	min-height: 600px;
 	border-left: 1px solid #eee;
 	text-align: center;
@@ -1674,7 +1676,7 @@ border-radius: 4px;font-family: inherit;-webkit-appearance: button;text-transfor
 	padding: 0.8em 1em 0.8em 0;
 	border-bottom: 1px solid #EEE;
 	margin-bottom: 1em;
-	background: url(/shop/Application/public/Home/images/price-border.png) repeat-y 100% 0%;
+	background: url(/Application/public/Home/images/price-border.png) repeat-y 100% 0%;
 }
 /*----*/
 .loadmore-products a{
@@ -2461,7 +2463,7 @@ span.mail a:hover{
 	input[type=checkbox].css-checkbox11 + label i.css-label11 {
 		height: 12px;
 		width: 17px;
-		background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat 0px -158px;
+		background: url(/Application/public/Home/images/image-sprit.png) no-repeat 0px -158px;
 	}
 	.price-selection-tree input[type="checkbox"]+label {
 		height: 26px;
@@ -2701,7 +2703,7 @@ span.mail a:hover{
 	input[type=checkbox].css-checkbox11 + label i.css-label11 {
 		height: 12px;
 		width: 17px;
-		background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat 0px -158px;
+		background: url(/Application/public/Home/images/image-sprit.png) no-repeat 0px -158px;
 	}
 	.price-selection-tree input[type="checkbox"]+label {
 		height: 20px;
@@ -2729,7 +2731,7 @@ span.mail a:hover{
 		width: 85px;
 		height: 37px;
 		display: inline-block;
-		background: url(/shop/Application/public/Home/images/image-sprit.png) no-repeat -195px -25px;
+		background: url(/Application/public/Home/images/image-sprit.png) no-repeat -195px -25px;
 		margin-top: 0.67em;
 	}
 	.login-main h1 {

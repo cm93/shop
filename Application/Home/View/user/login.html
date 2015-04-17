@@ -82,7 +82,7 @@
 				<div class="mid-header">
 					<div class="wrap">
 						<div class="mid-grid-right">
-							<a class="logo" href="../index"><span> </span></a>
+							<a class="logo" href="<?php echo HOME;?>"><span> </span></a>
 						</div>
 						<div class="clear"> </div>
 					</div>
@@ -113,7 +113,7 @@
 							<div id="verify">
 								<span>验证码<label>*</label></span>
 								<input type="text" style="width:100px" id = "code" name="code">
-								<img src="<?php echo HOME_URL; ?>user/verifyIMG"  alt="" style="position: absolute;margin:0 0 0 15px; " onclick="this.src='<?php echo HOME_URL; ?>user/verifyIMG';"/>
+								<img src="<?php echo HOME; ?>user/verifyIMG"  alt="" style="position: absolute;margin:0 0 0 15px; " onclick="this.src='<?php echo HOME; ?>user/verifyIMG';"/>
 							</div>
 							<a class="forgot" href="#">忘记密码？</a>
 							<input type="submit" value="登录" id="submit"/>

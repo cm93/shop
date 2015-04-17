@@ -2,10 +2,10 @@
 <html>
 	<head>
 		<title>二手网</title>
-    <script type="text/javascript" src="/shop/Public/ume/third-party/jquery.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/shop/Public/ume/umeditor.config.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/shop/Public/ume/umeditor.min.js"></script>
-    <script type="text/javascript" src="/shop/Public/ume/lang/zh-cn/zh-cn.js"></script>
+    <script type="text/javascript" src="/Public/ume/third-party/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/Public/ume/umeditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/Public/ume/umeditor.min.js"></script>
+    <script type="text/javascript" src="/Public/ume/lang/zh-cn/zh-cn.js"></script>
     
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -88,9 +88,9 @@
 		username = "<?php print_r(session('username'));?>";
 		$(function(){
 			if(username == ""){
-				$(".top-header-right").append('<ul><li><a href="/shop/home/user/login">登录</a><span> </span></li><li><a href="/shop/home/user/register">注册</a></li></ul>')
+				$(".top-header-right").append('<ul><li><a href="<?php echo HOME;?>user/login">登录</a><span> </span></li><li><a href="<?php echo HOME;?>user/register">注册</a></li></ul>')
 			}else{
-				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='/shop/home/index/member'>用户中心</a>,<a href='/shop/home/user/logout'>退出</a>]<li></ul>";
+				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='<?php echo HOME;?>index/member'>用户中心</a>,<a href='<?php echo HOME;?>user/logout'>退出</a>]<li></ul>";
 				$(".top-header-right").append(html);
 			}
 		})
@@ -100,7 +100,7 @@
 				<div class="mid-header">
 					<div class="wrap">
 						<div class="mid-grid-right">
-							<a class="logo" href="../index"><span> </span></a>
+							<a class="logo" href="<?php echo HOME;?>"><span> </span></a>
 						</div>
 						<div class="clear"> </div>
 					</div>
@@ -261,6 +261,8 @@
 											<span ><label></label>物品数量：</span>
 											<input type="text" name="sum" id="sum" class="required"  required="required" onkeyup="value=value.replace(/[^\d]/g,'')" style="width:100px;margin-left:75px;text-align:right" value="1"> 
 										</div>
+										<input type="hidden"
+     name="<?php echo ini_get("session.upload_progress.name"); ?>" value="laruence" />
 										<div>
 											<span ><label>*</label>物品图片：</span>
 											<input type="file" id="image1" value="游览" name="image1" onchange="uploadImg()" style="margin-left:75px;">
@@ -270,7 +272,7 @@
 											<span ><label>*</label>物品描述：</span>
 											
 										</div>
-										<iframe src="http://localhost/shop/public/ume/" style="width:1050px;height:320px;" name="describe" scrolling="no" id="describe">
+										<iframe src="<?php echo SITE_URL; ?>Public/ume/" style="width:1050px;height:320px;" name="describe" scrolling="no" id="describe">
 										</iframe>
 										<input type="hidden" name="area" value="<?php print_r($area);?>">
 										<input type="submit" value="快速发布" id="sub" style="margin-left:75px;"/>
@@ -287,7 +289,7 @@ function uploadImg() {
 		alert("最多上传5张");
 		return;
 	}else{
-	$("#imgform").attr("action","/shop/index.php/Home/Goods/upload");
+	$("#imgform").attr("action","/index.php/Home/Goods/upload");
 	 $("#imgform").attr("target","hidden_frame");
 	$("#imgform").submit();
 	}
@@ -315,7 +317,7 @@ $(function(){
 		})
 		$("#imgform").append("<input type='hidden' name='images' value='"+value+"'>");
 	   $("#imgform").append("<input type='hidden' name='describe' value='"+describe+"'>");
-	   $("#imgform").attr("action","/shop/index.php/Home/Goods/commit");
+	   $("#imgform").attr("action","/index.php/Home/Goods/commit");
 	   $("#imgform").removeAttr("target");
   })
 })

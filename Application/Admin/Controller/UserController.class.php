@@ -11,4 +11,8 @@ class UserController extends Controller {
     	}
     	$this->display();
     }
+    public function logout(){
+    	cookie("admin",null);
+    	$this->display("login");
+    }
 }

@@ -31,22 +31,22 @@
 <DIV class="body-wrap">
 <div class="left-wrap">
 <div class="left-menu">
-<span onmouseover="$(this).addClass('active')" class="active"><a href="/shop/home/index/member/" class=mc>个人中心</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user_product" class=mpost>闲置物品</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user_classadd" class=mpost>分类信息</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="/shop/home/index/user" class=mhelp>个人资料</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="/shop/home/index/user_message" class=mmessage>我的消息</a></span>
-<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="/shop/home/index/user_collection" class=mpay>我的收藏</a></span>
+<span onmouseover="$(this).addClass('active')" class="active"><a href="<?php echo HOME;?>index/member/" class=mc>个人中心</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="<?php echo HOME;?>index/user_product" class=mpost>闲置物品</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="<?php echo HOME;?>index/user_classadd" class=mpost>分类信息</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')" class=""><a href="<?php echo HOME;?>index/user" class=mhelp>个人资料</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="<?php echo HOME;?>index/user_message" class=mmessage>我的消息</a></span>
+<span onmouseover="$(this).addClass('active')" onmouseout="$(this).removeClass('active')"><a href="<?php echo HOME;?>index/user_collection" class=mpay>我的收藏</a></span>
 </div>
 </div>	
 <div class="right-wrap">
-<div class=UserPath>您的位置：<a href="./member">会员中心</a> >> <a href=PayOnline>账户充值</a></div><DIV class=right_top><SPAN class='button'>
+<div class=UserPath>您的位置：<a href="<?php echo HOME;?>index/member">会员中心</a> >> <a href=PayOnline>账户充值</a></div><DIV class=right_top><SPAN class='button'>
 <SPAN class='button'><A class=btn-b href='PayOnline'>账户充值</A></SPAN>
-<SPAN class='button on'><A class=btn-b href='./payonline?action=detail'>账户明细</A></SPAN>
+<SPAN class='button on'><A class=btn-b href='<?php echo HOME;?>index/payonline?action=detail'>账户明细</A></SPAN>
 </DIV>
 <table width='100%' cellpadding=3 cellspacing=1 class=td30>
 <tr><td colspan=2 valign=top>
-<IFRAME id=charge onload="setIframeHeight('charge')" src="/shop/home/index/payrecodes" frameBorder=0 width=100% height=700 name=charge scrolling=no></IFRAME>
+<IFRAME id=charge onload="setIframeHeight('charge')" src="<?php echo HOME;?>index/payrecodes" frameBorder=0 width=100% height=700 name=charge scrolling=no></IFRAME>
 </td></tr></Table>
 </div>
 </DIV>

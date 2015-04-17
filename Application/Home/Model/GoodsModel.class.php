@@ -105,9 +105,9 @@ class GoodsModel extends Model{
 			return $row;
 		}else{
 			if($data == null){
-				$sql = "SELECT * FROM `goods` WHERE 1 limit ".$page.",9";
+				$sql = "SELECT * FROM `goods` WHERE 1 order by `id` desc limit ".$page.",9";
 			}else{
-			$sql = "SELECT * FROM `goods` WHERE `title` like '%".$data."%' or `class` like '%".$data."%' or `list` like '%".$data."%' limit ".$page.",9";
+			$sql = "SELECT * FROM `goods` WHERE `title` like '%".$data."%' or `class` like '%".$data."%' or `list` like '%".$data."%' order by `id` desc limit ".$page.",9";
 			}
 		}
 		$query = mysql_query($sql);
@@ -127,7 +127,7 @@ class GoodsModel extends Model{
 		return $result;
 	}
 	public function del($data){
-		$sql = "DELETE FROM `goods` WHERE `id` = '".$data."' limit 1";
+		$sql = "DELETE FROM `goods` WHERE id = ".$data."";
 		 mysql_query($sql);
 	}
 	public function updata($data){
@@ -178,6 +178,11 @@ class GoodsModel extends Model{
 		$query = mysql_query($sql);
 		$count["want"]= mysql_fetch_row($query)[0];
 		return $count;
+	}
+	public function countgoods(){
+		$sql = "SELECT count(*) FROM `goods` WHERE 1";
+		$query = mysql_query($sql);
+		return  mysql_fetch_row($query)[0];
 	}
 
 

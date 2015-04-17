@@ -119,10 +119,10 @@
 		username = "<?php print_r(session('username'));?>";
 		$(function(){
 			if(username == ""){
-				$(".top-header-right").append('<ul><li><a href="/shop/home/user/login">登录</a><span> </span></li><li><a href="/shop/home/user/register">注册</a></li></ul>')
-				$(".slider-detils a").attr("href","/shop/home/user/login?release=1")
+				$(".top-header-right").append('<ul><li><a href="<?php echo HOME;?>user/login">登录</a><span> </span></li><li><a href="<?php echo HOME;?>user/register">注册</a></li></ul>')
+				$(".slider-detils a").attr("href","<?php echo HOME;?>user/login?release=1")
 			}else{
-				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='/shop/home/index/member'>用户中心</a>,<a href='/shop/home/user/logout'>退出</a>]<li></ul>";
+				html = "<ul ><li>欢迎会员:</li><li><font color='#FF0000'>"+username+"</font></li></ul><ul><li>[<a href='<?php echo HOME;?>index/member'>用户中心</a>,<a href='<?php echo HOME;?>user/logout'>退出</a>]<li></ul>";
 				$(".top-header-right").append(html);
 			}
 		})
@@ -132,12 +132,12 @@
 				<div class="mid-header">
 					<div class="wrap">
 						<div class="mid-grid-left" style="padding-top:50px;">
-							<form id="search" method="post"  action="/shop/home/goods/products">
+							<form id="search" method="post"  action="<?php echo HOME;?>goods/products">
 								<input id="sear" name="search"  type="search" placeholder="请输入搜素文字" />	
 							</form>
 						</div>
 						<div class="mid-grid-right">
-							<a class="logo" href="/shop/"><span> </span></a>
+							<a class="logo" href="<?php echo HOME; ?>"><span> </span></a>
 						</div>
 						<div class="clear"> </div>
 					</div>
@@ -496,10 +496,10 @@
 			      <img style="width:800px;height:400px; margin:50px 0 50px 0" src="<?php echo IMG_URL; ?>cheap.png" alt="" />
 			    </a>
 			   	<div class="slider-detils" style="position: absolute;left: 30px;top: 10px;">
-			    	<a class="slide-btn" href="/shop/home/goods/want" ><span>发布求购<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
+			    	<a class="slide-btn" href="<?php echo HOME;?>goods/want" ><span>发布求购<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
 			    </div>
 			    <div class="slider-detils" style="position: absolute;left: 30px;top: 160px;">
-			    	<a class="slide-btn" href="/shop/home/goods/release" ><span>处理闲置<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
+			    	<a class="slide-btn" href="<?php echo HOME;?>goods/release" ><span>处理闲置<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
 			   		
 			    </div>
 			  </li>
@@ -508,11 +508,10 @@
 			      <img style="width:800px;height:400px; margin:50px 0 50px 0" src="<?php echo IMG_URL; ?>apple.png"  alt="" />
 			    </a>
 			    	<div class="slider-detils" style="position: absolute;left: 30px;top: 10px;">
-			    	<a class="slide-btn" href="/shop/home/goods/want" ><span>发布求购<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
+			    	<a class="slide-btn" href="<?php echo HOME;?>goods/want" ><span>发布求购<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
 			    </div>
 			     <div class="slider-detils" style="position: absolute;left: 30px;top: 160px;">
-			    	<a class="slide-btn" href="/shop/home/goods/release" ><span>处理闲置<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
-			   		
+			    	<a class="slide-btn" href="<?php echo HOME;?>goods/release" ><span>处理闲置<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
 			    </div>
 			  </li>
 			  <li>
@@ -520,10 +519,10 @@
 			      <img style="width:800px;height:400px; margin:50px 0 50px 0"  src="<?php echo IMG_URL; ?>baby.png" alt="" />
 			    </a>
 			    	<div class="slider-detils" style="position: absolute;left: 30px;top: 10px;">
-			    	<a class="slide-btn" href="/shop/home/goods/want" ><span>发布求购<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
+			    	<a class="slide-btn" href="<?php echo HOME;?>goods/want" ><span>发布求购<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
 			    </div>
 			     <div class="slider-detils" style="position: absolute;left: 30px;top: 160px;">
-			    	<a class="slide-btn" href="/shop/home/goods/release" ><span>处理闲置<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
+			    	<a class="slide-btn" href="<?php echo HOME;?>goods/release" ><span>处理闲置<i style="font-size:18px;color:green;" class="icon-right-dir"></i></span></a>
 			   		
 			    </div>
 			  </li>
@@ -544,7 +543,7 @@
 		<div class="content">
 			<div class="wrap">
 			<ol class="breadcrumb" style="display:inline;float:left;width:12% ;padding: 8px 0px;margin-bottom: 20px;list-style: none;background-color: #f5f5f5;border-radius: 4px;margin-top: 0;box-sizing: border-box;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-start: 15px;box-sizing: border-box;font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;">
-      			<li style="color: #777;"><a href="/shop/goods/wanted">二手求购</a></li>
+      			<li style="color: #777;"><a href="<?php echo HOME;?>goods/wanted">二手求购</a></li>
       			<style type="text/css">
       			a{
       				color:black;
@@ -557,12 +556,12 @@
       			</style>
     		</ol>
     		<ol class="breadcrumb" style="display:inline;float:left;width:88% ;padding: 8px 0px;margin-left:200px;margin-bottom: 20px;list-style: none;background-color: #f5f5f5;border-radius: 4px;margin-top: 0;box-sizing: border-box;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-start: 15px;box-sizing: border-box;font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;">
-      			<li style="color: #777;"><a href="/shop/Goods/products/">最新闲置/二手物品</a></li>
+      			<li style="color: #777;"><a href="<?php echo HOME; ?>Goods/products/">最新闲置/二手物品</a></li>
     		</ol>
 				<div class="content-left" >
 						<ul>
 						<?php foreach ($want as $key => $value) { ?>
-							<li style="margin-top:10px;padding-right:20px;"><a href="/shop/goods/wants?id=<?php echo $value[0]; ?>"><?php echo $value[1]; ?></a></li>
+							<li style="margin-top:10px;padding-right:20px;"><a href="<?php echo HOME;?>goods/wants?id=<?php echo $value[0]; ?>"><?php echo $value[1]; ?></a></li>
 						<?php } ?>
 						</ul>
 				</div>
@@ -595,7 +594,7 @@
 							</script>
 							<?php foreach ($goods as $key => $value) {?>
 							
-						<div onClick="location.href='<?php if(!session('username')){echo '/shop/home/user/login';}else{echo '/shop/home/goods/details?id='.$value[0];}?>';" <?php if($key == 2 || $key== 5 || $key ==8){ echo 'class="product-grid fade last-grid"'; }else{ echo 'class="product-grid fade"'; } ?>>
+						<div onClick="location.href='<?php if(!session('username')){echo HOME.'user/login';}else{echo HOME.'goods/details?id='.$value[0];}?>';" <?php if($key == 2 || $key== 5 || $key ==8){ echo 'class="product-grid fade last-grid"'; }else{ echo 'class="product-grid fade"'; } ?>>
 							<div class="product-grid-head">
 								<ul class="grid-social">
 									<li><a class="facebook" href="#"><span> </span></a></li>

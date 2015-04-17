@@ -12,7 +12,7 @@ class GoodsController extends Controller {
     	$this->assign('data',$result);
         $this->assign('other',$other);
         if(!$_GET){
-            $this->display("empty:index"); 
+            $this->display("Empty:index"); 
         }else{
         $this->display();
         }
@@ -104,7 +104,7 @@ class GoodsController extends Controller {
         $Goods = new \Home\Model\GoodsModel();
         $result = $Goods->want_post($_POST);
         if($result){ 
-            $this->success('新增成功', '/shop/home/goods/wanted');
+            $this->success('新增成功', HOME.'goods/wanted');
         }else{ 
             $this->error('新增失败');
         };
@@ -113,7 +113,7 @@ class GoodsController extends Controller {
     	$Goods = new \Home\Model\GoodsModel();
     	$result = $Goods->goods($_POST);
     	if($result){ 
-    		$this->success('新增成功', '/shop/home/goods/details?id='.mysql_insert_id());
+    		$this->success('新增成功', HOME.'goods/details?id='.mysql_insert_id());
     	}else{ 
     		$this->error('新增失败');
     	}
@@ -137,14 +137,18 @@ class GoodsController extends Controller {
     public function updata(){
         $Goods = new \Home\Model\GoodsModel();
         $result = $Goods->updata($_GET["id"]);
-        $judge = $result[14] == session("username") ? true : false;
+        $judge = $result[14] == session("username") ? true : false || cookie("admin")?true:flase;
         if($judge){
             $this->assign("data",$result);
         }
         if($_POST){
             $result = $Goods->updata_post($_POST);
-            if($result){ 
-            $this->success('修改成功', '/shop/home/goods/details?id='.$_POST["id"]);
+            if($result){
+                if(cookie("admin")){
+                    $this->success('修改成功', ADMIN.'index/goods');
+                }else{
+                    $this->success('修改成功', HOME.'goods/details?id='.$_POST["id"]);
+                }
         }else{ 
             $this->error('修改失败');
         }
